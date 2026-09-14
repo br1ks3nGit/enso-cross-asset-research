@@ -57,6 +57,8 @@ The ordering matters. A statistically interesting asset correlation does not val
 
 The machine-readable experiment ledger is available in [`enso_experiment_record.csv`](enso_experiment_record.csv). It separates model variants, strategy implementations and risk-policy comparisons into 47 records.
 
+The chronological research decision log, reconstructed from report file timestamps and the experiment ledger, is available in [`research_decision_log.csv`](research_decision_log.csv) and [`research_decision_log.docx`](research_decision_log.docx). File timestamps indicate artifact-generation chronology; they are not claimed to be the exact time of every underlying experiment.
+
 ---
 
 ## 1. Initial El Niño estimation
