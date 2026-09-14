@@ -1,0 +1,74 @@
+[
+  {
+    "asset": "Insurance basket",
+    "sample": "2006\u20132016",
+    "months": 123,
+    "enso_return": -0.0492916318130351,
+    "enso_volatility": -0.16401767489318061,
+    "strength_volatility": -0.1264600714771174
+  },
+  {
+    "asset": "Insurance basket",
+    "sample": "2017\u20132026",
+    "months": 116,
+    "enso_return": 0.017189906719094726,
+    "enso_volatility": -0.056591915075385094,
+    "strength_volatility": 0.02069002287432684
+  },
+  {
+    "asset": "Insurance basket",
+    "sample": "Without specified crisis windows",
+    "months": 210,
+    "enso_return": -0.047138707337827594,
+    "enso_volatility": -0.1301321054564815,
+    "strength_volatility": -0.015744666701604366
+  },
+  {
+    "asset": "Agriculture quote basket",
+    "sample": "2006\u20132016",
+    "months": 121,
+    "enso_return": -0.1733650318308147,
+    "enso_volatility": -0.2866562976282666,
+    "strength_volatility": -0.0006082389383429671
+  },
+  {
+    "asset": "Agriculture quote basket",
+    "sample": "2017\u20132026",
+    "months": 116,
+    "enso_return": -0.05256925603011695,
+    "enso_volatility": -0.06603231481995242,
+    "strength_volatility": -0.0008517826124850127
+  },
+  {
+    "asset": "Agriculture quote basket",
+    "sample": "Without specified crisis windows",
+    "months": 208,
+    "enso_return": -0.13239970149269234,
+    "enso_volatility": -0.1696037044254624,
+    "strength_volatility": 0.10143879977832826
+  },
+  {
+    "asset": "DBA",
+    "sample": "2006\u20132016",
+    "months": 119,
+    "enso_return": -0.17389052954429035,
+    "enso_volatility": -0.3041765969211802,
+    "strength_volatility": -0.07389336742416938
+  },
+  {
+    "asset": "DBA",
+    "sample": "2017\u20132026",
+    "months": 116,
+    "enso_return": 0.005341222401261843,
+    "enso_volatility": 0.0874910711505212,
+    "strength_volatility": -0.0837261847845105
+  },
+  {
+    "asset": "DBA",
+    "sample": "Without specified crisis windows",
+    "months": 206,
+    "enso_return": -0.11324933816310241,
+    "enso_volatility": -0.10222472488121258,
+    "strength_volatility": 0.00528310534671755
+  }
+]

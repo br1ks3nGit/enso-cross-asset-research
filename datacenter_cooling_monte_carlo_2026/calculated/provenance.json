@@ -1,0 +1,22 @@
+{
+  "information_date": "2026-09-11",
+  "generated": "2026-09-13",
+  "seed": 20260913,
+  "paths_per_scenario": 10000,
+  "scenario_count": 27,
+  "inputs": {
+    "/Users/semensukonin/Desktop/research/datacenter_cooling_monte_carlo_2026/raw/massive_AAON_monthly.json": "e813d41fa96c06d7859ed350be3eaa227f5300ffc09e333a60935d3e455e3e82",
+    "/Users/semensukonin/Desktop/research/datacenter_cooling_monte_carlo_2026/raw/massive_JCI_monthly.json": "9dc5762a8163b4ad1f7996a83b23971816bd849d5276788fb7ab050ba40da395",
+    "/Users/semensukonin/Desktop/research/datacenter_cooling_monte_carlo_2026/raw/massive_MOD_monthly.json": "9a98d96892f6fffead34d96fc3b51204cd32e2ad03a01f8a040ac61be73fa5d0",
+    "/Users/semensukonin/Desktop/research/datacenter_cooling_monte_carlo_2026/raw/massive_NVT_monthly.json": "5f9667fd00f58e950798a02c2d3f0be83e2d885148248b3040f2aa8f004f7ae1",
+    "/Users/semensukonin/Desktop/research/datacenter_cooling_monte_carlo_2026/raw/massive_SPXC_monthly.json": "5bd16955e56079281f2400f153d4ed75b076de9d13194ed7277f09a4f1e98fc3",
+    "/Users/semensukonin/Desktop/research/datacenter_cooling_monte_carlo_2026/raw/massive_TT_monthly.json": "d7946de7ee057a35e9a90f3050395b459a06b7fe65115ec7077dd5890ac269ef",
+    "/Users/semensukonin/Desktop/research/datacenter_cooling_monte_carlo_2026/raw/massive_VRT_monthly.json": "319a11d41e172b07d4daf5e2ddfcf467fbbd0351e4d28a42818a2140f18b2496",
+    "/Users/semensukonin/Desktop/research/datacenter_cooling_monte_carlo_2026/raw/massive_XLI_monthly.json": "3dfb16f6d6e4755e67a8a84387a08f16720fc70b5961c4460b084b59573851fa",
+    "/Users/semensukonin/Desktop/research/enso_datacenter_cooling_capex_2026/calculated/public_supplier_screen.csv": "55286886702caa390cd8ed72c46eb2593003ea7fb3580d90a582cacfee01b4c7",
+    "/Users/semensukonin/Desktop/research/enso_forecast_2026/calculated/oni_forecast.json": "7ec47654ae8ab0eccf7bef2b1e3e231fbfbb467b6b6d1c50e56d92791ec5468c",
+    "/Users/semensukonin/Desktop/research/enso_forecast_2026/calculated/state_enso_effects.json": "285dfc94de437480b101ec699816d9936a30fc883f441c4db74b3604a6837ab2",
+    "/Users/semensukonin/Desktop/research/enso_forecast_2026/calculated/state_temperature.jsonl.gz": "03d7008ba9f1b5b2bf0a2c5bf76e41a7eb6b9a462b678ee80115507218504835",
+    "/Users/semensukonin/Downloads/ENSO_ONI_metals_correlation_package/aligned_monthly_ONI_metals_1992_2026-07.csv": "0ce7c91f7d3e8d46bbe30d8b8e6615c2cacf9912742e146df85fc7e92a41172e"
+  }
+}

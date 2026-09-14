@@ -1,0 +1,77 @@
+<div id="enso-state-map-2026">
+  <style>
+    #enso-state-map-2026 { color: var(--foreground); }
+    #enso-state-map-2026 .map-top { display:flex; flex-wrap:wrap; gap:12px; align-items:center; justify-content:space-between; }
+    #enso-state-map-2026 .map-canvas { width:100%; height:auto; display:block; }
+    #enso-state-map-2026 .map-canvas path { stroke:var(--border);stroke-width:1;vector-effect:non-scaling-stroke;cursor:pointer; }
+    #enso-state-map-2026 .map-canvas path[data-selected="true"] { stroke:var(--foreground);stroke-width:2; }
+    #enso-state-map-2026 .map-canvas text { fill:var(--foreground); }
+    #enso-state-map-2026 .map-key { max-width:340px;margin:8px auto 18px; }
+    #enso-state-map-2026 .map-gradient { height:12px;background:linear-gradient(to right,var(--blue),var(--background),var(--red)); }
+    #enso-state-map-2026 .key-labels { display:flex;justify-content:space-between; }
+    #enso-state-map-2026 .state-detail { display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:8px; }
+    #enso-state-map-2026 .state-detail label { flex:0 1 200px; }
+    #enso-state-map-2026 .state-readout { flex:1 1 300px; }
+  </style>
+  <h2>ENSO temperature contribution across the U.S.</h2>
+  <div class="map-top">
+    <label class="form-label">Month
+      <select class="form-select" data-month aria-label="Forecast month">
+        <option value="9">September 2026</option>
+        <option value="10">October 2026</option>
+        <option value="11">November 2026</option>
+        <option value="12">December 2026</option>
+      </select>
+    </label>
+    <span class="tabular-nums" data-oni></span>
+  </div>
+  <!-- MAP_SVG -->
+  <div class="map-key text-small">
+    <div class="map-gradient" aria-hidden="true"></div>
+    <div class="key-labels tabular-nums"><span>−4°C · cooling</span><span>0</span><span>+4°C · warming</span></div>
+  </div>
+  <div class="state-detail">
+    <label class="form-label">State<select class="form-select" data-state aria-label="Select a state"><!-- STATE_OPTIONS --></select></label>
+    <div class="state-readout tabular-nums" aria-live="polite" data-readout></div>
+  </div>
+  <p class="text-small text-muted" data-skill></p>
+  <p class="text-small text-muted">ENSO-associated difference from ENSO-neutral conditions; not total temperature departure or proven causation. Effect intervals exclude unrelated weather variability. Alaska and Hawaii shown as insets.</p>
+  <p class="text-small text-muted">Research forecast: 11 September 2026 · Data: accompanying ENSO report · Boundaries: U.S. Census via us-atlas</p>
+  <script type="application/json" data-estimates><!-- ESTIMATES --></script>
+  <script>
+    (() => {
+      const root=document.getElementById('enso-state-map-2026');
+      const data=JSON.parse(root.querySelector('[data-estimates]').textContent);
+      const month=root.querySelector('[data-month]'),state=root.querySelector('[data-state]');
+      const paths=[...root.querySelectorAll('path[data-state-name]')];
+      const signed=v=>Math.abs(v)<.05?'0.0':(v>0?'+':'')+v.toFixed(1);
+      const rowFor=(name,m)=>data.states.find(r=>r.state===name&&r.month===+m);
+      function fill(v){return `color-mix(in srgb, var(${v<0?'--blue':'--red'}) ${Math.min(100,Math.abs(v)/4*100)}%, var(--background))`;}
+      function detail(){
+        const r=rowFor(state.value,month.value);
+        root.querySelector('[data-readout]').textContent=`${r.state}: ${signed(r.enso_effect_c)}°C (${signed(r.enso_effect_f)}°F) · 80% effect interval: ${signed(r.p10_c)} to ${signed(r.p90_c)}°C`;
+        paths.forEach(p=>p.dataset.selected=String(p.dataset.stateName===state.value));
+      }
+      function update(){
+        const forecast=data.oni.find(r=>r.month===+month.value);
+        root.querySelector('[data-oni]').textContent=`Pacific ONI (${forecast.season}): ${signed(forecast.oni_c)}°C · 80%: ${signed(forecast.p10_c)} to ${signed(forecast.p90_c)}°C`;
+        paths.forEach(p=>{
+          const r=rowFor(p.dataset.stateName,month.value);
+          p.style.fill=fill(r.enso_effect_c);
+          p.setAttribute('data-tooltip',`${r.state}: ${signed(r.enso_effect_c)}°C; 80% interval ${signed(r.p10_c)} to ${signed(r.p90_c)}°C`);
+          p.setAttribute('aria-label',`${r.state}, ${signed(r.enso_effect_c)} degrees Celsius`);
+        });
+        const messages={9:'September: no added skill over the trend-only baseline.',10:'October: no added skill over the trend-only baseline.',11:'November: approximately 1% lower historical squared error using forecast ONI.',12:'December: approximately 9% lower historical squared error using forecast ONI.'};
+        root.querySelector('[data-skill]').textContent=messages[month.value]+' All ONI predictions exceed their seasonal calibration maxima.';
+        detail();
+      }
+      paths.forEach(p=>p.addEventListener('click',()=>{state.value=p.dataset.stateName;detail();}));
+      month.addEventListener('change',update);state.addEventListener('change',detail);
+      const resize=()=>{
+        const w=root.querySelector('.map-canvas').getBoundingClientRect().width;
+        root.querySelectorAll('.map-canvas text').forEach(t=>t.style.fontSize=(12*1000/Math.max(320,w))+'px');
+      };
+      new ResizeObserver(resize).observe(root);update();resize();
+    })();
+  </script>
+</div>

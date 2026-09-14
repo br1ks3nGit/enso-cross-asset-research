@@ -1,0 +1,8 @@
+ticker,entry_date,exit_date,reason
+VRT,2026-04-01,2026-04-29,No same-strike call/put pair with exact entry and exit trade bars
+MOD,2026-04-01,2026-04-29,No same-strike call/put pair with exact entry and exit trade bars
+MOD,2026-08-03,2026-08-28,No same-strike call/put pair with exact entry and exit trade bars
+MOD,2026-09-01,2026-09-11,No same-strike call/put pair with exact entry and exit trade bars
+ETN,2026-04-01,2026-04-29,No same-strike call/put pair with exact entry and exit trade bars
+PWR,2026-04-01,2026-04-29,No same-strike call/put pair with exact entry and exit trade bars
+GEV,2026-04-01,2026-04-29,No same-strike call/put pair with exact entry and exit trade bars

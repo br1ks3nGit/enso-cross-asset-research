@@ -1,0 +1,38 @@
+{
+  "dataset": "reanalysis-era5-single-levels-monthly-means",
+  "request": {
+    "product_type": [
+      "monthly_averaged_reanalysis"
+    ],
+    "variable": [
+      "sea_surface_temperature",
+      "10m_u_component_of_wind",
+      "10m_v_component_of_wind",
+      "mean_sea_level_pressure"
+    ],
+    "year": [
+      "2026"
+    ],
+    "month": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06",
+      "07",
+      "08"
+    ],
+    "time": [
+      "00:00"
+    ],
+    "area": [
+      10,
+      120,
+      -10,
+      280
+    ],
+    "data_format": "netcdf",
+    "download_format": "unarchived"
+  }
+}

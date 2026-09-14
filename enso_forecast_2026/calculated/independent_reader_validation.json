@@ -1,0 +1,54 @@
+[
+  {
+    "file": "dwd_22_forecast_sst.nc",
+    "variables": [
+      "sst"
+    ],
+    "identical_across_readers": true
+  },
+  {
+    "file": "cmcc_4_forecast_sst.nc",
+    "variables": [
+      "sst"
+    ],
+    "identical_across_readers": true
+  },
+  {
+    "file": "ecmwf_51_forecast_sst.nc",
+    "variables": [
+      "sst"
+    ],
+    "identical_across_readers": true
+  },
+  {
+    "file": "era5_pacific_2026.nc",
+    "variables": [
+      "sst",
+      "u10",
+      "v10",
+      "msl"
+    ],
+    "identical_across_readers": true
+  },
+  {
+    "file": "dwd_22_hindcast_sst.nc",
+    "variables": [
+      "sst"
+    ],
+    "identical_across_readers": true
+  },
+  {
+    "file": "cmcc_4_hindcast_sst.nc",
+    "variables": [
+      "sst"
+    ],
+    "identical_across_readers": true
+  },
+  {
+    "file": "ecmwf_51_hindcast_sst.nc",
+    "variables": [
+      "sst"
+    ],
+    "identical_across_readers": true
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "generated": "2026-09-12 18:57:42.524087+08:00",
+  "last_common_price_date": "2026-09-11",
+  "test_start": "2020-01-01",
+  "massive_endpoint": "/v2/aggs/ticker/{ticker}/range/1/day/{from}/{to}",
+  "massive_dividend_endpoint": "/stocks/v1/dividends",
+  "adjusted": "split-adjusted; dividends added from Massive reference dividends",
+  "oni_delay_months": 2,
+  "commission_per_order_notional": 0.001,
+  "pair_round_trip_cost_of_capital": 0.002,
+  "short_term_tax_rate": 0.37,
+  "long_term_benchmark_tax_rate": 0.2,
+  "hashes": {
+    "aligned_monthly_ONI_metals_1992_2026-07.csv": "0ce7c91f7d3e8d46bbe30d8b8e6615c2cacf9912742e146df85fc7e92a41172e",
+    "massive_COP_daily.json": "023a81ede43011043151f399f3c10ba2a61d357a22898ecfe7f8b3122071802c",
+    "massive_XLE_daily.json": "c29bd6a07e099b3707763df4b8292c2fbdc6eca676718c2f0bfaf7960e32732c",
+    "massive_COP_dividends.json": "2989dc096e8fb0493a25392981727a5439626ec90a0a95ab0b0910368dff387f",
+    "massive_XLE_dividends.json": "500fa6384591295f1a5a3efe0810b4ffe7c506ec77b16d16252627bdeef256a8"
+  }
+}

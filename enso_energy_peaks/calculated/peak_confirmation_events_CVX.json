@@ -1,0 +1,47 @@
+[
+  {
+    "decision": "2010-04",
+    "trade_start": "2010-05",
+    "trade_end": "2010-10",
+    "prior_events": 2,
+    "prior_mean_log_excess": 0.13896877741199432,
+    "position": 1.0,
+    "realized_log_excess": 0.044122641489058534
+  },
+  {
+    "decision": "2016-03",
+    "trade_start": "2016-04",
+    "trade_end": "2016-09",
+    "prior_events": 3,
+    "prior_mean_log_excess": 0.10735339877101573,
+    "position": 1.0,
+    "realized_log_excess": 0.035518971532505716
+  },
+  {
+    "decision": "2019-03",
+    "trade_start": "2019-04",
+    "trade_end": "2019-09",
+    "prior_events": 4,
+    "prior_mean_log_excess": 0.08939479196138822,
+    "position": 1.0,
+    "realized_log_excess": -0.07668002909537108
+  },
+  {
+    "decision": "2020-03",
+    "trade_start": "2020-04",
+    "trade_end": "2020-09",
+    "prior_events": 5,
+    "prior_mean_log_excess": 0.05617982775003636,
+    "position": 1.0,
+    "realized_log_excess": -0.24767958664639433
+  },
+  {
+    "decision": "2024-03",
+    "trade_start": "2024-04",
+    "trade_end": "2024-09",
+    "prior_events": 6,
+    "prior_mean_log_excess": 0.00553659201729791,
+    "position": 1.0,
+    "realized_log_excess": -0.14628239308775104
+  }
+]

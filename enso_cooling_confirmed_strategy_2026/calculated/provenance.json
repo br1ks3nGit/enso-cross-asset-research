@@ -1,0 +1,28 @@
+{
+  "generated": "2026-09-13",
+  "information_date": "2026-09-11",
+  "seed": 20260913,
+  "paths_per_scenario": 20000,
+  "transaction_cost": 0.0015,
+  "inputs": {
+    "/Users/semensukonin/Desktop/research/datacenter_cooling_monte_carlo_2026/raw/massive_AAON_monthly.json": "e813d41fa96c06d7859ed350be3eaa227f5300ffc09e333a60935d3e455e3e82",
+    "/Users/semensukonin/Desktop/research/datacenter_cooling_monte_carlo_2026/raw/massive_JCI_monthly.json": "9dc5762a8163b4ad1f7996a83b23971816bd849d5276788fb7ab050ba40da395",
+    "/Users/semensukonin/Desktop/research/datacenter_cooling_monte_carlo_2026/raw/massive_MOD_monthly.json": "9a98d96892f6fffead34d96fc3b51204cd32e2ad03a01f8a040ac61be73fa5d0",
+    "/Users/semensukonin/Desktop/research/datacenter_cooling_monte_carlo_2026/raw/massive_NVT_monthly.json": "5f9667fd00f58e950798a02c2d3f0be83e2d885148248b3040f2aa8f004f7ae1",
+    "/Users/semensukonin/Desktop/research/datacenter_cooling_monte_carlo_2026/raw/massive_SPXC_monthly.json": "5bd16955e56079281f2400f153d4ed75b076de9d13194ed7277f09a4f1e98fc3",
+    "/Users/semensukonin/Desktop/research/datacenter_cooling_monte_carlo_2026/raw/massive_TT_monthly.json": "d7946de7ee057a35e9a90f3050395b459a06b7fe65115ec7077dd5890ac269ef",
+    "/Users/semensukonin/Desktop/research/datacenter_cooling_monte_carlo_2026/raw/massive_VRT_monthly.json": "319a11d41e172b07d4daf5e2ddfcf467fbbd0351e4d28a42818a2140f18b2496",
+    "/Users/semensukonin/Desktop/research/datacenter_cooling_monte_carlo_2026/raw/massive_XLI_monthly.json": "3dfb16f6d6e4755e67a8a84387a08f16720fc70b5961c4460b084b59573851fa",
+    "/Users/semensukonin/Desktop/research/enso_cooling_confirmed_strategy_2026/raw/news/massive_news_AAON_2020_2026.json": "7ed1a246732a0e94454a43b8052ede7659a80286619a52dab991732dff967ded",
+    "/Users/semensukonin/Desktop/research/enso_cooling_confirmed_strategy_2026/raw/news/massive_news_JCI_2020_2026.json": "8e9cac80f5af1206246fc289fa8040d2e5317a5a1da170b2ab64d2838471604c",
+    "/Users/semensukonin/Desktop/research/enso_cooling_confirmed_strategy_2026/raw/news/massive_news_MOD_2020_2026.json": "65bebed062814a54744e73fc807bb29c412d12fd593b266a126affb50b710259",
+    "/Users/semensukonin/Desktop/research/enso_cooling_confirmed_strategy_2026/raw/news/massive_news_NVT_2020_2026.json": "58976bb36da2427700da54fa362095bd8ac9266eb50cc7280ee60584be99f359",
+    "/Users/semensukonin/Desktop/research/enso_cooling_confirmed_strategy_2026/raw/news/massive_news_SPXC_2020_2026.json": "0f04e8e1ff149910e5fede78d85bba67fff0dd71f7506ee585f05a1b1123e415",
+    "/Users/semensukonin/Desktop/research/enso_cooling_confirmed_strategy_2026/raw/news/massive_news_TT_2020_2026.json": "20b5840f4cfc3de98413fd76d22ed324c91f7fce244ba2928d1fb26858377832",
+    "/Users/semensukonin/Desktop/research/enso_cooling_confirmed_strategy_2026/raw/news/massive_news_VRT_2020_2026.json": "9ad1e989f9be1d1bc1fc52a96d423a047e32e1a15e9199fe965140391f46c866",
+    "/Users/semensukonin/Desktop/research/enso_forecast_2026/calculated/oni_forecast.json": "7ec47654ae8ab0eccf7bef2b1e3e231fbfbb467b6b6d1c50e56d92791ec5468c",
+    "/Users/semensukonin/Desktop/research/enso_forecast_2026/calculated/state_enso_effects.json": "285dfc94de437480b101ec699816d9936a30fc883f441c4db74b3604a6837ab2",
+    "/Users/semensukonin/Desktop/research/enso_forecast_2026/calculated/state_temperature.jsonl.gz": "03d7008ba9f1b5b2bf0a2c5bf76e41a7eb6b9a462b678ee80115507218504835",
+    "/Users/semensukonin/Downloads/ENSO_ONI_metals_correlation_package/aligned_monthly_ONI_metals_1992_2026-07.csv": "0ce7c91f7d3e8d46bbe30d8b8e6615c2cacf9912742e146df85fc7e92a41172e"
+  }
+}

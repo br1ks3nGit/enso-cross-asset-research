@@ -1,0 +1,36 @@
+{
+  "oni_v5": {
+    "rows": 917,
+    "latest": {
+      "year": 2026,
+      "month": 5,
+      "season": "AMJ",
+      "oni_c": 1.0,
+      "version": "ERSSTv5"
+    }
+  },
+  "oni_v6": {
+    "rows": 919,
+    "latest": {
+      "year": 2026,
+      "month": 7,
+      "season": "JJA",
+      "oni_c": 1.8,
+      "version": "ERSSTv6"
+    }
+  },
+  "state": {
+    "rows": 77488,
+    "states": 50,
+    "regions": 50,
+    "first_year": 1895,
+    "last_year": 2026
+  },
+  "division": {
+    "rows": 564516,
+    "states": 50,
+    "regions": 369,
+    "first_year": 1895,
+    "last_year": 2026
+  }
+}

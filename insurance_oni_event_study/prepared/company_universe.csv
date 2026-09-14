@@ -1,0 +1,61 @@
+ticker,company_name,insurance_role,property_insurance,natural_catastrophe_or_reinsurance,agriculture_insurance
+AAGIY,AIA Group Limited,Direct insurer,No,No,No
+ACGL,Arch Capital Group Ltd.,Insurer and reinsurer,Yes,Yes,Yes
+AFG,"American Financial Group, Inc.",Direct insurer,Yes,Yes,Yes
+AIG,"American International Group, Inc.",Direct insurer,Yes,Yes,Yes
+AIZ,"Assurant, Inc.",Direct insurer,Yes,Yes,No
+ALIZY,Allianz SE,Insurer and reinsurer,Yes,Yes,Yes
+ALL,The Allstate Corporation,Direct insurer,Yes,Yes,No
+AXAHY,AXA SA,Insurer and reinsurer,Yes,Yes,Yes
+AXS,AXIS Capital Holdings Limited,Insurer and reinsurer,Yes,Yes,Yes
+BAP,Credicorp Ltd. (via Pacifico Seguros),Insurance holding subsidiary,Yes,Yes,Yes
+BBD,Banco Bradesco S.A. (via Bradesco Seguros),Insurance holding subsidiary,Yes,Yes,Yes
+BBSEY,BB Seguridade Participacoes S.A.,Insurance holding company,Yes,Yes,Yes
+BCH,Banco de Chile (insurance brokerage/distribution),Bancassurance distributor,Yes,Limited,No
+BSAC,Banco Santander-Chile (insurance distribution),Bancassurance distributor,Yes,Limited,No
+CB,Chubb Limited,Direct insurer,Yes,Yes,Yes
+CHPXY,"China Pacific Insurance (Group) Co., Ltd.",Insurance holding company,Yes,Yes,Yes
+CINF,Cincinnati Financial Corporation,Direct insurer,Yes,Yes,No
+CNA,CNA Financial Corporation,Direct insurer,Yes,Yes,No
+EG,"Everest Group, Ltd.",Insurer and reinsurer,Yes,Yes,Yes
+FRFHF,Fairfax Financial Holdings Limited,Insurance holding company,Yes,Yes,Yes
+GIVSY,Grupo de Inversiones Suramericana S.A. (via Seguros SURA),Insurance holding company,Yes,Yes,Yes
+GWLIF,Great-West Lifeco Inc.,Insurance holding company,No,No,No
+HCI,"HCI Group, Inc.",Direct insurer,Yes,Yes,No
+HIG,"The Hartford Financial Services Group, Inc.",Direct insurer,Yes,Yes,No
+HVRRY,Hannover Rueck SE,Reinsurer,Yes,Yes,Yes
+IAUGY,Insurance Australia Group Limited,Direct insurer,Yes,Yes,No
+IFCZF,Intact Financial Corporation,Insurer and reinsurer,Yes,Yes,No
+IFS,Intercorp Financial Services Inc. (via Interseguro),Insurance holding subsidiary,Limited,No,No
+ITUB,Itau Unibanco Holding S.A. (insurance operations),Insurance holding subsidiary,Yes,Yes,Yes
+KNSL,"Kinsale Capital Group, Inc.",Direct insurer,Yes,Yes,No
+LFCHY,China Life Insurance Company Limited,Direct insurer,No,No,No
+LMND,"Lemonade, Inc.",Direct insurer,Yes,Yes,No
+MCY,Mercury General Corporation,Direct insurer,Yes,Yes,No
+MET,"MetLife, Inc.",Direct insurer,Limited,No,No
+MFC,Manulife Financial Corporation,Direct insurer,No,No,No
+MKL,Markel Group Inc.,Insurer and reinsurer,Yes,Yes,Yes
+MPFRY,MAPFRE S.A.,Insurer and reinsurer,Yes,Yes,Yes
+MURGY,Muenchener Rueckversicherungs-Gesellschaft AG (Munich Re),Reinsurer and primary insurer,Yes,Yes,Yes
+ODMTY,Old Mutual Limited,Insurance holding company,Yes,Limited,Yes
+PGR,The Progressive Corporation,Direct insurer,Yes,Yes,No
+PLMR,"Palomar Holdings, Inc.",Direct insurer,Yes,Yes,No
+PNGAY,"Ping An Insurance (Group) Company of China, Ltd.",Insurance holding company,Yes,Yes,Yes
+PPCCY,PICC Property and Casualty Company Limited,Direct insurer,Yes,Yes,Yes
+PRU,"Prudential Financial, Inc.",Direct insurer,No,No,No
+PUK,Prudential plc,Direct insurer,No,No,No
+QBIEY,QBE Insurance Group Limited,Insurer and reinsurer,Yes,Yes,Yes
+RNR,RenaissanceRe Holdings Ltd.,Reinsurer,Yes,Yes,No
+ROOT,"Root, Inc.",Direct insurer,Yes,Limited,No
+SGCFF,Sagicor Financial Company Ltd.,Insurance holding company,Yes,Yes,No
+SIGI,"Selective Insurance Group, Inc.",Direct insurer,Yes,Yes,No
+SLF,Sun Life Financial Inc.,Direct insurer,No,No,No
+SLLDY,Sanlam Limited,Insurance holding company,Yes,Yes,Yes
+SNMCY,Suncorp Group Limited,Direct insurer,Yes,Yes,No
+SNTAY,Santam Limited,Direct insurer,Yes,Yes,Yes
+SSREY,Swiss Re Ltd,Reinsurer,Yes,Yes,Yes
+THG,"The Hanover Insurance Group, Inc.",Direct insurer,Yes,Yes,No
+TRV,"The Travelers Companies, Inc.",Direct insurer,Yes,Yes,No
+UVE,"Universal Insurance Holdings, Inc.",Direct insurer,Yes,Yes,No
+WRB,W. R. Berkley Corporation,Direct insurer,Yes,Yes,No
+ZURVY,Zurich Insurance Group Ltd,Insurer and reinsurer,Yes,Yes,Yes

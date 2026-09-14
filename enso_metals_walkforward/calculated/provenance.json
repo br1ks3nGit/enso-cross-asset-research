@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-12",
+  "massive_stock_endpoint_pattern": "/v2/aggs/ticker/{ticker}/range/1/month/1980-01-01/2026-09-11?adjusted=true&sort=asc&limit=50000",
+  "massive_futures_check_endpoint": "/futures/v1/products?product_code=HG&limit=100",
+  "api_credentials_in_output": false,
+  "files": [
+    {
+      "name": "aligned_monthly_ONI_metals_1992_2026-07.csv",
+      "sha256": "0ce7c91f7d3e8d46bbe30d8b8e6615c2cacf9912742e146df85fc7e92a41172e",
+      "bytes": 55129
+    },
+    {
+      "name": "HAC_lag_tests.csv",
+      "sha256": "7f76c0b5154f290ef6e6c3f627a9747e0bd036fc203c1f9d5e441c78f1e7d5fa",
+      "bytes": 1475
+    },
+    {
+      "name": "rolling_60m_correlation_summary.csv",
+      "sha256": "ed0308e08736332e02615fe292eb77b60b46f92ef09e311a58bede84fd669c43",
+      "bytes": 920
+    },
+    {
+      "name": "massive_MOD_monthly.json",
+      "sha256": "8f1599677b5220541bb2929947f4fcf5007f69fdbbe71fe67adde09acc351d1e",
+      "bytes": 26229
+    },
+    {
+      "name": "massive_VRT_monthly.json",
+      "sha256": "d580798870f6346de061225e4e8a33b863ca6282fa46d0455e3e3adf27444667",
+      "bytes": 8482
+    },
+    {
+      "name": "massive_TT_monthly.json",
+      "sha256": "f994f2d3db862c87d77f3f3cebd03bd561febcf19666d99c81156076f9b3c7c7",
+      "bytes": 10898
+    },
+    {
+      "name": "massive_CARR_monthly.json",
+      "sha256": "aae6f74978978457e47457ef020aef2a1a1caabf67a11f29e363cd9df001cd70",
+      "bytes": 8198
+    },
+    {
+      "name": "massive_JCI_monthly.json",
+      "sha256": "c7b429363591f37e186b41ca3a09a3b7153d6613db12a33a7c22fee869817df3",
+      "bytes": 28653
+    },
+    {
+      "name": "massive_ETN_monthly.json",
+      "sha256": "86b55187396222f4fb4605b32f8780ac028cddb083902e6124cb6181ced4ab3a",
+      "bytes": 28771
+    },
+    {
+      "name": "massive_SPY_monthly.json",
+      "sha256": "3262226c6d44f86134b00ae162c5611ad68c61a5f43be327ab18529ca1d9a2c7",
+      "bytes": 30435
+    },
+    {
+      "name": "massive_futures_entitlement_check.json",
+      "sha256": "4472910115328c9b95615458866f205d013115cb942cf0607efd959a8c68bae7",
+      "bytes": 278
+    }
+  ]
+}

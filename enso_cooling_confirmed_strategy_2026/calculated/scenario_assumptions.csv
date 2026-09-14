@@ -1,0 +1,10 @@
+scenario,month,enso_surprise_z,cooling_pressure_z,gross_target,mean_monthly_repricing_drift,description
+Excellent,Oct 2026,1.904636591245943,2.048931880176407,1.0,0.024114643008128895,Large forecast revisions are followed by confirmed cooling orders and spending.
+Excellent,Nov 2026,1.8315109322128058,2.048931880176407,1.0,0.024114643008128895,Large forecast revisions are followed by confirmed cooling orders and spending.
+Excellent,Dec 2026,1.8315109322128058,2.048931880176407,1.0,0.024114643008128895,Large forecast revisions are followed by confirmed cooling orders and spending.
+Normal,Oct 2026,1.904636591245943,0.0,0.75,0.0,"El Niño persists, but no emergency winter cooling-capex response is assumed."
+Normal,Nov 2026,0.9523182956229715,0.0,0.75,0.0,"El Niño persists, but no emergency winter cooling-capex response is assumed."
+Normal,Dec 2026,0.4761591478114858,0.0,0.75,0.0,"El Niño persists, but no emergency winter cooling-capex response is assumed."
+Conservative,Oct 2026,0.0,0.0,0.0,0.0,"No incremental ENSO earnings effect; prices follow market, metals and current company trends."
+Conservative,Nov 2026,0.0,0.0,0.0,0.0,"No incremental ENSO earnings effect; prices follow market, metals and current company trends."
+Conservative,Dec 2026,0.0,0.0,0.0,0.0,"No incremental ENSO earnings effect; prices follow market, metals and current company trends."

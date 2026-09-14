@@ -1,0 +1,1 @@
+{"status": "error", "http_status": 403, "path": "/futures/v1/contracts", "params": {"product_code": "ZC", "last_trade_date.gte": "2017-04-03", "first_trade_date.lte": "2026-09-09", "limit": 1000}, "results": []}

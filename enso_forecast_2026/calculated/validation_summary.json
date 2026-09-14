@@ -1,0 +1,19 @@
+{
+  "numerical_tests_passed": 6,
+  "netcdf_files_identical_across_two_readers": 7,
+  "html_verified_table_row_counts": [
+    4,
+    50,
+    6,
+    4,
+    200
+  ],
+  "figures_visually_reviewed": 2,
+  "forecast_issue_date": "2026-09-11",
+  "limitations": [
+    "Modern hindcasts and current-vintage observations are not a historical point-in-time archive.",
+    "Forecasts extrapolate beyond seasonal ONI maxima.",
+    "ENSO-associated state effects are not identified causal effects.",
+    "September and October lack added skill over trend-only baseline."
+  ]
+}

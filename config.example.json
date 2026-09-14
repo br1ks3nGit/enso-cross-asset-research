@@ -1,0 +1,23 @@
+{
+  "api_key": "",
+  "start": "2006-09-10",
+  "end": "2026-09-09",
+  "output": "data",
+  "requests_per_minute": 5,
+  "mode": "trades",
+  "stock_bar_size": "minute",
+  "stock_adjusted": false,
+  "futures_bar_size": "1sec",
+  "futures_history_start": "2017-04-03",
+  "product_snapshot_days": 31,
+  "include_product_codes": [],
+  "exclude_product_codes": [],
+  "equities": [
+    {"symbol": "MOD", "segments": [{"ticker": "MOD"}]},
+    {"symbol": "VRT", "segments": [{"ticker": "VRT", "start": "2020-02-10"}], "note": "Pre-2020 operating-company prices unavailable; SPAC predecessor intentionally separate."},
+    {"symbol": "TT", "segments": [{"ticker": "IR", "end": "2020-03-01", "regime": "pre_spin_off"}, {"ticker": "TT", "start": "2020-03-02", "regime": "post_spin_off"}], "note": "Historical IR only; the IR ticker from 2020-03-02 belongs to a different issuer. Review corporate actions before calculating boundary returns."},
+    {"symbol": "RNR", "segments": [{"ticker": "RNR"}]},
+    {"symbol": "EG", "segments": [{"ticker": "RE", "end": "2023-07-09"}, {"ticker": "EG", "start": "2023-07-10"}]},
+    {"symbol": "ACGL", "enabled": false, "segments": [{"ticker": "ACGL"}], "note": "Confirm company, exchange and Massive symbol, then set enabled to true."}
+  ]
+}

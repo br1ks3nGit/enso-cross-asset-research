@@ -1,0 +1,20 @@
+[
+  {
+    "decision": "2020-03",
+    "trade_start": "2020-04",
+    "trade_end": "2020-09",
+    "prior_events": 2,
+    "prior_mean_log_excess": 0.010887486111323508,
+    "position": 1.0,
+    "realized_log_excess": -0.021486271036758264
+  },
+  {
+    "decision": "2024-03",
+    "trade_start": "2024-04",
+    "trade_end": "2024-09",
+    "prior_events": 3,
+    "prior_mean_log_excess": 9.623372862958372e-05,
+    "position": 1.0,
+    "realized_log_excess": -0.30181246986752885
+  }
+]

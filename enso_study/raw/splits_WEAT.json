@@ -1,0 +1,1 @@
+{"status": "OK", "path": "/v3/reference/splits", "params": {"ticker": "WEAT", "execution_date.gte": "2006-09-10", "limit": 1000}, "results": [{"execution_date": "2025-11-25", "id": "Eb1bf0fa0004be8bf1907535ba5d22ad7d875507b2eab5c05afab46400189f04b", "split_from": 5, "split_to": 1, "ticker": "WEAT"}], "retrieved_at": "2026-09-10T17:23:56.012731+00:00"}

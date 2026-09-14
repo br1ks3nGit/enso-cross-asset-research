@@ -1,0 +1,11 @@
+{
+  "python": "3.14.0",
+  "numpy": "2.5.2",
+  "pandas": "3.0.5",
+  "scipy": "1.18.1",
+  "xarray": "2026.7.0",
+  "cdsapi": "0.7.7",
+  "netCDF4": "1.7.4",
+  "matplotlib": "3.11.1",
+  "beautifulsoup4": "4.15.0"
+}

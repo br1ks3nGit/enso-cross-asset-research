@@ -1,0 +1,589 @@
+peak_month,peak_oni,ticker,company,subsector,benchmark,horizon_months,relative_total_return
+2004-12,0.7,XOM,Exxon Mobil,Integrated,SPY,1,0.029719979997627988
+2004-12,0.7,XOM,Exxon Mobil,Integrated,SPY,3,0.19721686287882
+2004-12,0.7,XOM,Exxon Mobil,Integrated,SPY,6,0.14843292991907497
+2004-12,0.7,XOM,Exxon Mobil,Integrated,SPY,12,0.0851831773310936
+2004-12,0.7,XOM,Exxon Mobil,Integrated,XLE,1,-0.026340740632986304
+2004-12,0.7,XOM,Exxon Mobil,Integrated,XLE,3,-0.010122567070038668
+2004-12,0.7,XOM,Exxon Mobil,Integrated,XLE,6,-0.07473833215612136
+2004-12,0.7,XOM,Exxon Mobil,Integrated,XLE,12,-0.1929874544329928
+2004-12,0.7,CVX,Chevron,Integrated,SPY,1,0.059753650431481065
+2004-12,0.7,CVX,Chevron,Integrated,SPY,3,0.15366343704733731
+2004-12,0.7,CVX,Chevron,Integrated,SPY,6,0.11482780415064564
+2004-12,0.7,CVX,Chevron,Integrated,SPY,12,0.11716636089787191
+2004-12,0.7,CVX,Chevron,Integrated,XLE,1,0.0020578161385020888
+2004-12,0.7,CVX,Chevron,Integrated,XLE,3,-0.046133213673950846
+2004-12,0.7,CVX,Chevron,Integrated,XLE,6,-0.10181308237143538
+2004-12,0.7,CVX,Chevron,Integrated,XLE,12,-0.16920268617935852
+2004-12,0.7,COP,ConocoPhillips,Exploration & production,SPY,1,
+2004-12,0.7,COP,ConocoPhillips,Exploration & production,SPY,3,
+2004-12,0.7,COP,ConocoPhillips,Exploration & production,SPY,6,
+2004-12,0.7,COP,ConocoPhillips,Exploration & production,SPY,12,
+2004-12,0.7,COP,ConocoPhillips,Exploration & production,XLE,1,
+2004-12,0.7,COP,ConocoPhillips,Exploration & production,XLE,3,
+2004-12,0.7,COP,ConocoPhillips,Exploration & production,XLE,6,
+2004-12,0.7,COP,ConocoPhillips,Exploration & production,XLE,12,
+2004-12,0.7,EOG,EOG Resources,Exploration & production,SPY,1,0.06531765814027346
+2004-12,0.7,EOG,EOG Resources,Exploration & production,SPY,3,0.40098635886171796
+2004-12,0.7,EOG,EOG Resources,Exploration & production,SPY,6,0.6173156655129295
+2004-12,0.7,EOG,EOG Resources,Exploration & production,SPY,12,1.0021751369254615
+2004-12,0.7,EOG,EOG Resources,Exploration & production,XLE,1,0.007318904327610953
+2004-12,0.7,EOG,EOG Resources,Exploration & production,XLE,3,0.1583572061833718
+2004-12,0.7,EOG,EOG Resources,Exploration & production,XLE,6,0.303027935822054
+2004-12,0.7,EOG,EOG Resources,Exploration & production,XLE,12,0.4889472005040185
+2004-12,0.7,OXY,Occidental Petroleum,Exploration & production,SPY,1,0.023285563701685108
+2004-12,0.7,OXY,Occidental Petroleum,Exploration & production,SPY,3,0.25492213751391035
+2004-12,0.7,OXY,Occidental Petroleum,Exploration & production,SPY,6,0.348239977754794
+2004-12,0.7,OXY,Occidental Petroleum,Exploration & production,SPY,12,0.3507500132194046
+2004-12,0.7,OXY,Occidental Petroleum,Exploration & production,XLE,1,-0.03242485002861162
+2004-12,0.7,OXY,Occidental Petroleum,Exploration & production,XLE,3,0.037589047169129586
+2004-12,0.7,OXY,Occidental Petroleum,Exploration & production,XLE,6,0.08624085740827603
+2004-12,0.7,OXY,Occidental Petroleum,Exploration & production,XLE,12,0.0045052571435826305
+2004-12,0.7,SLB,SLB,Oilfield services,SPY,1,0.039589210311154366
+2004-12,0.7,SLB,SLB,Oilfield services,SPY,3,0.08170221689433177
+2004-12,0.7,SLB,SLB,Oilfield services,SPY,6,0.1535695930752301
+2004-12,0.7,SLB,SLB,Oilfield services,SPY,12,0.4190194887145957
+2004-12,0.7,SLB,SLB,Oilfield services,XLE,1,-0.01700881771777507
+2004-12,0.7,SLB,SLB,Oilfield services,XLE,3,-0.10563186432298954
+2004-12,0.7,SLB,SLB,Oilfield services,XLE,6,-0.0705998601607638
+2004-12,0.7,SLB,SLB,Oilfield services,XLE,12,0.05527486392959835
+2004-12,0.7,MPC,Marathon Petroleum,Refining,SPY,1,
+2004-12,0.7,MPC,Marathon Petroleum,Refining,SPY,3,
+2004-12,0.7,MPC,Marathon Petroleum,Refining,SPY,6,
+2004-12,0.7,MPC,Marathon Petroleum,Refining,SPY,12,
+2004-12,0.7,MPC,Marathon Petroleum,Refining,XLE,1,
+2004-12,0.7,MPC,Marathon Petroleum,Refining,XLE,3,
+2004-12,0.7,MPC,Marathon Petroleum,Refining,XLE,6,
+2004-12,0.7,MPC,Marathon Petroleum,Refining,XLE,12,
+2004-12,0.7,PSX,Phillips 66,Refining,SPY,1,
+2004-12,0.7,PSX,Phillips 66,Refining,SPY,3,
+2004-12,0.7,PSX,Phillips 66,Refining,SPY,6,
+2004-12,0.7,PSX,Phillips 66,Refining,SPY,12,
+2004-12,0.7,PSX,Phillips 66,Refining,XLE,1,
+2004-12,0.7,PSX,Phillips 66,Refining,XLE,3,
+2004-12,0.7,PSX,Phillips 66,Refining,XLE,6,
+2004-12,0.7,PSX,Phillips 66,Refining,XLE,12,
+2004-12,0.7,KMI,Kinder Morgan,Midstream,SPY,1,
+2004-12,0.7,KMI,Kinder Morgan,Midstream,SPY,3,
+2004-12,0.7,KMI,Kinder Morgan,Midstream,SPY,6,
+2004-12,0.7,KMI,Kinder Morgan,Midstream,SPY,12,
+2004-12,0.7,KMI,Kinder Morgan,Midstream,XLE,1,
+2004-12,0.7,KMI,Kinder Morgan,Midstream,XLE,3,
+2004-12,0.7,KMI,Kinder Morgan,Midstream,XLE,6,
+2004-12,0.7,KMI,Kinder Morgan,Midstream,XLE,12,
+2004-12,0.7,WMB,Williams,Midstream,SPY,1,0.05558854554363979
+2004-12,0.7,WMB,Williams,Midstream,SPY,3,0.1863244551389176
+2004-12,0.7,WMB,Williams,Midstream,SPY,6,0.18922361624636386
+2004-12,0.7,WMB,Williams,Midstream,SPY,12,0.3975950065247038
+2004-12,0.7,WMB,Williams,Midstream,XLE,1,-0.0018805292554474606
+2004-12,0.7,WMB,Williams,Midstream,XLE,3,-0.01912857838370685
+2004-12,0.7,WMB,Williams,Midstream,XLE,6,-0.04187436815750689
+2004-12,0.7,WMB,Williams,Midstream,XLE,12,0.03934223036994222
+2004-12,0.7,XLE,Energy Select Sector SPDR,Sector ETF,SPY,1,0.05757735069151382
+2004-12,0.7,XLE,Energy Select Sector SPDR,Sector ETF,SPY,3,0.20945969980864176
+2004-12,0.7,XLE,Energy Select Sector SPDR,Sector ETF,SPY,6,0.24119799817844867
+2004-12,0.7,XLE,Energy Select Sector SPDR,Sector ETF,SPY,12,0.3446918307430322
+2006-11,0.9,XOM,Exxon Mobil,Integrated,SPY,1,-0.010022061197083598
+2006-11,0.9,XOM,Exxon Mobil,Integrated,SPY,3,-0.0654745105282919
+2006-11,0.9,XOM,Exxon Mobil,Integrated,SPY,6,-0.002953702181093143
+2006-11,0.9,XOM,Exxon Mobil,Integrated,SPY,12,0.10108486626910063
+2006-11,0.9,XOM,Exxon Mobil,Integrated,XLE,1,0.02964690689548677
+2006-11,0.9,XOM,Exxon Mobil,Integrated,XLE,3,-0.0033551118039818473
+2006-11,0.9,XOM,Exxon Mobil,Integrated,XLE,6,-0.03561674917084301
+2006-11,0.9,XOM,Exxon Mobil,Integrated,XLE,12,-0.03665598479712595
+2006-11,0.9,CVX,Chevron,Integrated,SPY,1,0.008905767475094972
+2006-11,0.9,CVX,Chevron,Integrated,SPY,3,-0.041597412646624976
+2006-11,0.9,CVX,Chevron,Integrated,SPY,6,0.05872315619779367
+2006-11,0.9,CVX,Chevron,Integrated,SPY,12,0.19799912498101757
+2006-11,0.9,CVX,Chevron,Integrated,XLE,1,0.04933318421811328
+2006-11,0.9,CVX,Chevron,Integrated,XLE,3,0.022109134829003896
+2006-11,0.9,CVX,Chevron,Integrated,XLE,6,0.024039587063970025
+2006-11,0.9,CVX,Chevron,Integrated,XLE,12,0.048134728414920946
+2006-11,0.9,COP,ConocoPhillips,Exploration & production,SPY,1,
+2006-11,0.9,COP,ConocoPhillips,Exploration & production,SPY,3,
+2006-11,0.9,COP,ConocoPhillips,Exploration & production,SPY,6,
+2006-11,0.9,COP,ConocoPhillips,Exploration & production,SPY,12,
+2006-11,0.9,COP,ConocoPhillips,Exploration & production,XLE,1,
+2006-11,0.9,COP,ConocoPhillips,Exploration & production,XLE,3,
+2006-11,0.9,COP,ConocoPhillips,Exploration & production,XLE,6,
+2006-11,0.9,COP,ConocoPhillips,Exploration & production,XLE,12,
+2006-11,0.9,EOG,EOG Resources,Exploration & production,SPY,1,-0.12137609500629087
+2006-11,0.9,EOG,EOG Resources,Exploration & production,SPY,3,-0.04132409795296632
+2006-11,0.9,EOG,EOG Resources,Exploration & production,SPY,6,-0.0023974986213903815
+2006-11,0.9,EOG,EOG Resources,Exploration & production,SPY,12,0.10013530295470519
+2006-11,0.9,EOG,EOG Resources,Exploration & production,XLE,1,-0.08616914514768015
+2006-11,0.9,EOG,EOG Resources,Exploration & production,XLE,3,0.02240061718595676
+2006-11,0.9,EOG,EOG Resources,Exploration & production,XLE,6,-0.035078766733916855
+2006-11,0.9,EOG,EOG Resources,Exploration & production,XLE,12,-0.0374867619370195
+2006-11,0.9,OXY,Occidental Petroleum,Exploration & production,SPY,1,-0.03325675476963219
+2006-11,0.9,OXY,Occidental Petroleum,Exploration & production,SPY,3,-0.08243918444094722
+2006-11,0.9,OXY,Occidental Petroleum,Exploration & production,SPY,6,0.00611333702630712
+2006-11,0.9,OXY,Occidental Petroleum,Exploration & production,SPY,12,0.3157673965308243
+2006-11,0.9,OXY,Occidental Petroleum,Exploration & production,XLE,1,0.0054811861941068685
+2006-11,0.9,OXY,Occidental Petroleum,Exploration & production,XLE,3,-0.021447454629770712
+2006-11,0.9,OXY,Occidental Petroleum,Exploration & production,XLE,6,-0.026846744442520665
+2006-11,0.9,OXY,Occidental Petroleum,Exploration & production,XLE,12,0.1511707096129098
+2006-11,0.9,SLB,SLB,Oilfield services,SPY,1,-0.0831092415209086
+2006-11,0.9,SLB,SLB,Oilfield services,SPY,3,-0.0813515108293883
+2006-11,0.9,SLB,SLB,Oilfield services,SPY,6,0.04290483228478981
+2006-11,0.9,SLB,SLB,Oilfield services,SPY,12,0.28443422598915724
+2006-11,0.9,SLB,SLB,Oilfield services,XLE,1,-0.04636891750271788
+2006-11,0.9,SLB,SLB,Oilfield services,XLE,3,-0.020287481619726044
+2006-11,0.9,SLB,SLB,Oilfield services,XLE,6,0.008739468432305442
+2006-11,0.9,SLB,SLB,Oilfield services,XLE,12,0.12375718024443971
+2006-11,0.9,MPC,Marathon Petroleum,Refining,SPY,1,
+2006-11,0.9,MPC,Marathon Petroleum,Refining,SPY,3,
+2006-11,0.9,MPC,Marathon Petroleum,Refining,SPY,6,
+2006-11,0.9,MPC,Marathon Petroleum,Refining,SPY,12,
+2006-11,0.9,MPC,Marathon Petroleum,Refining,XLE,1,
+2006-11,0.9,MPC,Marathon Petroleum,Refining,XLE,3,
+2006-11,0.9,MPC,Marathon Petroleum,Refining,XLE,6,
+2006-11,0.9,MPC,Marathon Petroleum,Refining,XLE,12,
+2006-11,0.9,PSX,Phillips 66,Refining,SPY,1,
+2006-11,0.9,PSX,Phillips 66,Refining,SPY,3,
+2006-11,0.9,PSX,Phillips 66,Refining,SPY,6,
+2006-11,0.9,PSX,Phillips 66,Refining,SPY,12,
+2006-11,0.9,PSX,Phillips 66,Refining,XLE,1,
+2006-11,0.9,PSX,Phillips 66,Refining,XLE,3,
+2006-11,0.9,PSX,Phillips 66,Refining,XLE,6,
+2006-11,0.9,PSX,Phillips 66,Refining,XLE,12,
+2006-11,0.9,KMI,Kinder Morgan,Midstream,SPY,1,
+2006-11,0.9,KMI,Kinder Morgan,Midstream,SPY,3,
+2006-11,0.9,KMI,Kinder Morgan,Midstream,SPY,6,
+2006-11,0.9,KMI,Kinder Morgan,Midstream,SPY,12,
+2006-11,0.9,KMI,Kinder Morgan,Midstream,XLE,1,
+2006-11,0.9,KMI,Kinder Morgan,Midstream,XLE,3,
+2006-11,0.9,KMI,Kinder Morgan,Midstream,XLE,6,
+2006-11,0.9,KMI,Kinder Morgan,Midstream,XLE,12,
+2006-11,0.9,WMB,Williams,Midstream,SPY,1,-0.06329384189895926
+2006-11,0.9,WMB,Williams,Midstream,SPY,3,-0.028076042662462664
+2006-11,0.9,WMB,Williams,Midstream,SPY,6,0.05485326277849856
+2006-11,0.9,WMB,Williams,Midstream,SPY,12,0.1821026311462306
+2006-11,0.9,WMB,Williams,Midstream,XLE,1,-0.025759503767388225
+2006-11,0.9,WMB,Williams,Midstream,XLE,3,0.036529291826262966
+2006-11,0.9,WMB,Williams,Midstream,XLE,6,0.020296470616693485
+2006-11,0.9,WMB,Williams,Midstream,XLE,12,0.034226815712115055
+2006-11,0.9,XLE,Energy Select Sector SPDR,Sector ETF,SPY,1,-0.03852676857174009
+2006-11,0.9,XLE,Energy Select Sector SPDR,Sector ETF,SPY,3,-0.06232851787034155
+2006-11,0.9,XLE,Energy Select Sector SPDR,Sector ETF,SPY,6,0.033869363618319825
+2006-11,0.9,XLE,Energy Select Sector SPDR,Sector ETF,SPY,12,0.14298199697355174
+2009-12,1.5,XOM,Exxon Mobil,Integrated,SPY,1,-0.019506538378568195
+2009-12,1.5,XOM,Exxon Mobil,Integrated,SPY,3,-0.062183803123024295
+2009-12,1.5,XOM,Exxon Mobil,Integrated,SPY,6,-0.09243120304133112
+2009-12,1.5,XOM,Exxon Mobil,Integrated,SPY,12,-0.04282888236918925
+2009-12,1.5,XOM,Exxon Mobil,Integrated,XLE,1,-0.011624481514817098
+2009-12,1.5,XOM,Exxon Mobil,Integrated,XLE,3,-0.023525065532940648
+2009-12,1.5,XOM,Exxon Mobil,Integrated,XLE,6,-0.03455329363483073
+2009-12,1.5,XOM,Exxon Mobil,Integrated,XLE,12,-0.09564904794789175
+2009-12,1.5,CVX,Chevron,Integrated,SPY,1,-0.027927494680335063
+2009-12,1.5,CVX,Chevron,Integrated,SPY,3,-0.04775342698587148
+2009-12,1.5,CVX,Chevron,Integrated,SPY,6,-0.020612711557107866
+2009-12,1.5,CVX,Chevron,Integrated,SPY,12,0.108456429637654
+2009-12,1.5,CVX,Chevron,Integrated,XLE,1,-0.020113132767152986
+2009-12,1.5,CVX,Chevron,Integrated,XLE,3,-0.008499839225498462
+2009-12,1.5,CVX,Chevron,Integrated,XLE,6,0.041845240880581835
+2009-12,1.5,CVX,Chevron,Integrated,XLE,12,0.047287793150629254
+2009-12,1.5,COP,ConocoPhillips,Exploration & production,SPY,1,
+2009-12,1.5,COP,ConocoPhillips,Exploration & production,SPY,3,
+2009-12,1.5,COP,ConocoPhillips,Exploration & production,SPY,6,
+2009-12,1.5,COP,ConocoPhillips,Exploration & production,SPY,12,
+2009-12,1.5,COP,ConocoPhillips,Exploration & production,XLE,1,
+2009-12,1.5,COP,ConocoPhillips,Exploration & production,XLE,3,
+2009-12,1.5,COP,ConocoPhillips,Exploration & production,XLE,6,
+2009-12,1.5,COP,ConocoPhillips,Exploration & production,XLE,12,
+2009-12,1.5,EOG,EOG Resources,Exploration & production,SPY,1,-0.03419420545974117
+2009-12,1.5,EOG,EOG Resources,Exploration & production,SPY,3,-0.09255647261499078
+2009-12,1.5,EOG,EOG Resources,Exploration & production,SPY,6,0.08509070139896835
+2009-12,1.5,EOG,EOG Resources,Exploration & production,SPY,12,-0.1785739136194303
+2009-12,1.5,EOG,EOG Resources,Exploration & production,XLE,1,-0.026430220803160376
+2009-12,1.5,EOG,EOG Resources,Exploration & production,XLE,3,-0.05514975974330116
+2009-12,1.5,EOG,EOG Resources,Exploration & production,XLE,6,0.1542896222123129
+2009-12,1.5,EOG,EOG Resources,Exploration & production,XLE,12,-0.2239031772109612
+2009-12,1.5,OXY,Occidental Petroleum,Exploration & production,SPY,1,-0.0006830104680228821
+2009-12,1.5,OXY,Occidental Petroleum,Exploration & production,SPY,3,-0.01024796977364728
+2009-12,1.5,OXY,Occidental Petroleum,Exploration & production,SPY,6,0.023908120574096525
+2009-12,1.5,OXY,Occidental Petroleum,Exploration & production,SPY,12,0.06708954497405761
+2009-12,1.5,OXY,Occidental Petroleum,Exploration & production,XLE,1,0.007350366239434303
+2009-12,1.5,OXY,Occidental Petroleum,Exploration & production,XLE,3,0.030551671076224363
+2009-12,1.5,OXY,Occidental Petroleum,Exploration & production,XLE,6,0.0892052767144993
+2009-12,1.5,OXY,Occidental Petroleum,Exploration & production,XLE,12,0.008203682859513561
+2009-12,1.5,SLB,SLB,Oilfield services,SPY,1,0.011726340905902077
+2009-12,1.5,SLB,SLB,Oilfield services,SPY,3,-0.07217570625930392
+2009-12,1.5,SLB,SLB,Oilfield services,SPY,6,-0.08401861955832346
+2009-12,1.5,SLB,SLB,Oilfield services,SPY,12,0.12988004959461086
+2009-12,1.5,SLB,SLB,Oilfield services,XLE,1,0.019859474742804695
+2009-12,1.5,SLB,SLB,Oilfield services,XLE,3,-0.03392885573478521
+2009-12,1.5,SLB,SLB,Oilfield services,XLE,6,-0.02560421887277542
+2009-12,1.5,SLB,SLB,Oilfield services,XLE,12,0.06752918024182364
+2009-12,1.5,MPC,Marathon Petroleum,Refining,SPY,1,
+2009-12,1.5,MPC,Marathon Petroleum,Refining,SPY,3,
+2009-12,1.5,MPC,Marathon Petroleum,Refining,SPY,6,
+2009-12,1.5,MPC,Marathon Petroleum,Refining,SPY,12,
+2009-12,1.5,MPC,Marathon Petroleum,Refining,XLE,1,
+2009-12,1.5,MPC,Marathon Petroleum,Refining,XLE,3,
+2009-12,1.5,MPC,Marathon Petroleum,Refining,XLE,6,
+2009-12,1.5,MPC,Marathon Petroleum,Refining,XLE,12,
+2009-12,1.5,PSX,Phillips 66,Refining,SPY,1,
+2009-12,1.5,PSX,Phillips 66,Refining,SPY,3,
+2009-12,1.5,PSX,Phillips 66,Refining,SPY,6,
+2009-12,1.5,PSX,Phillips 66,Refining,SPY,12,
+2009-12,1.5,PSX,Phillips 66,Refining,XLE,1,
+2009-12,1.5,PSX,Phillips 66,Refining,XLE,3,
+2009-12,1.5,PSX,Phillips 66,Refining,XLE,6,
+2009-12,1.5,PSX,Phillips 66,Refining,XLE,12,
+2009-12,1.5,KMI,Kinder Morgan,Midstream,SPY,1,
+2009-12,1.5,KMI,Kinder Morgan,Midstream,SPY,3,
+2009-12,1.5,KMI,Kinder Morgan,Midstream,SPY,6,
+2009-12,1.5,KMI,Kinder Morgan,Midstream,SPY,12,
+2009-12,1.5,KMI,Kinder Morgan,Midstream,XLE,1,
+2009-12,1.5,KMI,Kinder Morgan,Midstream,XLE,3,
+2009-12,1.5,KMI,Kinder Morgan,Midstream,XLE,6,
+2009-12,1.5,KMI,Kinder Morgan,Midstream,XLE,12,
+2009-12,1.5,WMB,Williams,Midstream,SPY,1,0.025898439301466514
+2009-12,1.5,WMB,Williams,Midstream,SPY,3,0.044506466984006066
+2009-12,1.5,WMB,Williams,Midstream,SPY,6,-0.061429909171118124
+2009-12,1.5,WMB,Williams,Midstream,SPY,12,0.043551570128721906
+2009-12,1.5,WMB,Williams,Midstream,XLE,1,0.03414550075727241
+2009-12,1.5,WMB,Williams,Midstream,XLE,3,0.08756319979875937
+2009-12,1.5,WMB,Williams,Midstream,XLE,6,-0.0015749704924377106
+2009-12,1.5,WMB,Williams,Midstream,XLE,12,-0.014035381367002886
+2009-12,1.5,XLE,Energy Select Sector SPDR,Sector ETF,SPY,1,-0.007974759305887535
+2009-12,1.5,XLE,Energy Select Sector SPDR,Sector ETF,SPY,3,-0.039590097221679166
+2009-12,1.5,XLE,Energy Select Sector SPDR,Sector ETF,SPY,6,-0.05994935714722793
+2009-12,1.5,XLE,Energy Select Sector SPDR,Sector ETF,SPY,12,0.05840671197265368
+2015-12,2.6,XOM,Exxon Mobil,Integrated,SPY,1,0.051040779057466734
+2015-12,2.6,XOM,Exxon Mobil,Integrated,SPY,3,0.06789322953340604
+2015-12,2.6,XOM,Exxon Mobil,Integrated,SPY,6,0.178694669931303
+2015-12,2.6,XOM,Exxon Mobil,Integrated,SPY,12,0.07039459423983385
+2015-12,2.6,XOM,Exxon Mobil,Integrated,XLE,1,0.03491869201545028
+2015-12,2.6,XOM,Exxon Mobil,Integrated,XLE,3,0.047152510834103545
+2015-12,2.6,XOM,Exxon Mobil,Integrated,XLE,6,0.06694918369249758
+2015-12,2.6,XOM,Exxon Mobil,Integrated,XLE,12,-0.06361737652578892
+2015-12,2.6,CVX,Chevron,Integrated,SPY,1,0.011563338943402224
+2015-12,2.6,CVX,Chevron,Integrated,SPY,3,0.059836308606914024
+2015-12,2.6,CVX,Chevron,Integrated,SPY,6,0.14871094552490294
+2015-12,2.6,CVX,Chevron,Integrated,SPY,12,0.22021307840436588
+2015-12,2.6,CVX,Chevron,Integrated,XLE,1,-0.003953197164343503
+2015-12,2.6,CVX,Chevron,Integrated,XLE,3,0.03925207215311821
+2015-12,2.6,CVX,Chevron,Integrated,XLE,6,0.0398080494398636
+2015-12,2.6,CVX,Chevron,Integrated,XLE,12,0.06744403391280018
+2015-12,2.6,COP,ConocoPhillips,Exploration & production,SPY,1,-0.11913825342438766
+2015-12,2.6,COP,ConocoPhillips,Exploration & production,SPY,3,-0.1421831956717845
+2015-12,2.6,COP,ConocoPhillips,Exploration & production,SPY,6,-0.08829528986635449
+2015-12,2.6,COP,ConocoPhillips,Exploration & production,SPY,12,-0.016660336786931018
+2015-12,2.6,COP,ConocoPhillips,Exploration & production,XLE,1,-0.132649936351676
+2015-12,2.6,COP,ConocoPhillips,Exploration & production,XLE,3,-0.1588437910778252
+2015-12,2.6,COP,ConocoPhillips,Exploration & production,XLE,6,-0.17472894290563667
+2015-12,2.6,COP,ConocoPhillips,Exploration & production,XLE,12,-0.13977314668744578
+2015-12,2.6,EOG,EOG Resources,Exploration & production,SPY,1,0.05862839143494014
+2015-12,2.6,EOG,EOG Resources,Exploration & production,SPY,3,0.014539433408054858
+2015-12,2.6,EOG,EOG Resources,Exploration & production,SPY,6,0.14059078809841652
+2015-12,2.6,EOG,EOG Resources,Exploration & production,SPY,12,0.2861083209872175
+2015-12,2.6,EOG,EOG Resources,Exploration & production,XLE,1,0.04238991676113235
+2015-12,2.6,EOG,EOG Resources,Exploration & production,XLE,3,-0.0051650430468246356
+2015-12,2.6,EOG,EOG Resources,Exploration & production,XLE,6,0.03245771897798999
+2015-12,2.6,EOG,EOG Resources,Exploration & production,XLE,12,0.12508928030721078
+2015-12,2.6,OXY,Occidental Petroleum,Exploration & production,SPY,1,0.07138090723694357
+2015-12,2.6,OXY,Occidental Petroleum,Exploration & production,SPY,3,0.009616660987340486
+2015-12,2.6,OXY,Occidental Petroleum,Exploration & production,SPY,6,0.09882429807002913
+2015-12,2.6,OXY,Occidental Petroleum,Exploration & production,SPY,12,-0.01978653342157599
+2015-12,2.6,OXY,Occidental Petroleum,Exploration & production,XLE,1,0.05494681962987835
+2015-12,2.6,OXY,Occidental Petroleum,Exploration & production,XLE,3,-0.009992204937221194
+2015-12,2.6,OXY,Occidental Petroleum,Exploration & production,XLE,6,-0.0053491224189310405
+2015-12,2.6,OXY,Occidental Petroleum,Exploration & production,XLE,12,-0.14250794768700048
+2015-12,2.6,SLB,SLB,Oilfield services,SPY,1,0.09041272700944702
+2015-12,2.6,SLB,SLB,Oilfield services,SPY,3,0.05111556402457551
+2015-12,2.6,SLB,SLB,Oilfield services,SPY,6,0.10718528974719765
+2015-12,2.6,SLB,SLB,Oilfield services,SPY,12,0.10293716619797011
+2015-12,2.6,SLB,SLB,Oilfield services,XLE,1,0.0736867071947509
+2015-12,2.6,SLB,SLB,Oilfield services,XLE,3,0.030700702659251622
+2015-12,2.6,SLB,SLB,Oilfield services,XLE,6,0.0022192101377394025
+2015-12,2.6,SLB,SLB,Oilfield services,XLE,12,-0.035149091027394386
+2015-12,2.6,MPC,Marathon Petroleum,Refining,SPY,1,-0.15163167075923045
+2015-12,2.6,MPC,Marathon Petroleum,Refining,SPY,3,-0.28477605953687657
+2015-12,2.6,MPC,Marathon Petroleum,Refining,SPY,6,-0.28078210502873846
+2015-12,2.6,MPC,Marathon Petroleum,Refining,SPY,12,-0.10065602754832337
+2015-12,2.6,MPC,Marathon Petroleum,Refining,XLE,1,-0.16464493182411044
+2015-12,2.6,MPC,Marathon Petroleum,Refining,XLE,3,-0.2986672034695279
+2015-12,2.6,MPC,Marathon Petroleum,Refining,XLE,6,-0.348967153655367
+2015-12,2.6,MPC,Marathon Petroleum,Refining,XLE,12,-0.21325268937099018
+2015-12,2.6,PSX,Phillips 66,Refining,SPY,1,0.031162930485321594
+2015-12,2.6,PSX,Phillips 66,Refining,SPY,3,0.052501846586904044
+2015-12,2.6,PSX,Phillips 66,Refining,SPY,6,-0.05109683047828528
+2015-12,2.6,PSX,Phillips 66,Refining,SPY,12,-0.026938691802177117
+2015-12,2.6,PSX,Phillips 66,Refining,XLE,1,0.015345753025572506
+2015-12,2.6,PSX,Phillips 66,Refining,XLE,3,0.032060060716519345
+2015-12,2.6,PSX,Phillips 66,Refining,XLE,6,-0.14105706256954242
+2015-12,2.6,PSX,Phillips 66,Refining,XLE,12,-0.1487646654095769
+2015-12,2.6,KMI,Kinder Morgan,Midstream,SPY,1,0.17059857898759012
+2015-12,2.6,KMI,Kinder Morgan,Midstream,SPY,3,0.19182541902886374
+2015-12,2.6,KMI,Kinder Morgan,Midstream,SPY,6,0.22767674877912447
+2015-12,2.6,KMI,Kinder Morgan,Midstream,SPY,12,0.2743807000717198
+2015-12,2.6,KMI,Kinder Morgan,Midstream,XLE,1,0.1526425752266105
+2015-12,2.6,KMI,Kinder Morgan,Midstream,XLE,3,0.1686776781582182
+2015-12,2.6,KMI,Kinder Morgan,Midstream,XLE,6,0.1112875440630341
+2015-12,2.6,KMI,Kinder Morgan,Midstream,XLE,12,0.11482994183608941
+2015-12,2.6,WMB,Williams,Midstream,SPY,1,-0.20968312581497373
+2015-12,2.6,WMB,Williams,Midstream,SPY,3,-0.3601079490183303
+2015-12,2.6,WMB,Williams,Midstream,SPY,6,-0.13388730742892252
+2015-12,2.6,WMB,Williams,Midstream,SPY,12,0.17127109753889935
+2015-12,2.6,WMB,Williams,Midstream,XLE,1,-0.22180592608140248
+2015-12,2.6,WMB,Williams,Midstream,XLE,3,-0.37253599019350425
+2015-12,2.6,WMB,Williams,Midstream,XLE,6,-0.21599863484724102
+2015-12,2.6,WMB,Williams,Midstream,XLE,12,0.024629523556106703
+2015-12,2.6,XLE,Energy Select Sector SPDR,Sector ETF,SPY,1,0.015578119485521569
+2015-12,2.6,XLE,Energy Select Sector SPDR,Sector ETF,SPY,3,0.019806779322700363
+2015-12,2.6,XLE,Energy Select Sector SPDR,Sector ETF,SPY,6,0.10473365362357456
+2015-12,2.6,XLE,Energy Select Sector SPDR,Sector ETF,SPY,12,0.14311667838132802
+2018-12,1.1,XOM,Exxon Mobil,Integrated,SPY,1,-0.00501936630988653
+2018-12,1.1,XOM,Exxon Mobil,Integrated,SPY,3,0.05533511850594941
+2018-12,1.1,XOM,Exxon Mobil,Integrated,SPY,6,-0.028727934041128167
+2018-12,1.1,XOM,Exxon Mobil,Integrated,SPY,12,-0.18282348281513539
+2018-12,1.1,XOM,Exxon Mobil,Integrated,XLE,1,-0.033696221949342076
+2018-12,1.1,XOM,Exxon Mobil,Integrated,XLE,3,0.031088587852791782
+2018-12,1.1,XOM,Exxon Mobil,Integrated,XLE,6,0.017205377896526874
+2018-12,1.1,XOM,Exxon Mobil,Integrated,XLE,12,-0.040366829290222395
+2018-12,1.1,CVX,Chevron,Integrated,SPY,1,-0.024258133507780832
+2018-12,1.1,CVX,Chevron,Integrated,SPY,3,0.007395240177309859
+2018-12,1.1,CVX,Chevron,Integrated,SPY,6,-0.013981029592255112
+2018-12,1.1,CVX,Chevron,Integrated,SPY,12,-0.12154700655439421
+2018-12,1.1,CVX,Chevron,Integrated,XLE,1,-0.05238049860648197
+2018-12,1.1,CVX,Chevron,Integrated,XLE,3,-0.015749862399570547
+2018-12,1.1,CVX,Chevron,Integrated,XLE,6,0.0326496916356549
+2018-12,1.1,CVX,Chevron,Integrated,XLE,12,0.031591845448242895
+2018-12,1.1,COP,ConocoPhillips,Exploration & production,SPY,1,0.0051662863914549995
+2018-12,1.1,COP,ConocoPhillips,Exploration & production,SPY,3,-0.052843623870043044
+2018-12,1.1,COP,ConocoPhillips,Exploration & production,SPY,6,-0.1652873386814694
+2018-12,1.1,COP,ConocoPhillips,Exploration & production,SPY,12,-0.18742289382401722
+2018-12,1.1,COP,ConocoPhillips,Exploration & production,XLE,1,-0.02380413525543812
+2018-12,1.1,COP,ConocoPhillips,Exploration & production,XLE,3,-0.07460472676945284
+2018-12,1.1,COP,ConocoPhillips,Exploration & production,XLE,6,-0.12581218193143706
+2018-12,1.1,COP,ConocoPhillips,Exploration & production,XLE,12,-0.045768045890346665
+2018-12,1.1,EOG,EOG Resources,Exploration & production,SPY,1,0.05551727700028164
+2018-12,1.1,EOG,EOG Resources,Exploration & production,SPY,3,-0.03649438438160413
+2018-12,1.1,EOG,EOG Resources,Exploration & production,SPY,6,-0.09330749486125167
+2018-12,1.1,EOG,EOG Resources,Exploration & production,SPY,12,-0.259452539679081
+2018-12,1.1,EOG,EOG Resources,Exploration & production,XLE,1,0.02509566319938883
+2018-12,1.1,EOG,EOG Resources,Exploration & production,XLE,3,-0.058631114254342975
+2018-12,1.1,EOG,EOG Resources,Exploration & production,XLE,6,-0.05042827375551928
+2018-12,1.1,EOG,EOG Resources,Exploration & production,XLE,12,-0.13035446753045876
+2018-12,1.1,OXY,Occidental Petroleum,Exploration & production,SPY,1,0.007324479584312149
+2018-12,1.1,OXY,Occidental Petroleum,Exploration & production,SPY,3,-0.038565590645042724
+2018-12,1.1,OXY,Occidental Petroleum,Exploration & production,SPY,6,-0.2880764919731449
+2018-12,1.1,OXY,Occidental Petroleum,Exploration & production,SPY,12,-0.4534757633650046
+2018-12,1.1,OXY,Occidental Petroleum,Exploration & production,XLE,1,-0.021708144473902236
+2018-12,1.1,OXY,Occidental Petroleum,Exploration & production,XLE,3,-0.060654734148982814
+2018-12,1.1,OXY,Occidental Petroleum,Exploration & production,XLE,6,-0.2544082689118097
+2018-12,1.1,OXY,Occidental Petroleum,Exploration & production,XLE,12,-0.35820134935040526
+2018-12,1.1,SLB,SLB,Oilfield services,SPY,1,0.13449828455977264
+2018-12,1.1,SLB,SLB,Oilfield services,SPY,3,0.07603017731168271
+2018-12,1.1,SLB,SLB,Oilfield services,SPY,6,-0.04491788273017261
+2018-12,1.1,SLB,SLB,Oilfield services,SPY,12,-0.1028390605789512
+2018-12,1.1,SLB,SLB,Oilfield services,XLE,1,0.1018003179582807
+2018-12,1.1,SLB,SLB,Oilfield services,XLE,3,0.05130817363682505
+2018-12,1.1,SLB,SLB,Oilfield services,XLE,6,0.0002497755976933469
+2018-12,1.1,SLB,SLB,Oilfield services,XLE,12,0.05356110806940584
+2018-12,1.1,MPC,Marathon Petroleum,Refining,SPY,1,0.039622510227581786
+2018-12,1.1,MPC,Marathon Petroleum,Refining,SPY,3,-0.09927820900796702
+2018-12,1.1,MPC,Marathon Petroleum,Refining,SPY,6,-0.18472227679440012
+2018-12,1.1,MPC,Marathon Petroleum,Refining,SPY,12,-0.19183731123163494
+2018-12,1.1,MPC,Marathon Petroleum,Refining,XLE,1,0.009659007787583551
+2018-12,1.1,MPC,Marathon Petroleum,Refining,XLE,3,-0.11997246823642305
+2018-12,1.1,MPC,Marathon Petroleum,Refining,XLE,6,-0.14616623540464424
+2018-12,1.1,MPC,Marathon Petroleum,Refining,XLE,12,-0.05095201934604787
+2018-12,1.1,PSX,Phillips 66,Refining,SPY,1,0.025388568851248294
+2018-12,1.1,PSX,Phillips 66,Refining,SPY,3,-0.01871059825767485
+2018-12,1.1,PSX,Phillips 66,Refining,SPY,6,-0.06511762712778879
+2018-12,1.1,PSX,Phillips 66,Refining,SPY,12,0.020967167388767916
+2018-12,1.1,PSX,Phillips 66,Refining,XLE,1,-0.004164689742580108
+2018-12,1.1,PSX,Phillips 66,Refining,XLE,3,-0.04125591409313001
+2018-12,1.1,PSX,Phillips 66,Refining,XLE,6,-0.020905253310818828
+2018-12,1.1,PSX,Phillips 66,Refining,XLE,12,0.19895021384984357
+2018-12,1.1,KMI,Kinder Morgan,Midstream,SPY,1,0.10182157142048531
+2018-12,1.1,KMI,Kinder Morgan,Midstream,SPY,3,0.15886983916661923
+2018-12,1.1,KMI,Kinder Morgan,Midstream,SPY,6,0.17471231174048718
+2018-12,1.1,KMI,Kinder Morgan,Midstream,SPY,12,0.10062055923837399
+2018-12,1.1,KMI,Kinder Morgan,Midstream,XLE,1,0.07006539740644491
+2018-12,1.1,KMI,Kinder Morgan,Midstream,XLE,3,0.13224457806647427
+2018-12,1.1,KMI,Kinder Morgan,Midstream,XLE,6,0.23026670164143614
+2018-12,1.1,KMI,Kinder Morgan,Midstream,XLE,12,0.2924894129958877
+2018-12,1.1,WMB,Williams,Midstream,SPY,1,0.13077869436713763
+2018-12,1.1,WMB,Williams,Midstream,SPY,3,0.1634747886069523
+2018-12,1.1,WMB,Williams,Midstream,SPY,6,0.10492067993373322
+2018-12,1.1,WMB,Williams,Midstream,SPY,12,-0.12988604514256452
+2018-12,1.1,WMB,Williams,Midstream,XLE,1,0.09818793201403064
+2018-12,1.1,WMB,Williams,Midstream,XLE,3,0.13674372789320266
+2018-12,1.1,WMB,Williams,Midstream,XLE,6,0.15717449020640606
+2018-12,1.1,WMB,Williams,Midstream,XLE,12,0.021799079904018637
+2018-12,1.1,XLE,Energy Select Sector SPDR,Sector ETF,SPY,1,0.029676853481113374
+2018-12,1.1,XLE,Energy Select Sector SPDR,Sector ETF,SPY,3,0.02351546796153592
+2018-12,1.1,XLE,Energy Select Sector SPDR,Sector ETF,SPY,6,-0.04515637936622019
+2018-12,1.1,XLE,Energy Select Sector SPDR,Sector ETF,SPY,12,-0.1484490718672712
+2019-12,0.8,XOM,Exxon Mobil,Integrated,SPY,1,-0.10941386428560052
+2019-12,0.8,XOM,Exxon Mobil,Integrated,SPY,3,-0.3147917245786428
+2019-12,0.8,XOM,Exxon Mobil,Integrated,SPY,6,-0.31536762156630316
+2019-12,0.8,XOM,Exxon Mobil,Integrated,SPY,12,-0.4609299893241733
+2019-12,0.8,XOM,Exxon Mobil,Integrated,XLE,1,0.00017205485846893964
+2019-12,0.8,XOM,Exxon Mobil,Integrated,XLE,3,0.1154205218787312
+2019-12,0.8,XOM,Exxon Mobil,Integrated,XLE,6,0.015161693903315898
+2019-12,0.8,XOM,Exxon Mobil,Integrated,XLE,12,-0.05255465151734373
+2019-12,0.8,CVX,Chevron,Integrated,SPY,1,-0.11058591336904611
+2019-12,0.8,CVX,Chevron,Integrated,SPY,3,-0.24483136119931803
+2019-12,0.8,CVX,Chevron,Integrated,SPY,6,-0.21472830272434285
+2019-12,0.8,CVX,Chevron,Integrated,SPY,12,-0.37423374127636344
+2019-12,0.8,CVX,Chevron,Integrated,XLE,1,-0.0011442139370748672
+2019-12,0.8,CVX,Chevron,Integrated,XLE,3,0.2293059313674093
+2019-12,0.8,CVX,Chevron,Integrated,XLE,6,0.16438802997379787
+2019-12,0.8,CVX,Chevron,Integrated,XLE,12,0.09981879778809621
+2019-12,0.8,COP,ConocoPhillips,Exploration & production,SPY,1,-0.08574483140243128
+2019-12,0.8,COP,ConocoPhillips,Exploration & production,SPY,3,-0.407862579603088
+2019-12,0.8,COP,ConocoPhillips,Exploration & production,SPY,6,-0.3209792182848008
+2019-12,0.8,COP,ConocoPhillips,Exploration & production,SPY,12,-0.45944787140187116
+2019-12,0.8,COP,ConocoPhillips,Exploration & production,XLE,1,0.026753543505024346
+2019-12,0.8,COP,ConocoPhillips,Exploration & production,XLE,3,-0.03608544412733938
+2019-12,0.8,COP,ConocoPhillips,Exploration & production,XLE,6,0.006840910064133121
+2019-12,0.8,COP,ConocoPhillips,Exploration & production,XLE,12,-0.04994974732386526
+2019-12,0.8,EOG,EOG Resources,Exploration & production,SPY,1,-0.12628871530533625
+2019-12,0.8,EOG,EOG Resources,Exploration & production,SPY,3,-0.46584879339951724
+2019-12,0.8,EOG,EOG Resources,Exploration & production,SPY,6,-0.3674416001192562
+2019-12,0.8,EOG,EOG Resources,Exploration & production,SPY,12,-0.4814220245822224
+2019-12,0.8,EOG,EOG Resources,Exploration & production,XLE,1,-0.01877923322362185
+2019-12,0.8,EOG,EOG Resources,Exploration & production,XLE,3,-0.13047866028458943
+2019-12,0.8,EOG,EOG Resources,Exploration & production,XLE,6,-0.062052749849756283
+2019-12,0.8,EOG,EOG Resources,Exploration & production,XLE,12,-0.08857053647047008
+2019-12,0.8,OXY,Occidental Petroleum,Exploration & production,SPY,1,-0.03576681673173121
+2019-12,0.8,OXY,Occidental Petroleum,Exploration & production,SPY,3,-0.6405873317830064
+2019-12,0.8,OXY,Occidental Petroleum,Exploration & production,SPY,6,-0.5270458691585773
+2019-12,0.8,OXY,Occidental Petroleum,Exploration & production,SPY,12,-0.6335111788397441
+2019-12,0.8,OXY,Occidental Petroleum,Exploration & production,XLE,1,0.08288131332578752
+2019-12,0.8,OXY,Occidental Petroleum,Exploration & production,XLE,3,-0.4149278688937289
+2019-12,0.8,OXY,Occidental Petroleum,Exploration & production,XLE,6,-0.2987113497290622
+2019-12,0.8,OXY,Occidental Petroleum,Exploration & production,XLE,12,-0.35587563395734034
+2019-12,0.8,SLB,SLB,Oilfield services,SPY,1,-0.1660810886666343
+2019-12,0.8,SLB,SLB,Oilfield services,SPY,3,-0.5772567944511913
+2019-12,0.8,SLB,SLB,Oilfield services,SPY,6,-0.5171239773626924
+2019-12,0.8,SLB,SLB,Oilfield services,SPY,12,-0.5251732672785244
+2019-12,0.8,SLB,SLB,Oilfield services,XLE,1,-0.06346802663330064
+2019-12,0.8,SLB,SLB,Oilfield services,XLE,3,-0.3118348626715334
+2019-12,0.8,SLB,SLB,Oilfield services,XLE,6,-0.2839993308419635
+2019-12,0.8,SLB,SLB,Oilfield services,XLE,12,-0.16546576447801464
+2019-12,0.8,MPC,Marathon Petroleum,Refining,SPY,1,-0.09507018139614165
+2019-12,0.8,MPC,Marathon Petroleum,Refining,SPY,3,-0.50842965272743
+2019-12,0.8,MPC,Marathon Petroleum,Refining,SPY,6,-0.3416664660121087
+2019-12,0.8,MPC,Marathon Petroleum,Refining,SPY,12,-0.38634213588484145
+2019-12,0.8,MPC,Marathon Petroleum,Refining,XLE,1,0.016280716575148624
+2019-12,0.8,MPC,Marathon Petroleum,Refining,XLE,3,-0.19979417505180197
+2019-12,0.8,MPC,Marathon Petroleum,Refining,XLE,6,-0.023833802535784043
+2019-12,0.8,MPC,Marathon Petroleum,Refining,XLE,12,0.07853762480091286
+2019-12,0.8,PSX,Phillips 66,Refining,SPY,1,-0.1795447494243464
+2019-12,0.8,PSX,Phillips 66,Refining,SPY,3,-0.39616778960126997
+2019-12,0.8,PSX,Phillips 66,Refining,SPY,6,-0.3179892026379125
+2019-12,0.8,PSX,Phillips 66,Refining,SPY,12,-0.44099178796829797
+2019-12,0.8,PSX,Phillips 66,Refining,XLE,1,-0.0785883801914169
+2019-12,0.8,PSX,Phillips 66,Refining,XLE,3,-0.017048008014839855
+2019-12,0.8,PSX,Phillips 66,Refining,XLE,6,0.011274456365049979
+2019-12,0.8,PSX,Phillips 66,Refining,XLE,12,-0.0175121602682905
+2019-12,0.8,KMI,Kinder Morgan,Midstream,SPY,1,-0.0021267764724874905
+2019-12,0.8,KMI,Kinder Morgan,Midstream,SPY,3,-0.17407769610749435
+2019-12,0.8,KMI,Kinder Morgan,Midstream,SPY,6,-0.23779795528244851
+2019-12,0.8,KMI,Kinder Morgan,Midstream,SPY,12,-0.4149562143749852
+2019-12,0.8,KMI,Kinder Morgan,Midstream,XLE,1,0.12066073391447629
+2019-12,0.8,KMI,Kinder Morgan,Midstream,XLE,3,0.3444827219469224
+2019-12,0.8,KMI,Kinder Morgan,Midstream,XLE,6,0.1301807264538759
+2019-12,0.8,KMI,Kinder Morgan,Midstream,XLE,12,0.028246799806555645
+2019-12,0.8,WMB,Williams,Midstream,SPY,1,-0.12738785347281067
+2019-12,0.8,WMB,Williams,Midstream,SPY,3,-0.24046886397213285
+2019-12,0.8,WMB,Williams,Midstream,SPY,6,-0.13314740805446024
+2019-12,0.8,WMB,Williams,Midstream,SPY,12,-0.22417824722619517
+2019-12,0.8,WMB,Williams,Midstream,XLE,1,-0.02001361947268976
+2019-12,0.8,WMB,Williams,Midstream,XLE,3,0.23640744941438419
+2019-12,0.8,WMB,Williams,Midstream,XLE,6,0.2853548463734208
+2019-12,0.8,WMB,Williams,Midstream,XLE,12,0.36354962502120913
+2019-12,0.8,XLE,Energy Select Sector SPDR,Sector ETF,SPY,1,-0.10956706759776103
+2019-12,0.8,XLE,Energy Select Sector SPDR,Sector ETF,SPY,3,-0.3856951149982041
+2019-12,0.8,XLE,Energy Select Sector SPDR,Sector ETF,SPY,6,-0.3255927774409292
+2019-12,0.8,XLE,Energy Select Sector SPDR,Sector ETF,SPY,12,-0.43102785660497145
+2023-12,2.0,XOM,Exxon Mobil,Integrated,SPY,1,0.012185147019463383
+2023-12,2.0,XOM,Exxon Mobil,Integrated,SPY,3,0.06299240748628132
+2023-12,2.0,XOM,Exxon Mobil,Integrated,SPY,6,0.01677546229313731
+2023-12,2.0,XOM,Exxon Mobil,Integrated,SPY,12,-0.10909597113686653
+2023-12,2.0,XOM,Exxon Mobil,Integrated,XLE,1,0.0336068412579531
+2023-12,2.0,XOM,Exxon Mobil,Integrated,XLE,3,0.03370941393784577
+2023-12,2.0,XOM,Exxon Mobil,Integrated,XLE,6,0.06046136300779992
+2023-12,2.0,XOM,Exxon Mobil,Integrated,XLE,12,0.05401824969547264
+2023-12,2.0,CVX,Chevron,Integrated,SPY,1,-0.027093232761738473
+2023-12,2.0,CVX,Chevron,Integrated,SPY,3,-0.03156030316627201
+2023-12,2.0,CVX,Chevron,Integrated,SPY,6,-0.07066298457489417
+2023-12,2.0,CVX,Chevron,Integrated,SPY,12,-0.18896468456403548
+2023-12,2.0,CVX,Chevron,Integrated,XLE,1,-0.006502818694009815
+2023-12,2.0,CVX,Chevron,Integrated,XLE,3,-0.058238587220522886
+2023-12,2.0,CVX,Chevron,Integrated,XLE,6,-0.03073388902536245
+2023-12,2.0,CVX,Chevron,Integrated,XLE,12,-0.0404735011605184
+2023-12,2.0,COP,ConocoPhillips,Exploration & production,SPY,1,-0.05129456846411817
+2023-12,2.0,COP,ConocoPhillips,Exploration & production,SPY,3,0.00044467975324824494
+2023-12,2.0,COP,ConocoPhillips,Exploration & production,SPY,6,-0.13319055472193542
+2023-12,2.0,COP,ConocoPhillips,Exploration & production,SPY,12,-0.2967119093574756
+2023-12,2.0,COP,ConocoPhillips,Exploration & production,XLE,1,-0.031216346869383127
+2023-12,2.0,COP,ConocoPhillips,Exploration & production,XLE,3,-0.02711526789685692
+2023-12,2.0,COP,ConocoPhillips,Exploration & production,XLE,6,-0.09594796501629199
+2023-12,2.0,COP,ConocoPhillips,Exploration & production,XLE,12,-0.1679479962879542
+2023-12,2.0,EOG,EOG Resources,Exploration & production,SPY,1,-0.06662813280464797
+2023-12,2.0,EOG,EOG Resources,Exploration & production,SPY,3,-0.03495064109064483
+2023-12,2.0,EOG,EOG Resources,Exploration & production,SPY,6,-0.08352105674169896
+2023-12,2.0,EOG,EOG Resources,Exploration & production,SPY,12,-0.16482331349022894
+2023-12,2.0,EOG,EOG Resources,Exploration & production,XLE,1,-0.04687442785378615
+2023-12,2.0,EOG,EOG Resources,Exploration & production,XLE,3,-0.06153552914049598
+2023-12,2.0,EOG,EOG Resources,Exploration & production,XLE,6,-0.04414441007089431
+2023-12,2.0,EOG,EOG Resources,Exploration & production,XLE,12,-0.011912124334180652
+2023-12,2.0,OXY,Occidental Petroleum,Exploration & production,SPY,1,-0.05095481165926896
+2023-12,2.0,OXY,Occidental Petroleum,Exploration & production,SPY,3,-0.010453472608926928
+2023-12,2.0,OXY,Occidental Petroleum,Exploration & production,SPY,6,-0.07714694823993073
+2023-12,2.0,OXY,Occidental Petroleum,Exploration & production,SPY,12,-0.3266671095604048
+2023-12,2.0,OXY,Occidental Petroleum,Exploration & production,XLE,1,-0.030869399516035734
+2023-12,2.0,OXY,Occidental Petroleum,Exploration & production,XLE,3,-0.03771320125176181
+2023-12,2.0,OXY,Occidental Petroleum,Exploration & production,XLE,6,-0.03749643710103123
+2023-12,2.0,OXY,Occidental Petroleum,Exploration & production,XLE,12,-0.20338764709687351
+2023-12,2.0,SLB,SLB,Oilfield services,SPY,1,-0.07885201441874012
+2023-12,2.0,SLB,SLB,Oilfield services,SPY,3,-0.04046827772358774
+2023-12,2.0,SLB,SLB,Oilfield services,SPY,6,-0.20364998782779453
+2023-12,2.0,SLB,SLB,Oilfield services,SPY,12,-0.39520893896433607
+2023-12,2.0,SLB,SLB,Oilfield services,XLE,1,-0.05935701337705512
+2023-12,2.0,SLB,SLB,Oilfield services,XLE,3,-0.06690116758719866
+2023-12,2.0,SLB,SLB,Oilfield services,XLE,6,-0.1694346975734301
+2023-12,2.0,SLB,SLB,Oilfield services,XLE,12,-0.2844786925054874
+2023-12,2.0,MPC,Marathon Petroleum,Refining,SPY,1,0.09870535482173026
+2023-12,2.0,MPC,Marathon Petroleum,Refining,SPY,3,0.2363486530010359
+2023-12,2.0,MPC,Marathon Petroleum,Refining,SPY,6,0.02461253380711459
+2023-12,2.0,MPC,Marathon Petroleum,Refining,SPY,12,-0.2317501285908684
+2023-12,2.0,MPC,Marathon Petroleum,Refining,XLE,1,0.12195814630803925
+2023-12,2.0,MPC,Marathon Petroleum,Refining,XLE,3,0.2022900939986625
+2023-12,2.0,MPC,Marathon Petroleum,Refining,XLE,6,0.06863515540141085
+2023-12,2.0,MPC,Marathon Petroleum,Refining,XLE,12,-0.09109246500464108
+2023-12,2.0,PSX,Phillips 66,Refining,SPY,1,0.06690464873121704
+2023-12,2.0,PSX,Phillips 66,Refining,SPY,3,0.11938784832135596
+2023-12,2.0,PSX,Phillips 66,Refining,SPY,6,-0.06576791964024653
+2023-12,2.0,PSX,Phillips 66,Refining,SPY,12,-0.29236261480433945
+2023-12,2.0,PSX,Phillips 66,Refining,XLE,1,0.08948441611275126
+2023-12,2.0,PSX,Phillips 66,Refining,XLE,3,0.08855129021450558
+2023-12,2.0,PSX,Phillips 66,Refining,XLE,6,-0.02562850693746188
+2023-12,2.0,PSX,Phillips 66,Refining,XLE,12,-0.16280239621904824
+2023-12,2.0,KMI,Kinder Morgan,Midstream,SPY,1,-0.04024363245638796
+2023-12,2.0,KMI,Kinder Morgan,Midstream,SPY,3,-0.042602850440293216
+2023-12,2.0,KMI,Kinder Morgan,Midstream,SPY,6,0.009283993073947228
+2023-12,2.0,KMI,Kinder Morgan,Midstream,SPY,12,0.3165518221475885
+2023-12,2.0,KMI,Kinder Morgan,Midstream,XLE,1,-0.019931530950548004
+2023-12,2.0,KMI,Kinder Morgan,Midstream,XLE,3,-0.06897693773988611
+2023-12,2.0,KMI,Kinder Morgan,Midstream,XLE,6,0.05264802176016947
+2023-12,2.0,KMI,Kinder Morgan,Midstream,XLE,12,0.5575972296187355
+2023-12,2.0,WMB,Williams,Midstream,SPY,1,-0.020481106565697238
+2023-12,2.0,WMB,Williams,Midstream,SPY,3,0.026907643611569387
+2023-12,2.0,WMB,Williams,Midstream,SPY,6,0.08538955301461071
+2023-12,2.0,WMB,Williams,Midstream,SPY,12,0.2999796873414382
+2023-12,2.0,WMB,Williams,Midstream,XLE,1,0.0002492452852078664
+2023-12,2.0,WMB,Williams,Midstream,XLE,3,-0.001381297768385914
+2023-12,2.0,WMB,Williams,Midstream,XLE,6,0.1320234677855181
+2023-12,2.0,WMB,Williams,Midstream,XLE,12,0.5379909286523048
+2023-12,2.0,XLE,Energy Select Sector SPDR,Sector ETF,SPY,1,-0.020725186195960643
+2023-12,2.0,XLE,Energy Select Sector SPDR,Sector ETF,SPY,3,0.02832807088104583
+2023-12,2.0,XLE,Energy Select Sector SPDR,Sector ETF,SPY,6,-0.04119518375545117
+2023-12,2.0,XLE,Energy Select Sector SPDR,Sector ETF,SPY,12,-0.15475464573736386

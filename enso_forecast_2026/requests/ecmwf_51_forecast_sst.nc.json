@@ -1,0 +1,33 @@
+{
+  "dataset": "seasonal-monthly-single-levels",
+  "request": {
+    "originating_centre": "ecmwf",
+    "system": "51",
+    "variable": [
+      "sea_surface_temperature"
+    ],
+    "product_type": [
+      "monthly_mean"
+    ],
+    "year": [
+      "2026"
+    ],
+    "month": [
+      "09"
+    ],
+    "leadtime_month": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "area": [
+      5,
+      -170,
+      -5,
+      -120
+    ],
+    "data_format": "netcdf"
+  }
+}

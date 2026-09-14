@@ -1,0 +1,9 @@
+{
+  "outcome": "9 predictive relationships survive BH q<0.05",
+  "eligible_peaks": 7,
+  "predictive_tests": 168,
+  "predictive_p_over_0_50": 51,
+  "predictive_bh_q_under_0_05": 9,
+  "event_bh_q_under_0_05": 0,
+  "strategy_hac_p_under_0_05": 0
+}

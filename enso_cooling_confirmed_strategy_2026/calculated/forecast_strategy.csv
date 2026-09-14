@@ -1,0 +1,4 @@
+scenario,holdings_oct,holdings_nov,holdings_dec,median_return,p10_return,p90_return,prob_positive,prob_loss10
+Excellent,"VRT, NVT","VRT, NVT","MOD, VRT",0.1713782125745864,-0.07479097625346268,0.4098194991548591,0.80885,0.0721
+Normal,"VRT, NVT","VRT, NVT","NVT, JCI",0.04605179913146251,-0.09419522093233429,0.1680090793538414,0.67765,0.08965
+Conservative,Cash,Cash,Cash,0.0,0.0,0.0,0.0,0.0

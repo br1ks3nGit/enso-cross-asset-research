@@ -1,0 +1,23 @@
+{
+  "massive_contract_endpoint": "/v3/reference/options/contracts",
+  "massive_bar_endpoint": "/v2/aggs/ticker/{optionsTicker}/range/1/day/{from}/{to}",
+  "signal": "S5 Strong but cooling, 40 trading days",
+  "initial_capital": 100000.0,
+  "risk_budget_per_trade": 0.1,
+  "option_slippage_each_transaction": 0.025,
+  "commission_per_contract_per_side": 0.65,
+  "short_term_tax_rate": 0.37,
+  "hashes": {
+    "contract_selections.csv": "2ed3abbd1b12603e53d7b3cf81facd0721e89f3acbfdcc23f675b3ce63814610",
+    "non_overlapping_trades.csv": "3a472edc18fbb6b631583a9269a7711391c9a66ca5e1e178924a913223558cb5",
+    "bars_O_XLE240621C00095000.json": "38b19c3a7a466217ce5264cb69da71384e9fa62fcc910bd1bdda70d162dc5b78",
+    "bars_O_COP240621P00130000.json": "ee069f374b050ff809ed5a8f75d03c9c449f0478739facc32bbc295a8a59be09",
+    "bars_O_XLE240816C00100000.json": "c41e712267dc39c401f275a05223915b18dadb488a19133f56c67d62f10a35e7",
+    "bars_O_COP240621P00115000.json": "51a23c9f247801b5202c4a43a0366169a9e27c9e1e14503212748e4b9519b5cb",
+    "bars_O_COP240816P00105000.json": "d2e0c69f26d9f7ea521756d6ec7a4c14d8df3a77dd295b802dd74e2fbe8fc88f",
+    "bars_O_COP240816P00115000.json": "bdec1631d3a3f7ab38809395f043c678427fdfbe6a59b5b17419d09faad297f8",
+    "bars_O_XLE240816C00093000.json": "6f4c4952503b42a8c2d99e96ddf5f32de12eebfb3a6333ab4b98cc9ebc9df525",
+    "bars_O_XLE240621C00104000.json": "9635b10661e370e6dc0741c2e3e07a4a17f5653eebadb90df39823ce9ae4d3dc",
+    "bars_O_COP240621P00125000.json": "e143cca8331b79616a237db7690f39b082061983dc344c1d1ec7009d0e6b0a61"
+  }
+}

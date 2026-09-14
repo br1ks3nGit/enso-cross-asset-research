@@ -1,0 +1,31 @@
+const fs=require('fs'),vm=require('vm'),path=require('path');
+const dir=__dirname;
+const context={};vm.createContext(context);
+vm.runInContext(fs.readFileSync(path.join(dir,'raw/d3_7.9.0.min.js'),'utf8'),context);
+vm.runInContext(fs.readFileSync(path.join(dir,'raw/topojson_client_3.1.0.min.js'),'utf8'),context);
+const topology=JSON.parse(fs.readFileSync(path.join(dir,'raw/us_atlas_counties_10m.json')));
+const states=JSON.parse(fs.readFileSync(path.join(dir,'calculated/state_enso_effects.json'))).estimates;
+const oni=JSON.parse(fs.readFileSync(path.join(dir,'calculated/oni_forecast.json'))).forecast;
+const names=[...new Set(states.map(r=>r.state))].sort();
+const features=context.topojson.feature(topology,topology.objects.states).features.filter(f=>names.includes(f.properties.name));
+if(features.length!==50)throw Error('Missing state geometry');
+const projection=context.d3.geoAlbersUsa().fitExtent([[16,16],[984,602]],{type:'FeatureCollection',features});
+const geoPath=context.d3.geoPath(projection).digits(2);
+const shapes=features.map(f=>({name:f.properties.name,d:geoPath(f)}));
+if(shapes.some(f=>!f.d||/NaN|Infinity/.test(f.d)))throw Error('Invalid projection');
+const escape=s=>s.replaceAll('&','&amp;').replaceAll('"','&quot;');
+const paths=shapes.map(f=>`<path data-state-name="${escape(f.name)}" d="${f.d}" />`).join('\n');
+const svg=`<svg class="map-canvas" viewBox="0 0 1000 620" role="img" aria-label="U.S. state map of ENSO-associated temperature contributions, including Alaska and Hawaii"><desc>Select a state on the map or from the state list to read its estimated temperature contribution and uncertainty.</desc>${paths}<text x="145" y="600">Alaska</text><text x="370" y="600">Hawaii</text></svg>`;
+let template=fs.readFileSync(path.join(dir,'enso-temperature-map.template.html'),'utf8');
+const payload={states:states.map(r=>Object.fromEntries(['state','month','enso_effect_c','enso_effect_f','p10_c','p90_c'].map(k=>[k,typeof r[k]==='number'?+r[k].toFixed(4):r[k]]))),oni:oni.map(r=>Object.fromEntries(['month','season','oni_c','p10_c','p90_c'].map(k=>[k,typeof r[k]==='number'?+r[k].toFixed(4):r[k]])))};
+template=template.replace('<!-- MAP_SVG -->',svg).replace('<!-- STATE_OPTIONS -->',names.map(n=>`<option${n==='California'?' selected':''}>${n}</option>`).join('')).replace('<!-- ESTIMATES -->',JSON.stringify(payload));
+fs.writeFileSync(path.join(dir,'enso-temperature-map.html'),template);
+// Static rendering uses exactly the published geometry and data embedded above.
+const previewPaths=shapes.map(f=>{
+ const r=states.find(r=>r.state===f.name&&r.month===12);
+ const color=context.d3.interpolateRgb('#ffffff',r.enso_effect_c<0?'#2874b0':'#cb3a34')(Math.min(1,Math.abs(r.enso_effect_c)/4));
+ return `<path d="${f.d}" fill="${color}" stroke="#86929d" stroke-width="0.65"/>`;
+}).join('');
+const preview=`<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="660" viewBox="0 0 1000 660"><rect width="1000" height="660" fill="white"/><text x="16" y="26" font-size="22" font-family="sans-serif">December 2026 · ENSO-associated temperature contribution</text><g transform="translate(0,35)">${previewPaths}<text x="145" y="600" font-size="14">Alaska</text><text x="370" y="600" font-size="14">Hawaii</text></g></svg>`;
+const sharp=require('/Users/semensukonin/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp');
+sharp(Buffer.from(preview)).png().toFile(path.join(dir,'figures/enso-map-preview.png')).then(()=>console.log(JSON.stringify({states:features.length,estimates:states.length,bytes:Buffer.byteLength(template),geometry:'us-atlas@3; d3.geoAlbersUsa projection',output:'enso-temperature-map.html'})));

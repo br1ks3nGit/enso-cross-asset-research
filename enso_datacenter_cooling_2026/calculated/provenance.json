@@ -1,0 +1,22 @@
+{
+  "scope": "States with central ENSO effect > 2\u00b0C; all occur in December 2026",
+  "electricity_price_source": "EIA Electric Power Monthly Table 5.6.A, June 2026 commercial price",
+  "capacity_source": "Lau and Tsai, Energy & Fuels 2026, Table 1, 2025 disclosed capacity",
+  "capacity_policy": "No absolute state estimate where Table 1 groups the state into Others",
+  "assumptions": {
+    "hours": 744,
+    "utilization": 0.7,
+    "base_pue": 1.3,
+    "cooling_pue_component": 0.24,
+    "delta_pue_per_c": {
+      "low": 0.0075,
+      "central": 0.015,
+      "high": 0.03
+    }
+  },
+  "hashes": {
+    "state_enso_effects.json": "285dfc94de437480b101ec699816d9936a30fc883f441c4db74b3604a6837ab2",
+    "source_enso_report.html": "6fd61f24b08416be6a2c25e20d8341135d0302adbe39eec117b39c751df7d8aa",
+    "lau_tsai_2026_datacenter_capacity.pdf": "a6aa0d882f560ad77972704b9cb85ac8ed1b9d2329b131af47c1271bb2a9a39a"
+  }
+}

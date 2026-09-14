@@ -1,0 +1,9 @@
+{
+  "requested_start": "2001-01-01",
+  "requested_end": "2026-09-12",
+  "tickers_requested": 64,
+  "tickers_ok": 62,
+  "tickers_empty": 2,
+  "tickers_error": 0,
+  "completed_at_utc": "2026-09-13T07:12:03.124927+00:00"
+}

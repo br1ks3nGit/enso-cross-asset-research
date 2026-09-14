@@ -1,0 +1,134 @@
+{
+  "created_at": "2026-09-12",
+  "massive_adjusted_bars": true,
+  "dividend_adjustment_factors_applied": true,
+  "end_month": "2026-07",
+  "api_credentials_in_output": false,
+  "files": [
+    {
+      "name": "aligned_monthly_ONI_metals_1992_2026-07.csv",
+      "bytes": 55129,
+      "sha256": "0ce7c91f7d3e8d46bbe30d8b8e6615c2cacf9912742e146df85fc7e92a41172e"
+    },
+    {
+      "name": "massive_XOM_monthly.json",
+      "bytes": 28969,
+      "sha256": "4a4fb08f7afab639aaf32298891458b1a260d5d0c9a53878af1a71ed82bf2d75"
+    },
+    {
+      "name": "massive_CVX_monthly.json",
+      "bytes": 29391,
+      "sha256": "dfdc38af0ed5849762fa57a2ef35a08dc40abc6052015b8ed08a6024178f50b0"
+    },
+    {
+      "name": "massive_COP_monthly.json",
+      "bytes": 28829,
+      "sha256": "517116027516b7a79288943dee84bac65edd8af6b7c77571025db3b2754bc9b0"
+    },
+    {
+      "name": "massive_EOG_monthly.json",
+      "bytes": 28831,
+      "sha256": "99d0b85ff637a72dc568a7d66dee8f57a949140b64a5069dd4b8f2b7a913d25b"
+    },
+    {
+      "name": "massive_OXY_monthly.json",
+      "bytes": 28587,
+      "sha256": "8dd8f43dfbe6d93bc53b113b30e5b56673125532b9ad73ec6a41d9d812545de9"
+    },
+    {
+      "name": "massive_SLB_monthly.json",
+      "bytes": 28703,
+      "sha256": "4036feeb2ec9b56e538c9625e1460eec0d4f67760deb2bc6dc92c000c1b67ae3"
+    },
+    {
+      "name": "massive_MPC_monthly.json",
+      "bytes": 20305,
+      "sha256": "10ce0fbaecadeb0aad88532034b2de83467a7bcde95e556aa8eb0c1efceb1864"
+    },
+    {
+      "name": "massive_PSX_monthly.json",
+      "bytes": 18082,
+      "sha256": "8ce88ae9bf7e3534a97e92af381ea9f2973a41dda046e76e8703dc91998d1f46"
+    },
+    {
+      "name": "massive_KMI_monthly.json",
+      "bytes": 24001,
+      "sha256": "0decfeae3a931acf515fcbad98239a30015b5dbbd2f05513b704864c0a8886ed"
+    },
+    {
+      "name": "massive_WMB_monthly.json",
+      "bytes": 28494,
+      "sha256": "6b75f63ce8362ac52df952f7aa18948efbed9af2bb374be09e1776c9a8fe374f"
+    },
+    {
+      "name": "massive_XLE_monthly.json",
+      "bytes": 29380,
+      "sha256": "09c107362013a3ed13084f13926dd2f3159312ae43184a29b8be98aafcb2fc8d"
+    },
+    {
+      "name": "massive_SPY_monthly.json",
+      "bytes": 30435,
+      "sha256": "dcf6dc9c5b05b430c7dab8b1b19de6b61ee17664ca4b2c15bf0bf4dc296b15bb"
+    },
+    {
+      "name": "massive_XOM_dividends.json",
+      "bytes": 31787,
+      "sha256": "5ffb8d608c92ab8c50102f7c62ed8c3923b520b944f9aa9de15cb516f8ca857e"
+    },
+    {
+      "name": "massive_CVX_dividends.json",
+      "bytes": 40987,
+      "sha256": "0d453dd15da94afbb8415b95eb9f336e81418e4ef80bc9558362b21c19b2005e"
+    },
+    {
+      "name": "massive_COP_dividends.json",
+      "bytes": 35380,
+      "sha256": "3d2f0d4a8cb3f8356549742ffc49066b90731788b6b336874b8ac5b4359f0b8a"
+    },
+    {
+      "name": "massive_EOG_dividends.json",
+      "bytes": 34663,
+      "sha256": "21c544ef53f1e10b017cc270d8d7e9a04690b3aae9f3566b1c969a11293b8db1"
+    },
+    {
+      "name": "massive_OXY_dividends.json",
+      "bytes": 32008,
+      "sha256": "5e507c7a4494fdd1a9a15d19ce7cd6de1c296fb8b28742bfcb9f1e6f9d53c5f8"
+    },
+    {
+      "name": "massive_SLB_dividends.json",
+      "bytes": 31177,
+      "sha256": "c95f8f9674216fef4c94f84d8e75ec68b4d03ea2bbb4b85f0f5ec489cbbc5f80"
+    },
+    {
+      "name": "massive_MPC_dividends.json",
+      "bytes": 21922,
+      "sha256": "04de5ce421e021def35a08347b97c2c9d0ffdeb0ed21e862c93cd4d110a82797"
+    },
+    {
+      "name": "massive_PSX_dividends.json",
+      "bytes": 20479,
+      "sha256": "638d594f87a29ca74bea23ed99ddcc9fe96d87383b56256b2803c7d71625d975"
+    },
+    {
+      "name": "massive_KMI_dividends.json",
+      "bytes": 26961,
+      "sha256": "cf41983f1cdcbcaef65e501dc70261dcee41b2a0eee823780520429213548009"
+    },
+    {
+      "name": "massive_WMB_dividends.json",
+      "bytes": 32066,
+      "sha256": "962e98d4a5bb72b1ab2ca77d3da19727b59f722a7b688b0d840755c849244122"
+    },
+    {
+      "name": "massive_XLE_dividends.json",
+      "bytes": 28372,
+      "sha256": "a19c058a41b2c37e75de54cd3c51310d46b1d7571c553e1ded1f8de4600c84a6"
+    },
+    {
+      "name": "massive_SPY_dividends.json",
+      "bytes": 27967,
+      "sha256": "a157b37715aeedfd9bbb95d9eeb23ade27c86a2e21ca954c20ee97f06ff55a15"
+    }
+  ]
+}

@@ -1,0 +1,747 @@
+{
+  "forecast": [
+    {
+      "month": 9,
+      "season": "ASO",
+      "oni_c": 2.6198199843506735,
+      "p10_c": 2.352630406674671,
+      "p90_c": 2.8870095620266762,
+      "verification_rmse_c": 0.16205194302703121,
+      "raw_calibrated_ensemble_sd_c": 0.02995911465720242,
+      "calibration_leverage": 0.357889280115972,
+      "model_disagreement_sd_c": 0.06257425933878301,
+      "uncertainty_scale_c": 0.1888367087831165,
+      "error_df": 7,
+      "model": "cmcc",
+      "alpha": 0.1,
+      "historical_target_max_c": 2.0,
+      "exceeds_training_range": true
+    },
+    {
+      "month": 10,
+      "season": "SON",
+      "oni_c": 3.0098699814976246,
+      "p10_c": 2.5501056969789664,
+      "p90_c": 3.469634266016283,
+      "verification_rmse_c": 0.27944826695993225,
+      "raw_calibrated_ensemble_sd_c": 0.04585747589365039,
+      "calibration_leverage": 0.35207704461877254,
+      "model_disagreement_sd_c": 0.10376278797471161,
+      "uncertainty_scale_c": 0.32493922502399125,
+      "error_df": 7,
+      "model": "cmcc",
+      "alpha": 0.1,
+      "historical_target_max_c": 2.3,
+      "exceeds_training_range": true
+    },
+    {
+      "month": 11,
+      "season": "OND",
+      "oni_c": 3.3398109623591763,
+      "p10_c": 2.7909024357209486,
+      "p90_c": 3.888719488997404,
+      "verification_rmse_c": 0.33413102019504864,
+      "raw_calibrated_ensemble_sd_c": 0.06651920935651146,
+      "calibration_leverage": 0.34803192876884753,
+      "model_disagreement_sd_c": 0.15033352386625348,
+      "uncertainty_scale_c": 0.3879420765395452,
+      "error_df": 7,
+      "model": "cmcc",
+      "alpha": 0.1,
+      "historical_target_max_c": 2.5,
+      "exceeds_training_range": true
+    },
+    {
+      "month": 12,
+      "season": "NDJ",
+      "oni_c": 3.5024182093775886,
+      "p10_c": 2.9108326721216238,
+      "p90_c": 4.094003746633553,
+      "verification_rmse_c": 0.3598253939483534,
+      "raw_calibrated_ensemble_sd_c": 0.09095626210918571,
+      "calibration_leverage": 0.3501601795231474,
+      "model_disagreement_sd_c": 0.2187097906622444,
+      "uncertainty_scale_c": 0.41810412962504395,
+      "error_df": 7,
+      "model": "cmcc",
+      "alpha": 0.1,
+      "historical_target_max_c": 2.6,
+      "exceeds_training_range": true
+    }
+  ],
+  "selection": {
+    "model": "cmcc",
+    "alpha": 0.1,
+    "rmse_c": 0.2455174610292975
+  },
+  "validation_2017_2025_rmse_c": {
+    "ecmwf": 0.2729313355045257,
+    "dwd": 0.37693021510953284,
+    "cmcc": 0.2938834883641889,
+    "observations": 0.4361195431166798,
+    "multi": 0.2979719930022175,
+    "persistence": 0.5662375826453063
+  },
+  "tuning_2003_2016": [
+    {
+      "model": "ecmwf",
+      "alpha": 0.1,
+      "rmse_c": 0.3052451393299191
+    },
+    {
+      "model": "dwd",
+      "alpha": 0.1,
+      "rmse_c": 0.3624097111140987
+    },
+    {
+      "model": "cmcc",
+      "alpha": 0.1,
+      "rmse_c": 0.2455174610292975
+    },
+    {
+      "model": "observations",
+      "alpha": 0.1,
+      "rmse_c": 0.3981205160272883
+    },
+    {
+      "model": "multi",
+      "alpha": 0.1,
+      "rmse_c": 0.29021324466426673
+    },
+    {
+      "model": "ecmwf",
+      "alpha": 1.0,
+      "rmse_c": 0.31164124482196753
+    },
+    {
+      "model": "dwd",
+      "alpha": 1.0,
+      "rmse_c": 0.3503522486184319
+    },
+    {
+      "model": "cmcc",
+      "alpha": 1.0,
+      "rmse_c": 0.2599319117670218
+    },
+    {
+      "model": "observations",
+      "alpha": 1.0,
+      "rmse_c": 0.40721109120551613
+    },
+    {
+      "model": "multi",
+      "alpha": 1.0,
+      "rmse_c": 0.2981545742536504
+    },
+    {
+      "model": "ecmwf",
+      "alpha": 10.0,
+      "rmse_c": 0.410115837554328
+    },
+    {
+      "model": "dwd",
+      "alpha": 10.0,
+      "rmse_c": 0.42031573860166815
+    },
+    {
+      "model": "cmcc",
+      "alpha": 10.0,
+      "rmse_c": 0.37710210206870054
+    },
+    {
+      "model": "observations",
+      "alpha": 10.0,
+      "rmse_c": 0.5443886085011461
+    },
+    {
+      "model": "multi",
+      "alpha": 10.0,
+      "rmse_c": 0.39879094915794266
+    }
+  ],
+  "model_means": [
+    {
+      "month": 9,
+      "ecmwf": 2.707263372224486,
+      "dwd": 2.772560764373229,
+      "cmcc": 2.6198199843506735,
+      "observations": 2.475476103661213,
+      "multi": 2.699881373649463
+    },
+    {
+      "month": 10,
+      "ecmwf": 3.1421428312695583,
+      "dwd": 3.263964227894671,
+      "cmcc": 3.0098699814976246,
+      "observations": 2.8247074844638944,
+      "multi": 3.1386590135539514
+    },
+    {
+      "month": 11,
+      "ecmwf": 3.4959223754089632,
+      "dwd": 3.7066965112271064,
+      "cmcc": 3.3398109623591763,
+      "observations": 3.142017799181584,
+      "multi": 3.514143282998415
+    },
+    {
+      "month": 12,
+      "ecmwf": 3.613045937673471,
+      "dwd": 4.011685821930499,
+      "cmcc": 3.5024182093775886,
+      "observations": 3.2619280127195744,
+      "multi": 3.7090499896605196
+    }
+  ],
+  "monthly_raw_sst": [
+    {
+      "model": "ecmwf",
+      "valid_month": "2026-09",
+      "members": 51,
+      "sst_mean_c": 29.950428074111723,
+      "sst_p10_c": 29.87653915717442,
+      "sst_p90_c": 30.03431619813648
+    },
+    {
+      "model": "ecmwf",
+      "valid_month": "2026-10",
+      "members": 51,
+      "sst_mean_c": 30.40269630402785,
+      "sst_p10_c": 30.22948431716725,
+      "sst_p90_c": 30.582167655253045
+    },
+    {
+      "model": "ecmwf",
+      "valid_month": "2026-11",
+      "members": 51,
+      "sst_mean_c": 30.59767954548402,
+      "sst_p10_c": 30.419507769457482,
+      "sst_p90_c": 30.816781662468145
+    },
+    {
+      "model": "ecmwf",
+      "valid_month": "2026-12",
+      "members": 51,
+      "sst_mean_c": 30.600242249319752,
+      "sst_p10_c": 30.406240819864536,
+      "sst_p90_c": 30.822373730117704
+    },
+    {
+      "model": "ecmwf",
+      "valid_month": "2027-01",
+      "members": 51,
+      "sst_mean_c": 30.416340243486008,
+      "sst_p10_c": 30.112330873058852,
+      "sst_p90_c": 30.64113796519183
+    },
+    {
+      "model": "dwd",
+      "valid_month": "2026-09",
+      "members": 50,
+      "sst_mean_c": 28.68856041452209,
+      "sst_p10_c": 28.66183998394309,
+      "sst_p90_c": 28.715117170943085
+    },
+    {
+      "model": "dwd",
+      "valid_month": "2026-10",
+      "members": 50,
+      "sst_mean_c": 28.871463663242036,
+      "sst_p10_c": 28.759073255919297,
+      "sst_p90_c": 28.970987528668438
+    },
+    {
+      "model": "dwd",
+      "valid_month": "2026-11",
+      "members": 50,
+      "sst_mean_c": 29.1730301329479,
+      "sst_p10_c": 29.015484338429435,
+      "sst_p90_c": 29.351448303007874
+    },
+    {
+      "model": "dwd",
+      "valid_month": "2026-12",
+      "members": 50,
+      "sst_mean_c": 29.30173832418923,
+      "sst_p10_c": 29.051736466721486,
+      "sst_p90_c": 29.533863464343796
+    },
+    {
+      "model": "dwd",
+      "valid_month": "2027-01",
+      "members": 50,
+      "sst_mean_c": 29.29235675276839,
+      "sst_p10_c": 29.023076384736555,
+      "sst_p90_c": 29.548687889419387
+    },
+    {
+      "model": "cmcc",
+      "valid_month": "2026-09",
+      "members": 50,
+      "sst_mean_c": 30.07480536181536,
+      "sst_p10_c": 30.025898066022013,
+      "sst_p90_c": 30.125768834571478
+    },
+    {
+      "model": "cmcc",
+      "valid_month": "2026-10",
+      "members": 50,
+      "sst_mean_c": 30.655041089331117,
+      "sst_p10_c": 30.521691153379493,
+      "sst_p90_c": 30.77613251798392
+    },
+    {
+      "model": "cmcc",
+      "valid_month": "2026-11",
+      "members": 50,
+      "sst_mean_c": 31.05176008398592,
+      "sst_p10_c": 30.889735009693236,
+      "sst_p90_c": 31.172089270903307
+    },
+    {
+      "model": "cmcc",
+      "valid_month": "2026-12",
+      "members": 50,
+      "sst_mean_c": 31.191017573186883,
+      "sst_p10_c": 30.922278061948685,
+      "sst_p90_c": 31.425361331398335
+    },
+    {
+      "model": "cmcc",
+      "valid_month": "2027-01",
+      "members": 50,
+      "sst_mean_c": 31.228420915421392,
+      "sst_p10_c": 30.90050593571623,
+      "sst_p90_c": 31.55425713573244
+    }
+  ],
+  "verification": [
+    {
+      "year": 2017,
+      "month": 9,
+      "season": "ASO",
+      "actual_oni_c": -0.2,
+      "ecmwf_prediction_c": -0.16687493209518753,
+      "dwd_prediction_c": -0.10517515767231927,
+      "cmcc_prediction_c": -0.3450507137203787,
+      "observations_prediction_c": 0.13274921815165636,
+      "multi_prediction_c": -0.20570026782929518,
+      "persistence_prediction_c": 0.1
+    },
+    {
+      "year": 2017,
+      "month": 10,
+      "season": "SON",
+      "actual_oni_c": -0.4,
+      "ecmwf_prediction_c": -0.2972874227525563,
+      "dwd_prediction_c": -0.1904079358203078,
+      "cmcc_prediction_c": -0.5885200347618081,
+      "observations_prediction_c": 0.1451514706332632,
+      "multi_prediction_c": -0.35873846444489077,
+      "persistence_prediction_c": 0.1
+    },
+    {
+      "year": 2017,
+      "month": 11,
+      "season": "OND",
+      "actual_oni_c": -0.6,
+      "ecmwf_prediction_c": -0.32129554927037063,
+      "dwd_prediction_c": -0.2506034702503138,
+      "cmcc_prediction_c": -0.725885599479518,
+      "observations_prediction_c": 0.148734947277578,
+      "multi_prediction_c": -0.4325948730000675,
+      "persistence_prediction_c": 0.1
+    },
+    {
+      "year": 2017,
+      "month": 12,
+      "season": "NDJ",
+      "actual_oni_c": -0.8,
+      "ecmwf_prediction_c": -0.29894413008887205,
+      "dwd_prediction_c": -0.35398706533785856,
+      "cmcc_prediction_c": -0.7498723380945247,
+      "observations_prediction_c": 0.15101955599246727,
+      "multi_prediction_c": -0.4676011778404184,
+      "persistence_prediction_c": 0.1
+    },
+    {
+      "year": 2018,
+      "month": 9,
+      "season": "ASO",
+      "actual_oni_c": 0.5,
+      "ecmwf_prediction_c": 0.30302506512150384,
+      "dwd_prediction_c": 0.12382536381294446,
+      "cmcc_prediction_c": 0.2958301867683927,
+      "observations_prediction_c": 0.2563077279333028,
+      "multi_prediction_c": 0.24089353856761364,
+      "persistence_prediction_c": 0.2
+    },
+    {
+      "year": 2018,
+      "month": 10,
+      "season": "SON",
+      "actual_oni_c": 0.8,
+      "ecmwf_prediction_c": 0.3895760566532286,
+      "dwd_prediction_c": 0.08093120034540885,
+      "cmcc_prediction_c": 0.34554064136194607,
+      "observations_prediction_c": 0.27877228836598855,
+      "multi_prediction_c": 0.27201596612019446,
+      "persistence_prediction_c": 0.2
+    },
+    {
+      "year": 2018,
+      "month": 11,
+      "season": "OND",
+      "actual_oni_c": 1.0,
+      "ecmwf_prediction_c": 0.4729872437123065,
+      "dwd_prediction_c": 0.05892904936766766,
+      "cmcc_prediction_c": 0.3839666802560618,
+      "observations_prediction_c": 0.2922317756255376,
+      "multi_prediction_c": 0.30529432444534527,
+      "persistence_prediction_c": 0.2
+    },
+    {
+      "year": 2018,
+      "month": 12,
+      "season": "NDJ",
+      "actual_oni_c": 1.1,
+      "ecmwf_prediction_c": 0.5332327695580602,
+      "dwd_prediction_c": 0.022524745278494025,
+      "cmcc_prediction_c": 0.39043812656029825,
+      "observations_prediction_c": 0.2934351727803326,
+      "multi_prediction_c": 0.31539854713228416,
+      "persistence_prediction_c": 0.2
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "season": "ASO",
+      "actual_oni_c": 0.3,
+      "ecmwf_prediction_c": 0.24389861608697727,
+      "dwd_prediction_c": 0.4245586401068735,
+      "cmcc_prediction_c": 0.23809757955689798,
+      "observations_prediction_c": 0.5418892661869773,
+      "multi_prediction_c": 0.3021849452502496,
+      "persistence_prediction_c": 0.4
+    },
+    {
+      "year": 2019,
+      "month": 10,
+      "season": "SON",
+      "actual_oni_c": 0.5,
+      "ecmwf_prediction_c": 0.2486786605661662,
+      "dwd_prediction_c": 0.4488945498339068,
+      "cmcc_prediction_c": 0.2244933534591596,
+      "observations_prediction_c": 0.6146517953630024,
+      "multi_prediction_c": 0.3073555212864109,
+      "persistence_prediction_c": 0.4
+    },
+    {
+      "year": 2019,
+      "month": 11,
+      "season": "OND",
+      "actual_oni_c": 0.7,
+      "ecmwf_prediction_c": 0.3779693046723599,
+      "dwd_prediction_c": 0.488577599369994,
+      "cmcc_prediction_c": 0.2851375354757955,
+      "observations_prediction_c": 0.6731110217621811,
+      "multi_prediction_c": 0.38389481317271645,
+      "persistence_prediction_c": 0.4
+    },
+    {
+      "year": 2019,
+      "month": 12,
+      "season": "NDJ",
+      "actual_oni_c": 0.8,
+      "ecmwf_prediction_c": 0.39043320814641774,
+      "dwd_prediction_c": 0.4378344105425399,
+      "cmcc_prediction_c": 0.24198181762043208,
+      "observations_prediction_c": 0.6932357143341092,
+      "multi_prediction_c": 0.3567498121031299,
+      "persistence_prediction_c": 0.4
+    },
+    {
+      "year": 2020,
+      "month": 9,
+      "season": "ASO",
+      "actual_oni_c": -0.8,
+      "ecmwf_prediction_c": -0.539640062420511,
+      "dwd_prediction_c": -0.5200221186301653,
+      "cmcc_prediction_c": -0.548138972793896,
+      "observations_prediction_c": -0.4272285924833885,
+      "multi_prediction_c": -0.5359337179481908,
+      "persistence_prediction_c": -0.3
+    },
+    {
+      "year": 2020,
+      "month": 10,
+      "season": "SON",
+      "actual_oni_c": -1.0,
+      "ecmwf_prediction_c": -0.6601938803868345,
+      "dwd_prediction_c": -0.6299559908525012,
+      "cmcc_prediction_c": -0.6981636426825041,
+      "observations_prediction_c": -0.48667118628515993,
+      "multi_prediction_c": -0.66277117130728,
+      "persistence_prediction_c": -0.3
+    },
+    {
+      "year": 2020,
+      "month": 11,
+      "season": "OND",
+      "actual_oni_c": -1.1,
+      "ecmwf_prediction_c": -0.766645278486333,
+      "dwd_prediction_c": -0.7590939500103175,
+      "cmcc_prediction_c": -0.8420697572453602,
+      "observations_prediction_c": -0.5549527342522838,
+      "multi_prediction_c": -0.7892696619140036,
+      "persistence_prediction_c": -0.3
+    },
+    {
+      "year": 2020,
+      "month": 12,
+      "season": "NDJ",
+      "actual_oni_c": -1.1,
+      "ecmwf_prediction_c": -0.8026704653267159,
+      "dwd_prediction_c": -0.8524355086075207,
+      "cmcc_prediction_c": -0.9264711513248632,
+      "observations_prediction_c": -0.5846504850272778,
+      "multi_prediction_c": -0.8605257084196999,
+      "persistence_prediction_c": -0.3
+    },
+    {
+      "year": 2021,
+      "month": 9,
+      "season": "ASO",
+      "actual_oni_c": -0.6,
+      "ecmwf_prediction_c": -0.3433838764702959,
+      "dwd_prediction_c": -0.409563807902813,
+      "cmcc_prediction_c": -0.3669903804174072,
+      "observations_prediction_c": -0.4450320897648072,
+      "multi_prediction_c": -0.3733126882635054,
+      "persistence_prediction_c": -0.3
+    },
+    {
+      "year": 2021,
+      "month": 10,
+      "season": "SON",
+      "actual_oni_c": -0.8,
+      "ecmwf_prediction_c": -0.4061961377284824,
+      "dwd_prediction_c": -0.48300149439587536,
+      "cmcc_prediction_c": -0.4134008883112982,
+      "observations_prediction_c": -0.5111788301297652,
+      "multi_prediction_c": -0.43419950681188535,
+      "persistence_prediction_c": -0.3
+    },
+    {
+      "year": 2021,
+      "month": 11,
+      "season": "OND",
+      "actual_oni_c": -0.9,
+      "ecmwf_prediction_c": -0.5163073840832649,
+      "dwd_prediction_c": -0.5951087568650416,
+      "cmcc_prediction_c": -0.48425062235568234,
+      "observations_prediction_c": -0.580977349673874,
+      "multi_prediction_c": -0.5318889211013297,
+      "persistence_prediction_c": -0.3
+    },
+    {
+      "year": 2021,
+      "month": 12,
+      "season": "NDJ",
+      "actual_oni_c": -0.8,
+      "ecmwf_prediction_c": -0.5345999167903261,
+      "dwd_prediction_c": -0.6142010877477098,
+      "cmcc_prediction_c": -0.49912389243923255,
+      "observations_prediction_c": -0.609261935409433,
+      "multi_prediction_c": -0.5493082989924228,
+      "persistence_prediction_c": -0.3
+    },
+    {
+      "year": 2022,
+      "month": 9,
+      "season": "ASO",
+      "actual_oni_c": -0.9,
+      "ecmwf_prediction_c": -0.8136449169943373,
+      "dwd_prediction_c": -0.9878845715886397,
+      "cmcc_prediction_c": -0.8760430302724288,
+      "observations_prediction_c": -1.0064643312126085,
+      "multi_prediction_c": -0.892524172951802,
+      "persistence_prediction_c": -0.7
+    },
+    {
+      "year": 2022,
+      "month": 10,
+      "season": "SON",
+      "actual_oni_c": -0.9,
+      "ecmwf_prediction_c": -0.8237471566036995,
+      "dwd_prediction_c": -1.1249887482438592,
+      "cmcc_prediction_c": -0.8916805235023938,
+      "observations_prediction_c": -1.1620015990830574,
+      "multi_prediction_c": -0.9468054761166509,
+      "persistence_prediction_c": -0.7
+    },
+    {
+      "year": 2022,
+      "month": 11,
+      "season": "OND",
+      "actual_oni_c": -0.8,
+      "ecmwf_prediction_c": -0.8154600835897474,
+      "dwd_prediction_c": -1.2155397506259327,
+      "cmcc_prediction_c": -0.8815712364967975,
+      "observations_prediction_c": -1.3107237242441991,
+      "multi_prediction_c": -0.9708570235708258,
+      "persistence_prediction_c": -0.7
+    },
+    {
+      "year": 2022,
+      "month": 12,
+      "season": "NDJ",
+      "actual_oni_c": -0.7,
+      "ecmwf_prediction_c": -0.7534307159287028,
+      "dwd_prediction_c": -1.1878268775386722,
+      "cmcc_prediction_c": -0.8122011367525026,
+      "observations_prediction_c": -1.3617931742937277,
+      "multi_prediction_c": -0.9178195767399592,
+      "persistence_prediction_c": -0.7
+    },
+    {
+      "year": 2023,
+      "month": 9,
+      "season": "ASO",
+      "actual_oni_c": 1.5,
+      "ecmwf_prediction_c": 1.4475051882595784,
+      "dwd_prediction_c": 1.3459960719909712,
+      "cmcc_prediction_c": 1.3476277648081847,
+      "observations_prediction_c": 1.345107395696591,
+      "multi_prediction_c": 1.3803763416862447,
+      "persistence_prediction_c": 1.0
+    },
+    {
+      "year": 2023,
+      "month": 10,
+      "season": "SON",
+      "actual_oni_c": 1.7,
+      "ecmwf_prediction_c": 1.6771575370898806,
+      "dwd_prediction_c": 1.5379394430422837,
+      "cmcc_prediction_c": 1.5300921835771177,
+      "observations_prediction_c": 1.5372655950818181,
+      "multi_prediction_c": 1.5817297212364274,
+      "persistence_prediction_c": 1.0
+    },
+    {
+      "year": 2023,
+      "month": 11,
+      "season": "OND",
+      "actual_oni_c": 1.9,
+      "ecmwf_prediction_c": 1.8706770441354004,
+      "dwd_prediction_c": 1.7184307984749312,
+      "cmcc_prediction_c": 1.714016823202728,
+      "observations_prediction_c": 1.7080217636756683,
+      "multi_prediction_c": 1.7677082219376865,
+      "persistence_prediction_c": 1.0
+    },
+    {
+      "year": 2023,
+      "month": 12,
+      "season": "NDJ",
+      "actual_oni_c": 2.0,
+      "ecmwf_prediction_c": 1.9922604139299618,
+      "dwd_prediction_c": 1.8086019176300274,
+      "cmcc_prediction_c": 1.8789666811113472,
+      "observations_prediction_c": 1.7724578949183836,
+      "multi_prediction_c": 1.8932763375571122,
+      "persistence_prediction_c": 1.0
+    },
+    {
+      "year": 2025,
+      "month": 9,
+      "season": "ASO",
+      "actual_oni_c": -0.4,
+      "ecmwf_prediction_c": -0.3561228677703427,
+      "dwd_prediction_c": -0.3546871988455424,
+      "cmcc_prediction_c": -0.3551554711370718,
+      "observations_prediction_c": -0.16743409099218592,
+      "multi_prediction_c": -0.3553218459176523,
+      "persistence_prediction_c": -0.1
+    },
+    {
+      "year": 2025,
+      "month": 10,
+      "season": "SON",
+      "actual_oni_c": -0.6,
+      "ecmwf_prediction_c": -0.4563799024825637,
+      "dwd_prediction_c": -0.45602959075354105,
+      "cmcc_prediction_c": -0.40699298645174103,
+      "observations_prediction_c": -0.19164993601109712,
+      "multi_prediction_c": -0.43980082656261527,
+      "persistence_prediction_c": -0.1
+    },
+    {
+      "year": 2025,
+      "month": 11,
+      "season": "OND",
+      "actual_oni_c": -0.6,
+      "ecmwf_prediction_c": -0.4877801065592483,
+      "dwd_prediction_c": -0.5355392308815745,
+      "cmcc_prediction_c": -0.3876935098114197,
+      "observations_prediction_c": -0.21351472811555092,
+      "multi_prediction_c": -0.4703376157507475,
+      "persistence_prediction_c": -0.1
+    },
+    {
+      "year": 2025,
+      "month": 12,
+      "season": "NDJ",
+      "actual_oni_c": -0.6,
+      "ecmwf_prediction_c": -0.45069867115748186,
+      "dwd_prediction_c": -0.5712758880826875,
+      "cmcc_prediction_c": -0.3344015556258985,
+      "observations_prediction_c": -0.2148860541841406,
+      "multi_prediction_c": -0.45212537162202265,
+      "persistence_prediction_c": -0.1
+    }
+  ],
+  "training_years": [
+    1993,
+    1994,
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2025
+  ],
+  "missing_years_by_model": {
+    "ecmwf": [],
+    "dwd": [
+      2024
+    ],
+    "cmcc": []
+  },
+  "index": "ONI ERSSTv6; centered seasons",
+  "uncertainty": "Student-t 80% predictive intervals; scale floor from held-out errors; model disagreement and calibration leverage included; not externally calibrated at record strength"
+}

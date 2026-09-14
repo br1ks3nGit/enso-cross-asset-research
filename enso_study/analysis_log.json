@@ -1,0 +1,1194 @@
+{
+  "coverage": [
+    {
+      "asset": "RNR",
+      "name": "RNR",
+      "source": "Massive",
+      "start": "2006-09-11",
+      "end": "2026-09-09",
+      "daily_rows": 5030,
+      "monthly_rows": 239,
+      "data_kind": "split-adjusted equity/fund prices plus cash distributions"
+    },
+    {
+      "asset": "EG",
+      "name": "EG",
+      "source": "Massive",
+      "start": "2006-09-11",
+      "end": "2026-09-09",
+      "daily_rows": 5030,
+      "monthly_rows": 239,
+      "data_kind": "split-adjusted equity/fund prices plus cash distributions"
+    },
+    {
+      "asset": "ACGL",
+      "name": "ACGL",
+      "source": "Massive",
+      "start": "2006-09-11",
+      "end": "2026-09-09",
+      "daily_rows": 5030,
+      "monthly_rows": 239,
+      "data_kind": "split-adjusted equity/fund prices plus cash distributions"
+    },
+    {
+      "asset": "SPY",
+      "name": "SPY",
+      "source": "Massive",
+      "start": "2006-09-11",
+      "end": "2026-09-09",
+      "daily_rows": 5030,
+      "monthly_rows": 239,
+      "data_kind": "split-adjusted equity/fund prices plus cash distributions"
+    },
+    {
+      "asset": "DBA",
+      "name": "DBA",
+      "source": "Massive",
+      "start": "2007-01-05",
+      "end": "2026-09-09",
+      "daily_rows": 4950,
+      "monthly_rows": 235,
+      "data_kind": "split-adjusted equity/fund prices plus cash distributions"
+    },
+    {
+      "asset": "CORN",
+      "name": "CORN",
+      "source": "Massive",
+      "start": "2010-06-09",
+      "end": "2026-09-09",
+      "daily_rows": 4088,
+      "monthly_rows": 194,
+      "data_kind": "split-adjusted equity/fund prices plus cash distributions"
+    },
+    {
+      "asset": "SOYB",
+      "name": "SOYB",
+      "source": "Massive",
+      "start": "2011-09-19",
+      "end": "2026-09-09",
+      "daily_rows": 3746,
+      "monthly_rows": 179,
+      "data_kind": "split-adjusted equity/fund prices plus cash distributions"
+    },
+    {
+      "asset": "WEAT",
+      "name": "WEAT",
+      "source": "Massive",
+      "start": "2011-09-19",
+      "end": "2026-09-09",
+      "daily_rows": 3758,
+      "monthly_rows": 179,
+      "data_kind": "split-adjusted equity/fund prices plus cash distributions"
+    },
+    {
+      "asset": "ZC",
+      "name": "Corn",
+      "source": "Yahoo Finance public futures",
+      "start": "2006-09-11",
+      "end": "2026-09-09",
+      "daily_rows": 5028,
+      "monthly_rows": 239,
+      "data_kind": "continuous/nearby quote history; roll unverified"
+    },
+    {
+      "asset": "ZS",
+      "name": "Soybeans",
+      "source": "Yahoo Finance public futures",
+      "start": "2006-09-11",
+      "end": "2026-09-09",
+      "daily_rows": 5030,
+      "monthly_rows": 239,
+      "data_kind": "continuous/nearby quote history; roll unverified"
+    },
+    {
+      "asset": "ZW",
+      "name": "Chicago wheat",
+      "source": "Yahoo Finance public futures",
+      "start": "2006-09-11",
+      "end": "2026-09-09",
+      "daily_rows": 5030,
+      "monthly_rows": 239,
+      "data_kind": "continuous/nearby quote history; roll unverified"
+    },
+    {
+      "asset": "ZM",
+      "name": "Soybean meal",
+      "source": "Yahoo Finance public futures",
+      "start": "2006-09-11",
+      "end": "2026-09-09",
+      "daily_rows": 5030,
+      "monthly_rows": 239,
+      "data_kind": "continuous/nearby quote history; roll unverified"
+    },
+    {
+      "asset": "ZL",
+      "name": "Soybean oil",
+      "source": "Yahoo Finance public futures",
+      "start": "2006-09-11",
+      "end": "2026-09-09",
+      "daily_rows": 5030,
+      "monthly_rows": 239,
+      "data_kind": "continuous/nearby quote history; roll unverified"
+    },
+    {
+      "asset": "ZO",
+      "name": "Oats",
+      "source": "Yahoo Finance public futures",
+      "start": "2006-09-11",
+      "end": "2026-09-09",
+      "daily_rows": 5030,
+      "monthly_rows": 239,
+      "data_kind": "continuous/nearby quote history; roll unverified"
+    },
+    {
+      "asset": "ZR",
+      "name": "Rough rice",
+      "source": "Yahoo Finance public futures",
+      "start": "2006-09-11",
+      "end": "2026-09-09",
+      "daily_rows": 5019,
+      "monthly_rows": 238,
+      "data_kind": "continuous/nearby quote history; roll unverified"
+    },
+    {
+      "asset": "KE",
+      "name": "Kansas wheat",
+      "source": "Yahoo Finance public futures",
+      "start": "2006-09-11",
+      "end": "2026-09-09",
+      "daily_rows": 5030,
+      "monthly_rows": 239,
+      "data_kind": "continuous/nearby quote history; roll unverified"
+    },
+    {
+      "asset": "LE",
+      "name": "Live cattle",
+      "source": "Yahoo Finance public futures",
+      "start": "2006-09-11",
+      "end": "2026-09-09",
+      "daily_rows": 5027,
+      "monthly_rows": 239,
+      "data_kind": "continuous/nearby quote history; roll unverified"
+    },
+    {
+      "asset": "GF",
+      "name": "Feeder cattle",
+      "source": "Yahoo Finance public futures",
+      "start": "2006-09-11",
+      "end": "2026-09-09",
+      "daily_rows": 5016,
+      "monthly_rows": 238,
+      "data_kind": "continuous/nearby quote history; roll unverified"
+    },
+    {
+      "asset": "HE",
+      "name": "Lean hogs",
+      "source": "Yahoo Finance public futures",
+      "start": "2006-09-11",
+      "end": "2026-09-09",
+      "daily_rows": 5029,
+      "monthly_rows": 239,
+      "data_kind": "continuous/nearby quote history; roll unverified"
+    },
+    {
+      "asset": "CC",
+      "name": "Cocoa",
+      "source": "Yahoo Finance public futures",
+      "start": "2006-09-11",
+      "end": "2026-09-09",
+      "daily_rows": 5026,
+      "monthly_rows": 239,
+      "data_kind": "continuous/nearby quote history; roll unverified"
+    },
+    {
+      "asset": "KC",
+      "name": "Coffee",
+      "source": "Yahoo Finance public futures",
+      "start": "2006-09-11",
+      "end": "2026-09-09",
+      "daily_rows": 5026,
+      "monthly_rows": 239,
+      "data_kind": "continuous/nearby quote history; roll unverified"
+    },
+    {
+      "asset": "CT",
+      "name": "Cotton",
+      "source": "Yahoo Finance public futures",
+      "start": "2006-09-11",
+      "end": "2026-09-09",
+      "daily_rows": 5027,
+      "monthly_rows": 239,
+      "data_kind": "continuous/nearby quote history; roll unverified"
+    },
+    {
+      "asset": "SB",
+      "name": "Sugar",
+      "source": "Yahoo Finance public futures",
+      "start": "2006-09-11",
+      "end": "2026-09-09",
+      "daily_rows": 5027,
+      "monthly_rows": 239,
+      "data_kind": "continuous/nearby quote history; roll unverified"
+    },
+    {
+      "asset": "OJ",
+      "name": "Orange juice",
+      "source": "Yahoo Finance public futures",
+      "start": "2006-09-11",
+      "end": "2026-09-09",
+      "daily_rows": 5027,
+      "monthly_rows": 239,
+      "data_kind": "continuous/nearby quote history; roll unverified"
+    }
+  ],
+  "correlations": [
+    {
+      "asset": "RNR",
+      "months": 239,
+      "enso_return": 0.016398130875081855,
+      "enso_volatility": -0.14403533476147373,
+      "strength_volatility": -0.08982798120529,
+      "spearman_strength_volatility": 0.03437895498353295,
+      "partial_strength_volatility": -0.10470831851823302,
+      "partial_enso_return": 0.010297020233627965,
+      "oni_return": 0.04512230350619712,
+      "oni_strength_volatility": -0.024701893862351533
+    },
+    {
+      "asset": "EG",
+      "months": 239,
+      "enso_return": -0.04258136133972619,
+      "enso_volatility": -0.1364774798790799,
+      "strength_volatility": -0.11096626313679533,
+      "spearman_strength_volatility": 0.018447663409179898,
+      "partial_strength_volatility": -0.14659312229801488,
+      "partial_enso_return": -0.06138192434485719,
+      "oni_return": -0.04018433448046856,
+      "oni_strength_volatility": -0.01999417280459645
+    },
+    {
+      "asset": "ACGL",
+      "months": 239,
+      "enso_return": -0.008480342694008672,
+      "enso_volatility": -0.08981765204001155,
+      "strength_volatility": -0.054978462546322535,
+      "spearman_strength_volatility": -0.030107866687951915,
+      "partial_strength_volatility": -0.011806607666179489,
+      "partial_enso_return": -0.037325882722807194,
+      "oni_return": 0.004075180733511063,
+      "oni_strength_volatility": -0.07660198837254427
+    },
+    {
+      "asset": "DBA",
+      "months": 235,
+      "enso_return": -0.11445585912077917,
+      "enso_volatility": -0.1887950397928557,
+      "strength_volatility": -0.032535187983974215,
+      "spearman_strength_volatility": 0.0038039641774740896,
+      "partial_strength_volatility": 0.056279591412524685,
+      "partial_enso_return": -0.13667695302618016,
+      "oni_return": -0.093328908172541,
+      "oni_strength_volatility": 0.1498585851305833
+    },
+    {
+      "asset": "CORN",
+      "months": 194,
+      "enso_return": -0.1683112293306793,
+      "enso_volatility": -0.2107973739889744,
+      "strength_volatility": -0.017130330431904827,
+      "spearman_strength_volatility": 0.0055639279644145705,
+      "partial_strength_volatility": 0.1148613854038539,
+      "partial_enso_return": -0.16644272938314433,
+      "oni_return": -0.19520834176055535,
+      "oni_strength_volatility": 0.09499241182105363
+    },
+    {
+      "asset": "SOYB",
+      "months": 179,
+      "enso_return": -0.11513140666479002,
+      "enso_volatility": -0.16268111197804083,
+      "strength_volatility": -0.11527022754305236,
+      "spearman_strength_volatility": -0.016288694923319594,
+      "partial_strength_volatility": -0.045752395985704256,
+      "partial_enso_return": -0.10090701660208595,
+      "oni_return": -0.12116618340875411,
+      "oni_strength_volatility": -0.02809248051415555
+    },
+    {
+      "asset": "WEAT",
+      "months": 179,
+      "enso_return": -0.05387233085404582,
+      "enso_volatility": -0.16395245868814726,
+      "strength_volatility": 0.027321915098473742,
+      "spearman_strength_volatility": 0.17422771155732253,
+      "partial_strength_volatility": 0.09331871943390309,
+      "partial_enso_return": -0.04415017568434367,
+      "oni_return": -0.09298458655372874,
+      "oni_strength_volatility": 0.061522745888632165
+    },
+    {
+      "asset": "ZC",
+      "months": 239,
+      "enso_return": -0.12384745761884429,
+      "enso_volatility": -0.10243836041712893,
+      "strength_volatility": -0.1342243164788051,
+      "spearman_strength_volatility": -0.05881848364453211,
+      "partial_strength_volatility": -0.02181721951893173,
+      "partial_enso_return": -0.1263034745535028,
+      "oni_return": -0.12444060155696483,
+      "oni_strength_volatility": -0.04045019666788855
+    },
+    {
+      "asset": "ZS",
+      "months": 239,
+      "enso_return": -0.12844579392488215,
+      "enso_volatility": -0.1565909400962908,
+      "strength_volatility": -0.10565595754191223,
+      "spearman_strength_volatility": 0.0036103698894844475,
+      "partial_strength_volatility": -0.02448102779643193,
+      "partial_enso_return": -0.1203315946102911,
+      "oni_return": -0.10234965619315049,
+      "oni_strength_volatility": -0.016975148754920115
+    },
+    {
+      "asset": "ZW",
+      "months": 239,
+      "enso_return": -0.061159473327406975,
+      "enso_volatility": -0.22131169160567588,
+      "strength_volatility": 0.09833775105103779,
+      "spearman_strength_volatility": 0.18599509633929917,
+      "partial_strength_volatility": 0.18979301234525822,
+      "partial_enso_return": -0.07168020471704967,
+      "oni_return": -0.04286494137455337,
+      "oni_strength_volatility": 0.14555786201750592
+    },
+    {
+      "asset": "ZM",
+      "months": 239,
+      "enso_return": -0.12121432077653087,
+      "enso_volatility": -0.14669985835614438,
+      "strength_volatility": -0.07285936782875747,
+      "spearman_strength_volatility": 0.026712153145211325,
+      "partial_strength_volatility": -0.012094052117100396,
+      "partial_enso_return": -0.11929289954395977,
+      "oni_return": -0.082684632081656,
+      "oni_strength_volatility": -0.03979968199085082
+    },
+    {
+      "asset": "ZL",
+      "months": 239,
+      "enso_return": -0.11867539562342554,
+      "enso_volatility": -0.14104908163699217,
+      "strength_volatility": -0.0018807392477324391,
+      "spearman_strength_volatility": 0.05271730674180428,
+      "partial_strength_volatility": 0.08277336116416827,
+      "partial_enso_return": -0.12969764574970585,
+      "oni_return": -0.10694743054371862,
+      "oni_strength_volatility": 0.040749527786052876
+    },
+    {
+      "asset": "ZO",
+      "months": 239,
+      "enso_return": -0.06833625270910652,
+      "enso_volatility": -0.06277617806531921,
+      "strength_volatility": -0.003927784971364598,
+      "spearman_strength_volatility": -0.03332903420746752,
+      "partial_strength_volatility": 0.07614258280878179,
+      "partial_enso_return": -0.07506391707610029,
+      "oni_return": -0.06565941718311168,
+      "oni_strength_volatility": -0.027645573756417616
+    },
+    {
+      "asset": "ZR",
+      "months": 238,
+      "enso_return": -0.054034059409994006,
+      "enso_volatility": -0.056791127424211024,
+      "strength_volatility": -0.0212492816819124,
+      "spearman_strength_volatility": 0.05969094559869691,
+      "partial_strength_volatility": 0.08971343011641815,
+      "partial_enso_return": -0.056443277238039796,
+      "oni_return": -0.1103977121432374,
+      "oni_strength_volatility": 0.12497167008560976
+    },
+    {
+      "asset": "KE",
+      "months": 239,
+      "enso_return": -0.11107448335022774,
+      "enso_volatility": -0.20447112862943972,
+      "strength_volatility": 0.10008699133395883,
+      "spearman_strength_volatility": 0.14467396997749984,
+      "partial_strength_volatility": 0.19912100270645464,
+      "partial_enso_return": -0.1216804523481709,
+      "oni_return": -0.08899794804037812,
+      "oni_strength_volatility": 0.17233072401438493
+    },
+    {
+      "asset": "LE",
+      "months": 239,
+      "enso_return": -0.10387519289057337,
+      "enso_volatility": 0.136890676195689,
+      "strength_volatility": -0.05857712245347132,
+      "spearman_strength_volatility": -0.1077698277034216,
+      "partial_strength_volatility": 0.032395725403319635,
+      "partial_enso_return": -0.12301690630619984,
+      "oni_return": -0.1287235705133679,
+      "oni_strength_volatility": 0.004589806673484291
+    },
+    {
+      "asset": "GF",
+      "months": 238,
+      "enso_return": -0.1426045798906927,
+      "enso_volatility": 0.0979361563048725,
+      "strength_volatility": 0.05687748760870629,
+      "spearman_strength_volatility": 0.04429224292948662,
+      "partial_strength_volatility": 0.12014881132249704,
+      "partial_enso_return": -0.17792263433577524,
+      "oni_return": -0.1503171273738458,
+      "oni_strength_volatility": 0.12029909512460946
+    },
+    {
+      "asset": "HE",
+      "months": 239,
+      "enso_return": -0.0457657685043212,
+      "enso_volatility": 0.07937496812729398,
+      "strength_volatility": -0.060872508345191596,
+      "spearman_strength_volatility": -0.043228790979268364,
+      "partial_strength_volatility": 0.027514086921279084,
+      "partial_enso_return": -0.0504173935039307,
+      "oni_return": -0.02485974879592449,
+      "oni_strength_volatility": -0.016741903979519964
+    },
+    {
+      "asset": "CC",
+      "months": 239,
+      "enso_return": 0.12088929822778965,
+      "enso_volatility": -0.03713132868337239,
+      "strength_volatility": -0.11662683826529673,
+      "spearman_strength_volatility": -0.1636047203600499,
+      "partial_strength_volatility": -0.09881675374423617,
+      "partial_enso_return": 0.1205607776561232,
+      "oni_return": 0.07021134997081657,
+      "oni_strength_volatility": -0.012496524591762922
+    },
+    {
+      "asset": "KC",
+      "months": 239,
+      "enso_return": -0.02818751002058162,
+      "enso_volatility": 0.048228204803632796,
+      "strength_volatility": 0.023962691586764322,
+      "spearman_strength_volatility": 0.02898433685663756,
+      "partial_strength_volatility": 0.09260012400805571,
+      "partial_enso_return": -0.03441339728836385,
+      "oni_return": 0.016075011251853344,
+      "oni_strength_volatility": -0.09348760808318458
+    },
+    {
+      "asset": "CT",
+      "months": 239,
+      "enso_return": -0.05947800471576718,
+      "enso_volatility": -0.30490119822809314,
+      "strength_volatility": 0.028586791643512226,
+      "spearman_strength_volatility": 0.04256234252695479,
+      "partial_strength_volatility": 0.14928351694268424,
+      "partial_enso_return": -0.06604558421673784,
+      "oni_return": -0.051026442670345576,
+      "oni_strength_volatility": 0.12256718775120286
+    },
+    {
+      "asset": "SB",
+      "months": 239,
+      "enso_return": -0.03746138622855219,
+      "enso_volatility": 0.004636548601623029,
+      "strength_volatility": 0.2349351411895561,
+      "spearman_strength_volatility": 0.15313416283048048,
+      "partial_strength_volatility": 0.306325627868546,
+      "partial_enso_return": -0.04473249364841919,
+      "oni_return": -0.04740584654949521,
+      "oni_strength_volatility": 0.3459886785704684
+    },
+    {
+      "asset": "OJ",
+      "months": 239,
+      "enso_return": 0.017959876962158935,
+      "enso_volatility": 0.04728012718103464,
+      "strength_volatility": -0.01904697307647788,
+      "spearman_strength_volatility": -0.02294751278065429,
+      "partial_strength_volatility": 0.039793461866852384,
+      "partial_enso_return": 0.011486926812408933,
+      "oni_return": 0.0488799489882826,
+      "oni_strength_volatility": -0.07042909274702655
+    },
+    {
+      "asset": "Insurance basket",
+      "months": 239,
+      "enso_return": -0.012995732445494085,
+      "enso_volatility": -0.1293669456041798,
+      "strength_volatility": -0.09053057681672882,
+      "spearman_strength_volatility": 0.011579982631734268,
+      "partial_strength_volatility": -0.049101517005617164,
+      "partial_enso_return": -0.033542268709221154,
+      "oni_return": 0.003732003049484511,
+      "oni_strength_volatility": -0.06868564616860058
+    },
+    {
+      "asset": "Agriculture quote basket",
+      "months": 237,
+      "enso_return": -0.13321660331588459,
+      "enso_volatility": -0.20786477980572476,
+      "strength_volatility": 0.027509397248831457,
+      "spearman_strength_volatility": 0.11124425247455698,
+      "partial_strength_volatility": 0.15640149355443514,
+      "partial_enso_return": -0.1470601177217522,
+      "oni_return": -0.12137859419471071,
+      "oni_strength_volatility": 0.1431889424239044
+    }
+  ],
+  "main_intervals": [
+    {
+      "asset": "Insurance basket",
+      "x": "enso",
+      "y": "price_return",
+      "r": -0.012995732445494085,
+      "ci_low": -0.12083717486106316,
+      "ci_high": 0.10793290097546823
+    },
+    {
+      "asset": "Insurance basket",
+      "x": "enso",
+      "y": "volatility",
+      "r": -0.1293669456041798,
+      "ci_low": -0.24460906614806557,
+      "ci_high": -0.025970944350035254
+    },
+    {
+      "asset": "Insurance basket",
+      "x": "enso_abs",
+      "y": "volatility",
+      "r": -0.09053057681672882,
+      "ci_low": -0.22269785388980898,
+      "ci_high": 0.02515301598965552
+    },
+    {
+      "asset": "Agriculture quote basket",
+      "x": "enso",
+      "y": "price_return",
+      "r": -0.13321660331588459,
+      "ci_low": -0.28064820298361876,
+      "ci_high": 0.0016668574660896112
+    },
+    {
+      "asset": "Agriculture quote basket",
+      "x": "enso",
+      "y": "volatility",
+      "r": -0.20786477980572476,
+      "ci_low": -0.31612928507209115,
+      "ci_high": -0.03612315744181472
+    },
+    {
+      "asset": "Agriculture quote basket",
+      "x": "enso_abs",
+      "y": "volatility",
+      "r": 0.027509397248831457,
+      "ci_low": -0.10598445753543419,
+      "ci_high": 0.1892747385709915
+    },
+    {
+      "asset": "DBA",
+      "x": "enso",
+      "y": "price_return",
+      "r": -0.11445585912077917,
+      "ci_low": -0.2623946274417885,
+      "ci_high": 0.032559500547761334
+    },
+    {
+      "asset": "DBA",
+      "x": "enso",
+      "y": "volatility",
+      "r": -0.1887950397928557,
+      "ci_low": -0.29163209850316346,
+      "ci_high": -0.012036921622756918
+    },
+    {
+      "asset": "DBA",
+      "x": "enso_abs",
+      "y": "volatility",
+      "r": -0.032535187983974215,
+      "ci_low": -0.15218771403806486,
+      "ci_high": 0.10072927804430175
+    }
+  ],
+  "backtests": [
+    {
+      "asset": "insurance",
+      "lag_days": 14,
+      "reduced_months": 12,
+      "models": {
+        "ENSO overlay": {
+          "cagr": 0.10367105908273433,
+          "annual_volatility": 0.1977644561623279,
+          "max_drawdown": -0.35508803411051315,
+          "sharpe_zero_cash": 0.6002938172611939,
+          "total_return": 1.594876301263548,
+          "mean_exposure": 0.9482758620689655,
+          "annual_turnover": 0.7554893153136233,
+          "months": 116,
+          "start": "2017-01",
+          "end": "2026-08"
+        },
+        "Always invested": {
+          "cagr": 0.11494298239290401,
+          "annual_volatility": 0.21178423020808623,
+          "max_drawdown": -0.35508803411051315,
+          "sharpe_zero_cash": 0.6216225646721548,
+          "total_return": 1.8626990735091669,
+          "mean_exposure": 1.0,
+          "annual_turnover": 0.3831398641201052,
+          "months": 116,
+          "start": "2017-01",
+          "end": "2026-08"
+        },
+        "Same average exposure": {
+          "cagr": 0.10993189027280614,
+          "annual_volatility": 0.20083002851859846,
+          "max_drawdown": -0.33897366925041084,
+          "sharpe_zero_cash": 0.6216202604676226,
+          "total_return": 1.7407190568940942,
+          "mean_exposure": 0.9482758620689657,
+          "annual_turnover": 0.3639527075967163,
+          "months": 116,
+          "start": "2017-01",
+          "end": "2026-08"
+        }
+      }
+    },
+    {
+      "asset": "DBA",
+      "lag_days": 14,
+      "reduced_months": 20,
+      "models": {
+        "ENSO overlay": {
+          "cagr": 0.03913752435492546,
+          "annual_volatility": 0.09956837799691018,
+          "max_drawdown": -0.31436332437615677,
+          "sharpe_zero_cash": 0.4354856400546308,
+          "total_return": 0.4493477592101054,
+          "mean_exposure": 0.9137931034482759,
+          "annual_turnover": 1.0959561100693158,
+          "months": 116,
+          "start": "2017-01",
+          "end": "2026-08"
+        },
+        "Always invested": {
+          "cagr": 0.05683404799194425,
+          "annual_volatility": 0.11356538420747447,
+          "max_drawdown": -0.3203823586109412,
+          "sharpe_zero_cash": 0.5437243683413119,
+          "total_return": 0.706340501849587,
+          "mean_exposure": 1.0,
+          "annual_turnover": 0.10344827586206896,
+          "months": 116,
+          "start": "2017-01",
+          "end": "2026-08"
+        },
+        "Same average exposure": {
+          "cagr": 0.052316906884396275,
+          "annual_volatility": 0.10377523365958775,
+          "max_drawdown": -0.2963372885167411,
+          "sharpe_zero_cash": 0.5435041475482445,
+          "total_return": 0.6371304908514541,
+          "mean_exposure": 0.9137931034482757,
+          "annual_turnover": 0.11748270607214911,
+          "months": 116,
+          "start": "2017-01",
+          "end": "2026-08"
+        }
+      }
+    },
+    {
+      "asset": "CORN",
+      "lag_days": 14,
+      "reduced_months": 20,
+      "models": {
+        "ENSO overlay": {
+          "cagr": -0.006478800854823996,
+          "annual_volatility": 0.14681525973385592,
+          "max_drawdown": -0.4009580063605531,
+          "sharpe_zero_cash": 0.026994504537861768,
+          "total_return": -0.060898927676044434,
+          "mean_exposure": 0.9137931034482759,
+          "annual_turnover": 1.0906999623381315,
+          "months": 116,
+          "start": "2017-01",
+          "end": "2026-08"
+        },
+        "Always invested": {
+          "cagr": 0.007128995495102819,
+          "annual_volatility": 0.16439467440165462,
+          "max_drawdown": -0.44129419613075316,
+          "sharpe_zero_cash": 0.1228715762183209,
+          "total_return": 0.0710817744521659,
+          "mean_exposure": 1.0,
+          "annual_turnover": 0.10344827586206896,
+          "months": 116,
+          "start": "2017-01",
+          "end": "2026-08"
+        },
+        "Same average exposure": {
+          "cagr": 0.007500134810412007,
+          "annual_volatility": 0.15022154471876364,
+          "max_drawdown": -0.4108434482397725,
+          "sharpe_zero_cash": 0.12265887803192282,
+          "total_return": 0.07490337115338352,
+          "mean_exposure": 0.9137931034482757,
+          "annual_turnover": 0.12665430027178057,
+          "months": 116,
+          "start": "2017-01",
+          "end": "2026-08"
+        }
+      }
+    },
+    {
+      "asset": "SOYB",
+      "lag_days": 14,
+      "reduced_months": 20,
+      "models": {
+        "ENSO overlay": {
+          "cagr": 0.020418923321085636,
+          "annual_volatility": 0.13597995374121957,
+          "max_drawdown": -0.29899884625454554,
+          "sharpe_zero_cash": 0.21634500916283406,
+          "total_return": 0.2157908500790744,
+          "mean_exposure": 0.9137931034482759,
+          "annual_turnover": 1.0927988428321778,
+          "months": 116,
+          "start": "2017-01",
+          "end": "2026-08"
+        },
+        "Always invested": {
+          "cagr": 0.037312719683371576,
+          "annual_volatility": 0.15309698219268245,
+          "max_drawdown": -0.3012787723785171,
+          "sharpe_zero_cash": 0.31523610054484175,
+          "total_return": 0.4249308813672885,
+          "mean_exposure": 1.0,
+          "annual_turnover": 0.10344827586206896,
+          "months": 116,
+          "start": "2017-01",
+          "end": "2026-08"
+        },
+        "Same average exposure": {
+          "cagr": 0.03495216062876616,
+          "annual_volatility": 0.13989693214900845,
+          "max_drawdown": -0.27750336528308606,
+          "sharpe_zero_cash": 0.31500674881719704,
+          "total_return": 0.3938926568311938,
+          "mean_exposure": 0.9137931034482757,
+          "annual_turnover": 0.12704221353289366,
+          "months": 116,
+          "start": "2017-01",
+          "end": "2026-08"
+        }
+      }
+    },
+    {
+      "asset": "WEAT",
+      "lag_days": 14,
+      "reduced_months": 20,
+      "models": {
+        "ENSO overlay": {
+          "cagr": -0.02303061161667752,
+          "annual_volatility": 0.2061204616585507,
+          "max_drawdown": -0.576850287530287,
+          "sharpe_zero_cash": -0.012443708173060834,
+          "total_return": -0.20166976886710475,
+          "mean_exposure": 0.9137931034482759,
+          "annual_turnover": 1.0971423975574068,
+          "months": 116,
+          "start": "2017-01",
+          "end": "2026-08"
+        },
+        "Always invested": {
+          "cagr": -0.021860423705558185,
+          "annual_volatility": 0.22692038317520993,
+          "max_drawdown": -0.6359161349134006,
+          "sharpe_zero_cash": 0.013967012554640034,
+          "total_return": -0.19237819767441755,
+          "mean_exposure": 1.0,
+          "annual_turnover": 0.10344827586206896,
+          "months": 116,
+          "start": "2017-01",
+          "end": "2026-08"
+        },
+        "Same average exposure": {
+          "cagr": -0.018092149326377926,
+          "annual_volatility": 0.20735798843189904,
+          "max_drawdown": -0.5999994341261081,
+          "sharpe_zero_cash": 0.013745324467979594,
+          "total_return": -0.16179468007802444,
+          "mean_exposure": 0.9137931034482757,
+          "annual_turnover": 0.1408498120757639,
+          "months": 116,
+          "start": "2017-01",
+          "end": "2026-08"
+        }
+      }
+    },
+    {
+      "asset": "insurance",
+      "lag_days": 28,
+      "reduced_months": 10,
+      "models": {
+        "ENSO overlay": {
+          "cagr": 0.09820251343217778,
+          "annual_volatility": 0.1996504051010662,
+          "max_drawdown": -0.35508803411051315,
+          "sharpe_zero_cash": 0.5714795380238052,
+          "total_return": 1.4732243987775329,
+          "mean_exposure": 0.9568965517241379,
+          "annual_turnover": 0.7588980400394081,
+          "months": 116,
+          "start": "2017-01",
+          "end": "2026-08"
+        },
+        "Always invested": {
+          "cagr": 0.11494298239290401,
+          "annual_volatility": 0.21178423020808623,
+          "max_drawdown": -0.35508803411051315,
+          "sharpe_zero_cash": 0.6216225646721548,
+          "total_return": 1.8626990735091669,
+          "mean_exposure": 1.0,
+          "annual_turnover": 0.3831398641201052,
+          "months": 116,
+          "start": "2017-01",
+          "end": "2026-08"
+        },
+        "Same average exposure": {
+          "cagr": 0.1107752176354353,
+          "annual_volatility": 0.20265572640592208,
+          "max_drawdown": -0.341675754118968,
+          "sharpe_zero_cash": 0.6216213881651392,
+          "total_return": 1.7609153399522284,
+          "mean_exposure": 0.9568965517241385,
+          "annual_turnover": 0.3670075514377585,
+          "months": 116,
+          "start": "2017-01",
+          "end": "2026-08"
+        }
+      }
+    },
+    {
+      "asset": "DBA",
+      "lag_days": 28,
+      "reduced_months": 25,
+      "models": {
+        "ENSO overlay": {
+          "cagr": 0.03715475240290256,
+          "annual_volatility": 0.1006633860394618,
+          "max_drawdown": -0.31774813750390796,
+          "sharpe_zero_cash": 0.4127160573702751,
+          "total_return": 0.4228346394302176,
+          "mean_exposure": 0.8922413793103449,
+          "annual_turnover": 1.3019351824529242,
+          "months": 116,
+          "start": "2017-01",
+          "end": "2026-08"
+        },
+        "Always invested": {
+          "cagr": 0.05683404799194425,
+          "annual_volatility": 0.11356538420747447,
+          "max_drawdown": -0.3203823586109412,
+          "sharpe_zero_cash": 0.5437243683413119,
+          "total_return": 0.706340501849587,
+          "mean_exposure": 1.0,
+          "annual_turnover": 0.10344827586206896,
+          "months": 116,
+          "start": "2017-01",
+          "end": "2026-08"
+        },
+        "Same average exposure": {
+          "cagr": 0.05117582899526729,
+          "annual_volatility": 0.10132770167333613,
+          "max_drawdown": -0.2902257539194192,
+          "sharpe_zero_cash": 0.5434490507693052,
+          "total_return": 0.6200504477182087,
+          "mean_exposure": 0.8922413793103452,
+          "annual_turnover": 0.12031887166880459,
+          "months": 116,
+          "start": "2017-01",
+          "end": "2026-08"
+        }
+      }
+    },
+    {
+      "asset": "CORN",
+      "lag_days": 28,
+      "reduced_months": 25,
+      "models": {
+        "ENSO overlay": {
+          "cagr": -0.01412934031942159,
+          "annual_volatility": 0.14462149609886144,
+          "max_drawdown": -0.407168945572455,
+          "sharpe_zero_cash": -0.02803653748634522,
+          "total_return": -0.12851596036238833,
+          "mean_exposure": 0.8922413793103449,
+          "annual_turnover": 1.3019807411000053,
+          "months": 116,
+          "start": "2017-01",
+          "end": "2026-08"
+        },
+        "Always invested": {
+          "cagr": 0.007128995495102819,
+          "annual_volatility": 0.16439467440165462,
+          "max_drawdown": -0.44129419613075316,
+          "sharpe_zero_cash": 0.1228715762183209,
+          "total_return": 0.0710817744521659,
+          "mean_exposure": 1.0,
+          "annual_turnover": 0.10344827586206896,
+          "months": 116,
+          "start": "2017-01",
+          "end": "2026-08"
+        },
+        "Same average exposure": {
+          "cagr": 0.007564243570606477,
+          "annual_volatility": 0.14667830649722394,
+          "max_drawdown": -0.4030270294966666,
+          "sharpe_zero_cash": 0.12260570995084764,
+          "total_return": 0.07556473155313848,
+          "mean_exposure": 0.8922413793103452,
+          "annual_turnover": 0.13151065104044432,
+          "months": 116,
+          "start": "2017-01",
+          "end": "2026-08"
+        }
+      }
+    },
+    {
+      "asset": "SOYB",
+      "lag_days": 28,
+      "reduced_months": 25,
+      "models": {
+        "ENSO overlay": {
+          "cagr": 0.01836111156891529,
+          "annual_volatility": 0.13714290558683523,
+          "max_drawdown": -0.30782729241691364,
+          "sharpe_zero_cash": 0.2007451098786171,
+          "total_return": 0.19229611524849943,
+          "mean_exposure": 0.8922413793103449,
+          "annual_turnover": 1.3023256745450094,
+          "months": 116,
+          "start": "2017-01",
+          "end": "2026-08"
+        },
+        "Always invested": {
+          "cagr": 0.037312719683371576,
+          "annual_volatility": 0.15309698219268245,
+          "max_drawdown": -0.3012787723785171,
+          "sharpe_zero_cash": 0.31523610054484175,
+          "total_return": 0.4249308813672885,
+          "mean_exposure": 1.0,
+          "annual_turnover": 0.10344827586206896,
+          "months": 116,
+          "start": "2017-01",
+          "end": "2026-08"
+        },
+        "Same average exposure": {
+          "cagr": 0.03433607360989055,
+          "annual_volatility": 0.13659699263358027,
+          "max_drawdown": -0.2714910505198864,
+          "sharpe_zero_cash": 0.3149494473110407,
+          "total_return": 0.3858923281177409,
+          "mean_exposure": 0.8922413793103452,
+          "annual_turnover": 0.13198278833877253,
+          "months": 116,
+          "start": "2017-01",
+          "end": "2026-08"
+        }
+      }
+    },
+    {
+      "asset": "WEAT",
+      "lag_days": 28,
+      "reduced_months": 25,
+      "models": {
+        "ENSO overlay": {
+          "cagr": -0.043599132399723906,
+          "annual_volatility": 0.19640168301066532,
+          "max_drawdown": -0.6132778951929504,
+          "sharpe_zero_cash": -0.1295147599835374,
+          "total_return": -0.35009038766882883,
+          "mean_exposure": 0.8922413793103449,
+          "annual_turnover": 1.3035588261958442,
+          "months": 116,
+          "start": "2017-01",
+          "end": "2026-08"
+        },
+        "Always invested": {
+          "cagr": -0.021860423705558185,
+          "annual_volatility": 0.22692038317520993,
+          "max_drawdown": -0.6359161349134006,
+          "sharpe_zero_cash": 0.013967012554640034,
+          "total_return": -0.19237819767441755,
+          "mean_exposure": 1.0,
+          "annual_turnover": 0.10344827586206896,
+          "months": 116,
+          "start": "2017-01",
+          "end": "2026-08"
+        },
+        "Same average exposure": {
+          "cagr": -0.017204216117649884,
+          "annual_volatility": 0.2024674173341692,
+          "max_drawdown": -0.5905691939197661,
+          "sharpe_zero_cash": 0.01368995508526248,
+          "total_return": -0.15443872362540845,
+          "mean_exposure": 0.8922413793103452,
+          "annual_turnover": 0.1488198005050994,
+          "months": 116,
+          "start": "2017-01",
+          "end": "2026-08"
+        }
+      }
+    }
+  ],
+  "probability_basket": [
+    {
+      "asset": "Insurance basket",
+      "season": "All months",
+      "phase": "Cold",
+      "months": 88,
+      "negative_months": 29,
+      "probability": 0.32954545454545453,
+      "baseline": 0.3472803347280335,
+      "difference": -0.01773488018257896,
+      "ci_low": 0.23255226685459243,
+      "ci_high": 0.4347953964194373,
+      "difference_low": -0.08792799143670717,
+      "difference_high": 0.0635052675626073,
+      "state_runs": 17,
+      "mean_return": 0.014407074100044737,
+      "mean_volatility": 0.22565095853143705,
+      "drop_5pct_probability": 0.11363636363636363,
+      "total_return_down_probability": 0.32954545454545453
+    },
+    {
+      "asset": "Insurance basket",
+      "season": "All months",
+      "phase": "Neutral",
+      "months": 88,
+      "negative_months": 31,
+      "probability": 0.3522727272727273,
+      "baseline": 0.3472803347280335,
+      "difference": 0.004992392544693802,
+      "ci_low": 0.26729250052664844,
+      "ci_high": 0.43690837378640773,
+      "difference_low": -0.06933393733925647,
+      "difference_high": 0.07881588885604943,
+      "state_runs": 30,
+      "mean_return": 0.003544063724494724,
+      "mean_volatility": 0.21369964410770123,
+      "drop_5pct_probability": 0.14772727272727273,
+      "total_return_down_probability": 0.3522727272727273
+    },
+    {
+      "asset": "Insurance basket",
+      "season": "All months",
+      "phase": "Warm",
+      "months": 63,
+      "negative_months": 23,
+      "probability": 0.36507936507936506,
+      "baseline": 0.3472803347280335,
+      "difference": 0.01779903035133157,
+      "ci_low": 0.25489304812834224,
+      "ci_high": 0.5,
+      "difference_low": -0.08504289478292523,
+      "difference_high": 0.13965126012831325,
+      "state_runs": 14,
+      "mean_return": 0.01191452024328592,
+      "mean_volatility": 0.16252278432490566,
+      "drop_5pct_probability": 0.07936507936507936,
+      "total_return_down_probability": 0.3333333333333333
+    },
+    {
+      "asset": "Insurance basket",
+      "season": "Jun\u2013Nov",
+      "phase": "Cold",
+      "months": 33,
+      "negative_months": 9,
+      "probability": 0.2727272727272727,
+      "baseline": 0.29411764705882354,
+      "difference": -0.021390374331550832,
+      "ci_low": 0.1111111111111111,
+      "ci_high": 0.40912004662004664,
+      "difference_low": -0.15553327355291527,
+      "difference_high": 0.10588818860877672,
+      "state_runs": 11,
+      "mean_return": 0.022119673262870756,
+      "mean_volatility": 0.27036276764942097,
+      "drop_5pct_probability": 0.12121212121212122,
+      "total_return_down_probability": 0.2727272727272727
+    },
+    {
+      "asset": "Insurance basket",
+      "season": "Jun\u2013Nov",
+      "phase": "Neutral",
+      "months": 59,
+      "negative_months": 20,
+      "probability": 0.3389830508474576,
+      "baseline": 0.29411764705882354,
+      "difference": 0.04486540378863407,
+      "ci_low": 0.21423160173160172,
+      "ci_high": 0.4791875,
+      "difference_low": -0.04167117604617604,
+      "difference_high": 0.1454403249769509,
+      "state_runs": 16,
+      "mean_return": 0.00740559307307463,
+      "mean_volatility": 0.20831338373821384,
+      "drop_5pct_probability": 0.11864406779661017,
+      "total_return_down_probability": 0.3389830508474576
+    },
+    {
+      "asset": "Insurance basket",
+      "season": "Jun\u2013Nov",
+      "phase": "Warm",
+      "months": 27,
+      "negative_months": 6,
+      "probability": 0.2222222222222222,
+      "baseline": 0.29411764705882354,
+      "difference": -0.07189542483660133,
+      "ci_low": 0.05263157894736842,
+      "ci_high": 0.4,
+      "difference_low": -0.2437320911971346,
+      "difference_high": 0.08721579910604302,
+      "state_runs": 9,
+      "mean_return": 0.019420887594285032,
+      "mean_volatility": 0.16222609824775663,
+      "drop_5pct_probability": 0.037037037037037035,
+      "total_return_down_probability": 0.2222222222222222
+    }
+  ],
+  "calibration": {
+    "RNR": {
+      "brier_enso": 0.2511360051039183,
+      "brier_baseline": 0.23887464126532237,
+      "skill": -0.05132970069006615,
+      "months": 116
+    },
+    "EG": {
+      "brier_enso": 0.2551148926217144,
+      "brier_baseline": 0.2482756278664722,
+      "skill": -0.027547064583078873,
+      "months": 116
+    },
+    "ACGL": {
+      "brier_enso": 0.23859402676875768,
+      "brier_baseline": 0.23682193575396754,
+      "skill": -0.007482799298757392,
+      "months": 116
+    },
+    "Insurance basket": {
+      "brier_enso": 0.2436958505862825,
+      "brier_baseline": 0.23555758163292706,
+      "skill": -0.034548957825681015,
+      "months": 116
+    }
+  }
+}

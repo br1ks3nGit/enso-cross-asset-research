@@ -1,0 +1,1 @@
+{"status": "error", "http_status": 403, "path": "/futures/v1/aggs/ZCZ6", "params": {"resolution": "1session", "window_start.gte": "2026-08-01", "window_start.lt": "2026-09-01", "limit": 1000}, "results": []}

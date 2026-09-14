@@ -1,0 +1,1 @@
+{"status": "OK", "path": "/v3/reference/dividends", "params": {"ticker": "RE", "ex_dividend_date.gte": "2006-09-10", "ex_dividend_date.lte": "2026-09-09", "limit": 1000}, "results": [], "retrieved_at": "2026-09-10T17:20:54.440916+00:00"}

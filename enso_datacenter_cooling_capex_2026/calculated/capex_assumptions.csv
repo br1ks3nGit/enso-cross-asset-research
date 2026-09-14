@@ -1,0 +1,4 @@
+scenario,build_cost_m_per_mw,cooling_share,equipment_basis_m_per_mw,fleet_incidence,scope_of_full_system
+low,12.0,0.17073170731707318,2.048780487804878,0.005,0.05
+central,13.0,0.1951219512195122,2.5365853658536586,0.01,0.05
+high,14.0,0.21951219512195122,3.073170731707317,0.02,0.1

@@ -1,0 +1,1 @@
+{"status": "OK", "path": "/v3/reference/splits", "params": {"ticker": "EG", "execution_date.gte": "2006-09-10", "limit": 1000}, "results": [], "retrieved_at": "2026-09-10T17:21:30.764081+00:00"}

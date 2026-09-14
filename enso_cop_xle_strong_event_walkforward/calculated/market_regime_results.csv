@@ -1,0 +1,67 @@
+rule,horizon_days,regime,trades,mean_net_trade_return,win_rate,cumulative_net_pre_tax_return
+S1 Strong level,1,"Energy uptrend, high volatility",3,5.678975711263222e-06,0.6666666666666666,-2.5144296693646595e-05
+S1 Strong level,1,"Energy uptrend, low volatility",5,-0.0027155809257664015,0.2,-0.013515845427561124
+S1 Strong level,1,"Energy downtrend, low volatility",2,-0.0012547468756594887,0.0,-0.002508158013394879
+S1 Strong level,2,"Energy uptrend, high volatility",3,-0.004586437188852597,0.0,-0.013707449860695942
+S1 Strong level,2,"Energy uptrend, low volatility",5,-0.0036676033743549205,0.0,-0.01822786835028034
+S1 Strong level,2,"Energy downtrend, low volatility",2,-0.007803788139559313,0.0,-0.015546944337145097
+S1 Strong level,5,"Energy uptrend, high volatility",3,-0.006031213905591912,0.0,-0.01799268205474125
+S1 Strong level,5,"Energy uptrend, low volatility",5,0.00019123852590523688,0.6,0.0009195961933037289
+S1 Strong level,5,"Energy downtrend, low volatility",2,0.0030661167048967337,0.5,0.006106463607647328
+S1 Strong level,10,"Energy uptrend, high volatility",2,-0.009289103933717485,0.5,-0.018738063607036004
+S1 Strong level,10,"Energy uptrend, low volatility",5,0.003914568173613843,0.6,0.01958113605047851
+S1 Strong level,10,"Energy downtrend, low volatility",2,0.0010391039374358108,0.5,0.0020690042479853954
+S1 Strong level,20,"Energy uptrend, high volatility",2,-0.007203049236895741,0.5,-0.01460671273611791
+S1 Strong level,20,"Energy uptrend, low volatility",5,0.004932194921311308,0.6,0.024628667465806275
+S1 Strong level,20,"Energy downtrend, low volatility",2,-0.0029400088697951725,0.5,-0.005967769804261391
+S1 Strong level,40,"Energy uptrend, high volatility",1,-0.013018325675906271,0.0,-0.013018325675906217
+S1 Strong level,40,"Energy uptrend, low volatility",3,0.0195024803108997,1.0,0.059566632760448046
+S1 Strong level,40,"Energy downtrend, low volatility",1,-0.0053780556111402405,0.0,-0.005378055611140242
+S1 Strong level,60,"Energy uptrend, high volatility",1,-0.02014897922816189,0.0,-0.020148979228161945
+S1 Strong level,60,"Energy uptrend, low volatility",2,0.021669630741720486,1.0,0.04368422559653595
+S2 Very strong,1,"Energy uptrend, low volatility",4,-0.0014021458820672721,0.25,-0.0056081915649607295
+S2 Very strong,1,"Energy downtrend, low volatility",2,-0.0027452531243405114,0.0,-0.005483208485762114
+S2 Very strong,2,"Energy uptrend, low volatility",4,-0.0009029100996993788,0.25,-0.0036348070167327995
+S2 Very strong,2,"Energy downtrend, low volatility",2,-0.007803788139559313,0.0,-0.015546944337145097
+S2 Very strong,5,"Energy uptrend, low volatility",4,-0.0032960737830743775,0.25,-0.01316083967668169
+S2 Very strong,5,"Energy downtrend, low volatility",2,0.0030661167048967337,0.5,0.006106463607647328
+S2 Very strong,10,"Energy uptrend, low volatility",4,0.004533285601265357,0.5,0.018115356935933136
+S2 Very strong,10,"Energy downtrend, low volatility",2,0.0010391039374358108,0.5,0.0020690042479853954
+S2 Very strong,20,"Energy uptrend, low volatility",4,0.005935502747520098,0.5,0.023687935498457602
+S2 Very strong,20,"Energy downtrend, low volatility",2,-0.0029400088697951725,0.5,-0.005967769804261391
+S2 Very strong,40,"Energy uptrend, low volatility",2,0.014831029253455336,1.0,0.029859929256061513
+S2 Very strong,40,"Energy downtrend, low volatility",1,-0.0053780556111402405,0.0,-0.005378055611140242
+S2 Very strong,60,"Energy uptrend, low volatility",1,0.019747804599174634,1.0,0.01974780459917458
+S2 Very strong,60,"Energy downtrend, low volatility",1,0.010353658227844733,1.0,0.010353658227844731
+S3 Strong and rising,1,"Energy uptrend, high volatility",3,-0.007457798789888556,0.0,-0.0222103956177665
+S3 Strong and rising,1,"Energy uptrend, low volatility",2,-0.000814871505185109,0.5,-0.0016303821444425548
+S3 Strong and rising,1,"Energy downtrend, low volatility",2,-0.0012547468756594887,0.0,-0.002508158013394879
+S3 Strong and rising,2,"Energy uptrend, high volatility",3,-0.0003361893046702185,0.3333333333333333,-0.0010252684021693215
+S3 Strong and rising,2,"Energy uptrend, low volatility",2,-0.002645831127209978,0.0,-0.005290495501554249
+S3 Strong and rising,2,"Energy downtrend, low volatility",2,-0.007803788139559313,0.0,-0.015546944337145097
+S3 Strong and rising,5,"Energy uptrend, high volatility",3,-0.0022657445709658055,0.3333333333333333,-0.006814079170848308
+S3 Strong and rising,5,"Energy uptrend, low volatility",2,-0.005357336060781285,0.0,-0.010699759353145266
+S3 Strong and rising,5,"Energy downtrend, low volatility",2,-0.007066116704896734,0.0,-0.014117474278300457
+S3 Strong and rising,10,"Energy uptrend, high volatility",2,-0.017688951255339563,0.0,-0.03511813455032187
+S3 Strong and rising,10,"Energy uptrend, low volatility",2,0.006157882529489846,0.5,0.012315093945122646
+S3 Strong and rising,10,"Energy downtrend, low volatility",2,0.0010391039374358108,0.5,0.0020690042479853954
+S3 Strong and rising,20,"Energy uptrend, high volatility",2,-0.007203049236895741,0.5,-0.01460671273611791
+S3 Strong and rising,20,"Energy uptrend, low volatility",2,0.004554733073400876,0.5,0.009027496909350452
+S3 Strong and rising,20,"Energy downtrend, low volatility",2,-0.0029400088697951725,0.5,-0.005967769804261391
+S3 Strong and rising,40,"Energy uptrend, high volatility",1,-0.013018325675906271,0.0,-0.013018325675906217
+S3 Strong and rising,40,"Energy uptrend, low volatility",1,0.010131169727239932,1.0,0.01013116972723993
+S3 Strong and rising,40,"Energy downtrend, low volatility",1,-0.0053780556111402405,0.0,-0.005378055611140242
+S3 Strong and rising,60,"Energy uptrend, high volatility",1,-0.02014897922816189,0.0,-0.020148979228161945
+S3 Strong and rising,60,"Energy uptrend, low volatility",1,0.010506800303715315,1.0,0.010506800303715425
+S4 Rapid strengthening,1,"Energy uptrend, high volatility",2,-0.0008673824431607007,0.5,-0.0017738386963039865
+S4 Rapid strengthening,2,"Energy uptrend, high volatility",2,0.0011658612958588294,0.5,0.0023227808664338934
+S4 Rapid strengthening,5,"Energy uptrend, high volatility",2,-0.004763258626414966,0.0,-0.00951738706292693
+S4 Rapid strengthening,10,"Energy uptrend, high volatility",1,-0.010399847321622078,0.0,-0.010399847321622024
+S4 Rapid strengthening,20,"Energy uptrend, high volatility",1,-0.012687142097243418,0.0,-0.01268714209724342
+S5 Strong but cooling,1,"Energy uptrend, low volatility",3,-0.003982720539487263,0.0,-0.011904872775122977
+S5 Strong but cooling,2,"Energy uptrend, low volatility",3,0.00023056795525909211,0.3333333333333333,0.0006745314457197171
+S5 Strong but cooling,5,"Energy uptrend, low volatility",3,-0.0005861598306787953,0.6666666666666666,-0.0017783236861685925
+S5 Strong but cooling,10,"Energy uptrend, low volatility",3,0.002419025269696508,0.6666666666666666,0.007177648687464844
+S5 Strong but cooling,20,"Energy uptrend, low volatility",3,0.005183836153251595,0.6666666666666666,0.015461591090671245
+S5 Strong but cooling,40,"Energy uptrend, low volatility",2,0.024188135602729588,1.0,0.04893964716142429
+S5 Strong but cooling,60,"Energy uptrend, low volatility",1,0.03283246117972566,1.0,0.032832461179725714

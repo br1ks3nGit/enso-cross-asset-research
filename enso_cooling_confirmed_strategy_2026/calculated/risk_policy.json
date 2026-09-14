@@ -1,0 +1,45 @@
+{
+  "initial_capital_hkd": 100000.0,
+  "annual_vol_target": 0.2,
+  "monthly_es_budget": 0.08,
+  "max_name_weight": 0.25,
+  "weak_trend_multiplier": 0.5,
+  "drawdown_thresholds": [
+    -0.1,
+    -0.2
+  ],
+  "drawdown_multipliers": [
+    1.0,
+    0.5,
+    0.25
+  ],
+  "xli_hedge_beta_fraction": {
+    "positive_regime": 0.25,
+    "weak_regime": 0.5
+  },
+  "core_signal_mix": {
+    "risk_managed_core": 0.85,
+    "confirmed_enso_signal": 0.15
+  },
+  "transaction_cost_one_way": 0.0015,
+  "selection_gate": {
+    "minimum_cagr_retention": 0.5,
+    "minimum_drawdown_reduction": 0.3,
+    "maximum_gross": 1.0
+  },
+  "last_complete_month_state": {
+    "decision_month": "2026-09",
+    "information_through": "2026-08",
+    "market_on": true,
+    "trend_multiplier": 1.0,
+    "trailing_ann_vol": 0.33807792607633996,
+    "trailing_es90": -0.11154114104958823,
+    "shadow_drawdown": -0.17021054438755945,
+    "vol_multiplier": 0.5915795873488613,
+    "es_multiplier": 0.717224149288863,
+    "dd_multiplier": 0.5,
+    "recommended_exposure": 0.5,
+    "combined_exposure": 0.5,
+    "combined_xli_hedge": 0.18857466956414753
+  }
+}

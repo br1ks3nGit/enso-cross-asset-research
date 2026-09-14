@@ -1,0 +1,8 @@
+{
+  "retrieved_at": "2026-09-12",
+  "endpoint": "/futures/v1/products?product_code=HG&limit=100",
+  "http_status": 403,
+  "status": "ERROR",
+  "error": "You are not entitled to this data. Please upgrade your plan at https://massive.com/pricing",
+  "credential_redacted": true
+}

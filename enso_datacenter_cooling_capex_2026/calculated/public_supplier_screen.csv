@@ -1,0 +1,10 @@
+ticker,company,role,purity,evidence,state_angle,rank
+MOD,Modine / Airedale,"Chillers, fan walls, CRAHs, controls",Very high,$348.6m FY27 Q1 Data Centers sales; $4bn 2027-29 customer capacity agreement,Headquartered in Wisconsin; national delivery,1
+AAON,AAON / BASX,"CDUs, liquid cooling, zero-water free-cooling chillers",Very high,$345m Q2 BASX-branded sales; $2.0bn total backlog; named customer withheld,National delivery; factories outside selected states,2
+VRT,Vertiv,"End-to-end thermal, liquid cooling, heat rejection and service",High but also power,$13.5-$14.0bn FY26 total-sales guidance; $15.0bn backlog at 2025 year-end,Headquartered in Ohio; national delivery and service,3
+NVT,nVent,"Liquid-cooling connections, enclosures and distribution",Medium-high,"Third liquid-cooling capacity expansion in three years; 400,000+ sq ft added","New 160,000 sq ft liquid-cooling site in Blaine, Minnesota",4
+JCI,Johnson Controls / YORK / Silent-Aire,"Chillers, controls and full thermal chain",Medium,$6.1bn Q2 sales; $20bn backlog; data centers cited as a growth driver,Major Wisconsin operating base; national delivery,5
+TT,Trane Technologies,"Large chillers, controls and services",Medium-low,$6.4bn Q2 sales; $12.1bn backlog; Americas Commercial HVAC bookings +50%,National delivery; no cited state-project supplier match,6
+SPXC,SPX Technologies,Heat-rejection and cooling-tower adjacency,Low / unverified,Public thermal-equipment exposure; no selected-state hyperscaler award validated,Do not treat as a pure data-center cooling proxy,7
+FIX,Comfort Systems USA,Mechanical/electrical installation and modular construction,Second-order,$3.27bn Q2 revenue; $14.06bn backlog; data centers are a disclosed demand driver,"Installer, not cooling-equipment OEM",8
+EME,EMCOR,Mechanical/electrical construction and facility services,Second-order,$5.15bn Q2 revenue; $17.14bn remaining performance obligations,"Installer, not cooling-equipment OEM",9

@@ -1,0 +1,21 @@
+{
+  "raw/ncei_listing.html": "db337d0de408bf45d99c265bd5a9ca20885ced78a68d4d64602e7f79de102568",
+  "raw/oni_v5.html": "f758bd32a26ac7c390b0d91c78fceba2256f758a5dbb29d9916cfea489d41a2c",
+  "raw/dwd_22_forecast_sst.nc": "11d2d2e3277cc189b6b8f1de7d7952b082815b51d7f34af064ae77e24b658d15",
+  "raw/divisional-readme.txt": "5d3578d278a46b0cb20461e8bca5735623160e69e9d0764a7f12fa8caf38cd20",
+  "raw/state_temperature.txt": "eba0699e448cb01a531462dbdb81a46015b44ae05d473b4e6124c5a5d6c50d28",
+  "raw/state-readme.txt": "b77187cdddfa6ef87c5a5c8eeee2321cbda85e03c0aa6318e547c05236428416",
+  "raw/cmcc_4_forecast_sst.nc": "953fd0d50bd369edadf4cb7625fd2a3b33cd2f3aad0900173c21959f49536989",
+  "raw/cds_constraints.json": "5d3fc2b7113144b715fd93ca9c4e08e7c97bbe1e5d640f66291241df3021d26f",
+  "raw/monthly_sstoi.txt": "6d85461bbcde83bcdccfd69a67f54381d0a4688f8a7021d6d6a22a0803cdb2cd",
+  "raw/division_temperature.txt": "80cc1642e1cf1b725f73537ef90d36c8c663b7c2ce6c3a64d64fd985cd04c27a",
+  "raw/ecmwf_51_forecast_sst.nc": "2712753465926d721099e08a457aedb7c5aebe9dde0da7f4160ad4b90e5d3284",
+  "raw/era5_pacific_2026.nc": "c6687a06abfedc01c25f33002fe0d8e7b218509318f69a8530b9334824552169",
+  "raw/enso_discussion.html": "eacaf2fa573069c599ad95006be54a1f363384d2fea7b6ef25abdc8c654af575",
+  "raw/dwd_22_hindcast_sst.nc": "ee856ea8aed9fc4daf7bb4ea406062ef8566ead630bfcbecbe772c6eb6072684",
+  "raw/iri_current.html": "959d6494ed603b8ac10a94c1d945d2d0a4bdb67397303f1f58560a3e4728bd88",
+  "raw/cmcc_4_hindcast_sst.nc": "260d06032ca1fc905b00245843dcc13d358b7192470a99635ed08cf09732efbd",
+  "raw/oni_v6.html": "e4eefa858ffa8a38b47c58a226a9e4801d27918bd1524d26c7108b47838ac477",
+  "raw/cds_catalogue.json": "ffe7b06e0305b71723408c7905f77c67e16b3f50a15d3a5ce0b520dd386c8dd4",
+  "raw/ecmwf_51_hindcast_sst.nc": "d2235a1a58581a21c1c80b29b99bd28a22494204e93f94ffc999098f5cdee708"
+}

@@ -1,0 +1,8 @@
+assumption,value,unit
+December hours,744.0,hours
+Facility capacity utilization,0.7,fraction
+Base PUE,1.3,PUE
+Cooling PUE component,0.24,PUE
+Low temperature sensitivity,0.0075,ΔPUE per °C
+Central temperature sensitivity,0.015,ΔPUE per °C
+High temperature sensitivity,0.03,ΔPUE per °C
