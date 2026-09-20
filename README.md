@@ -97,7 +97,7 @@ $$
 Each model’s hindcast SST was converted to the same Niño 3.4 seasonal target. A ridge calibration mapped raw model forecasts into observed ONI:
 
 $$
-\hat{y} = X\hat{\beta}, \qquad \hat{\beta} = \arg\min_\beta \left\{\|y - X\beta\|_2^2 + \alpha \|\beta\|_2^2\right\}
+\hat{y} = X\hat{\beta}, \qquad \hat{\beta} = \arg\min_\beta \{\|y - X\beta\|_2^2 + \alpha \|\beta\|_2^2\}
 $$
 
 The penalty was selected on 2003–2016 tuning data. The final choice was CMCC with $\alpha = 0.1$. Evaluation used the 2017–2025 holdout excluding 2024, preventing the final forecast month from entering the validation sample.
@@ -650,28 +650,21 @@ This section defines the quantities used across the HTML reports.
 
 ### 11.2 Association and inference
 
-- **Pearson correlation:**
-
-  $$
-  r_{XY} = \frac{\sum_t (X_t-\bar X)(Y_t-\bar Y)}{\sqrt{\sum_t (X_t-\bar X)^2 \sum_t (Y_t-\bar Y)^2}}
-  $$
-
-  It measures linear co-variation from −1 to +1.
-
+- **Pearson correlation:** $r_{XY} = \frac{\sum_t (X_t-\bar X)(Y_t-\bar Y)}{\sqrt{\sum_t (X_t-\bar X)^2 \sum_t (Y_t-\bar Y)^2}}$
 - **Raw magnitude:** $(|r|)$. Larger means stronger sample linear association, without direction. It is not expected return or beta.
 - **Spearman correlation:** Pearson correlation of variable ranks. It tests monotonic rather than strictly linear association.
 - **Partial correlation:** correlation of residuals after both variables are regressed on the same controls, such as calendar month or market return.
-- **Fisher correlation interval:** apply $z = \operatorname{arctanh}(r)$, use standard error $(1/\sqrt{n-3})$, then transform limits with $\tanh$. It assumes independent pairs and is optimistic for overlapping observations unless adjusted.
-- **Beta:** $(\beta = \operatorname{Cov}(Y,X)/\operatorname{Var}(X) = r_{Y,X}\sigma_Y/\sigma_X)$. Correlation standardizes both series; beta preserves scale.
+- **Fisher correlation interval:** apply $z = \mathrm{atanh}(r)$, use standard error $(1/\sqrt{n-3})$, then transform limits with $\tanh$. It assumes independent pairs and is optimistic for overlapping observations unless adjusted.
+- **Beta:** $(\beta = \mathrm{Cov}(Y,X)/\mathrm{Var}(X) = r_{Y,X}\sigma_Y/\sigma_X)$. Correlation standardizes both series; beta preserves scale.
 - **Coefficient of determination:** $(R^2 = 1 - SSE/SST)$. Negative holdout $R^2$ means the forecast was worse than the holdout mean comparator.
 - **Information coefficient (IC):** correlation between the signal/forecast available at the decision date and the subsequent test return. The report keeps this separate from strategy P&L.
 - **HAC/Newey–West test:** estimates coefficient or mean uncertainty with autocovariance terms through lag $(L)$:
 
-  $$
-  \widehat{\mathrm{Var}}_{HAC} = \Gamma_0 + \sum_{\ell=1}^{L}\left(1-\frac{\ell}{L+1}\right)(\Gamma_\ell + \Gamma_\ell^\top)
-  $$
+$$
+\widehat{\mathrm{Var}}_{HAC} = \Gamma_0 + \sum_{\ell=1}^{L}\left(1-\frac{\ell}{L+1}\right)(\Gamma_\ell + \Gamma_\ell^\top)
+$$
 
-  It helps with serial correlation and overlapping returns; it cannot create independent El Niño episodes.
+It helps with serial correlation and overlapping returns; it cannot create independent El Niño episodes.
 
 - **p-value:** tail probability of the observed statistic under a specified null. It is not the probability that the trading hypothesis is true.
 - **Benjamini–Hochberg q-value:** sort $(m)$ p-values and compare $(p_{(i)} \le i\alpha/m)$; adjusted q-values control the expected false-discovery proportion under stated conditions.
@@ -701,9 +694,9 @@ For net periodic return $(r_t)$, $(N)$ monthly observations and wealth $(W_t = \
 - **Turnover:** $(\sum_i |w_{i,t}-w_{i,t-1}|)$, including hedge changes where stated.
 - **Net portfolio return:**
 
-  $$
-  r^{net}_{p,t} = \sum_i w_{i,t}r_{i,t} - h_t r_{bench,t} - c \times Turnover_t
-  $$
+$$
+r^{net}_{p,t} = \sum_i w_{i,t}r_{i,t} - h_t r_{bench,t} - c \times Turnover_t
+$$
 
 - **CAGR retention:** $(CAGR_{policy}/CAGR_{basic})$.
 - **Drawdown reduction:** $(1 - |MDD_{policy}|/|MDD_{basic}|)$.
