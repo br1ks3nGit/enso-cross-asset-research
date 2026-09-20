@@ -642,7 +642,7 @@ This section defines the quantities used across the HTML reports.
 ### 11.1 Signals and returns
 
 - **ONI:** three-month mean Niño 3.4 SST anomaly, published for overlapping seasons.
-- **ΔONI:** (ONI_t-ONI_{t-1}); positive means the index increased from the previous season.
+- **ΔONI:** $$(ONI_t-ONI_{t-1})$$; positive means the index increased from the previous season.
 - **Simple return:** (r_t=P_t/P_{t-1}-1). Used for portfolio P&L.
 - **Log return:** (\ell_t=\log(P_t/P_{t-1})). Additive through time and used in many regressions.
 - **Relative log return:** (\ell^{rel}_{i,t}=\ell_{i,t}-\ell_{benchmark,t}).
