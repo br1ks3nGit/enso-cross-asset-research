@@ -200,7 +200,7 @@ This distinction matters. A result is not independently replicated merely becaus
 - Parse timestamps in UTC, convert to the relevant exchange date, then aggregate.
 - Sort and deduplicate by instrument and timestamp before returns are calculated.
 - Use adjusted equity bars where available; explicitly state when dividends are excluded.
-- Use adjacent complete months for monthly log returns: (r_t^{log}=\log(P_t/P_{t-1})).
+- Use adjacent complete months for monthly log returns: $$r_t^{log}=\log(P_t/P_{t-1}))$$.
 - Do not forward-fill missing market prices into a return interval.
 - In the insurance/agriculture study, require at least 15 daily observations, a first observation by day 7 and a last observation on or after day 25 for a complete month.
 - Reject daily returns spanning more than seven calendar days and remove known weekend placeholders.
@@ -332,7 +332,7 @@ Nine of 168 predictive tests survived global Benjamini–Hochberg `q < 0.05`. No
 
 #### Why a near-zero p-value can still be a bad strategy
 
-For a null (H_0:\rho=0), the p-value is the probability—under the null and the model assumptions—of observing a statistic at least as extreme as the one obtained. It is **not**:
+For a null $$(H_0:\rho=0)$$, the p-value is the probability—under the null and the model assumptions—of observing a statistic at least as extreme as the one obtained. It is **not**:
 
 - the probability the hypothesis is false;
 - the probability the trade will profit;
@@ -377,7 +377,7 @@ The best ex-post rule was “strong but cooling” at 40 trading days:
 |---:|---:|---:|---:|---:|---:|
 | 2 | 5.30% | 4.89% | 3.08% | −1.73% | 100% |
 
-The pair return was (0.5r_{XLE}-0.5r_{COP}): 100% gross and approximately zero initial net equity exposure. Costs were 10 bp per order, or 20 bp round trip. The two trades occurred in one 2023–2024 episode and in the same broad regime. Selecting the winner from 35 rule/horizon combinations creates a material selection penalty.
+The pair return was $$(0.5r_{XLE}-0.5r_{COP})$$: 100% gross and approximately zero initial net equity exposure. Costs were 10 bp per order, or 20 bp round trip. The two trades occurred in one 2023–2024 episode and in the same broad regime. Selecting the winner from 35 rule/horizon combinations creates a material selection penalty.
 
 XLE buy-and-hold earned much more over the full 2020–2026 interval, but that is not an exposure-matched benchmark. XLE returned −3.22% during the pair strategy’s actual windows, which is the more relevant window comparison.
 
@@ -419,7 +419,7 @@ $$
 \Delta Cost=\Delta E_{MWh}\times ElectricityRate_{USD/MWh}.
 $$
 
-Central assumptions were 744 December hours, 70% utilization, base PUE 1.30, base cooling component 0.24, and (\Delta PUE/\Delta T=0.015) per °C. Low and high sensitivities were 0.0075 and 0.030.
+Central assumptions were 744 December hours, 70% utilization, base PUE 1.30, base cooling component 0.24, and $$(\Delta PUE/\Delta T=0.015)$$ per °C. Low and high sensitivities were 0.0075 and 0.030.
 
 ![Estimated incremental cooling-electricity cost](docs/figures/state_cooling_cost.png)
 
@@ -465,7 +465,7 @@ $$
 r_{i,t}=\beta_i^\top X_t+\varepsilon_{i,t},
 $$
 
-with (\beta_i) estimated by ridge regression and (\varepsilon) sampled in contiguous blocks to preserve some short-run dependence and cross-company covariance.
+with $$(\beta_i)$$ estimated by ridge regression and $$(\varepsilon)$$ sampled in contiguous blocks to preserve some short-run dependence and cross-company covariance.
 
 Central scenario:
 
@@ -512,7 +512,7 @@ $$
 ONI_t=a+\phi ONI_{t-1}+u_t,\qquad z_t=\frac{u_t-\bar u_{past}}{s(u_{past})}.
 $$
 
-Only observations before (t) estimated (a), (\phi), the residual mean and its scale.
+Only observations before $$(t)$$ estimated $$(a)$$, $$(\phi)$$, the residual mean and its scale.
 
 Backtest, June 2021–August 2026:
 
@@ -594,8 +594,8 @@ The basic investable universe is MOD, AAON, VRT, NVT, JCI, TT and SPXC, with XLI
 ### 10.1 Controls tested
 
 1. **25% name cap.** Prevents a low estimated volatility from placing more than one quarter of long capital in one issuer.
-2. **Capped inverse volatility.** (w_i\propto1/\hat\sigma_i), using 12 prior months; excess above the cap is redistributed.
-3. **20% annual volatility target, no leverage.** (g_t=\min(1,0.20/\hat\sigma_{p,t})).
+2. **Capped inverse volatility.** $$(w_i\propto1/\hat\sigma_i)$$, using 12 prior months; excess above the cap is redistributed.
+3. **20% annual volatility target, no leverage.** $$(g_t=\min(1,0.20/\hat\sigma_{p,t}))$$.
 4. **XLI trend scale.** Gross is 100% only when prior XLI is above its six-month mean and has positive three-month return; otherwise 50%.
 5. **Shadow drawdown brake.** Gross is 100% above −10% shadow drawdown, 50% from −10% to −20%, and 25% below −20%. A fully observed shadow portfolio determines recovery, avoiding permanent cash lock.
 6. **Expected-shortfall budget.** The mean of the worst 10% of the prior 24 shadow returns is compared with an 8% monthly loss budget; gross is scaled down proportionally.
@@ -643,11 +643,11 @@ This section defines the quantities used across the HTML reports.
 
 - **ONI:** three-month mean Niño 3.4 SST anomaly, published for overlapping seasons.
 - **ΔONI:** $$(ONI_t-ONI_{t-1})$$; positive means the index increased from the previous season.
-- **Simple return:** (r_t=P_t/P_{t-1}-1). Used for portfolio P&L.
-- **Log return:** (\ell_t=\log(P_t/P_{t-1})). Additive through time and used in many regressions.
-- **Relative log return:** (\ell^{rel}_{i,t}=\ell_{i,t}-\ell_{benchmark,t}).
-- **Pair return:** (r^{pair}_t=w_A r_{A,t}+w_B r_{B,t}), with one weight negative for a short leg.
-- **Forward (h)-period return:** (\log(P_{t+h}/P_t)). Adjacent starting dates overlap when (h>1), requiring HAC inference.
+- **Simple return:** $$(r_t=P_t/P_{t-1}-1)$$. Used for portfolio P&L.
+- **Log return:** $$(\ell_t=\log(P_t/P_{t-1}))$$. Additive through time and used in many regressions.
+- **Relative log return:** $$(\ell^{rel}_{i,t}=\ell_{i,t}-\ell_{benchmark,t})$$.
+- **Pair return:** $$(r^{pair}_t=w_A r_{A,t}+w_B r_{B,t})$$, with one weight negative for a short leg.
+- **Forward (h)-period return:** $$(\log(P_{t+h}/P_t))$$. Adjacent starting dates overlap when (h>1), requiring HAC inference.
 - **Signal strength:** usually ONI level, ΔONI, standardized ONI surprise, or predefined strong-event bins. Strength groups were set without reading the future return.
 
 ### 11.2 Association and inference
@@ -661,9 +661,9 @@ This section defines the quantities used across the HTML reports.
 - **Raw magnitude:** (|r|). Larger means stronger sample linear association, without direction. It is not expected return or beta.
 - **Spearman correlation:** Pearson correlation of variable ranks. It tests monotonic rather than strictly linear association.
 - **Partial correlation:** correlation of residuals after both variables are regressed on the same controls, such as calendar month or market return.
-- **Fisher correlation interval:** apply (z=\operatorname{atanh}(r)), use standard error (1/\sqrt{n-3}), then transform limits with `tanh`. It assumes independent pairs and is optimistic for overlapping observations unless adjusted.
-- **Beta:** (\beta=\operatorname{Cov}(Y,X)/\operatorname{Var}(X)=r\sigma_Y/\sigma_X). Correlation standardizes both series; beta preserves scale.
-- **Coefficient of determination:** (R^2=1-SSE/SST). Negative holdout (R^2) means the forecast was worse than the holdout mean comparator.
+- **Fisher correlation interval:** apply $$(z=\operatorname{atanh}(r))$$, use standard error $$(1/\sqrt{n-3})$$, then transform limits with `tanh`. It assumes independent pairs and is optimistic for overlapping observations unless adjusted.
+- **Beta:** $$(\beta=\operatorname{Cov}(Y,X)/\operatorname{Var}(X)=r\sigma_Y/\sigma_X)$$. Correlation standardizes both series; beta preserves scale.
+- **Coefficient of determination:** $$(R^2=1-SSE/SST)$$. Negative holdout (R^2) means the forecast was worse than the holdout mean comparator.
 - **Information coefficient (IC):** correlation between the signal/forecast available at the decision date and the subsequent test return. The report keeps this separate from strategy P&L.
 - **HAC/Newey–West test:** estimates coefficient or mean uncertainty with autocovariance terms through lag (L):
 
@@ -672,23 +672,23 @@ This section defines the quantities used across the HTML reports.
   It helps with serial correlation and overlapping returns; it cannot create independent El Niño episodes.
 
 - **p-value:** tail probability of the observed statistic under a specified null. It is not the probability that the trading hypothesis is true.
-- **Benjamini–Hochberg q-value:** sort (m) p-values and compare (p_{(i)}\le i\alpha/m); adjusted q-values control the expected false-discovery proportion under stated conditions.
+- **Benjamini–Hochberg q-value:** sort (m) p-values and compare $$(p_{(i)}\le i\alpha/m)$$; adjusted q-values control the expected false-discovery proportion under stated conditions.
 - **Block bootstrap:** resample contiguous time blocks or whole years to preserve some serial dependence. Confidence intervals still depend on block length and stationarity.
-- **Brier score:** (BS=N^{-1}\sum_t(p_t-y_t)^2), for binary outcome (y_t\in\{0,1\}).
-- **Brier skill:** (1-BS_{model}/BS_{baseline}). Negative means worse probability calibration than the baseline.
+- **Brier score:** $$(BS=N^{-1}\sum_t(p_t-y_t)^2)$$, for binary outcome $$(y_t\in\{0,1\})$$.
+- **Brier skill:** $$(1-BS_{model}/BS_{baseline})$$. Negative means worse probability calibration than the baseline.
 
 ### 11.3 Strategy performance
 
-For net periodic return (r_t), (N) monthly observations and wealth (W_t=\prod_{j\le t}(1+r_j)):
+For net periodic return (r_t), (N) monthly observations and wealth $$(W_t=\prod_{j\le t}(1+r_j))$$:
 
-- **Total return:** (W_N-1).
-- **CAGR:** (W_N^{12/N}-1).
-- **Annualized volatility:** sample standard deviation of monthly returns × (\sqrt{12}); daily tests use (\sqrt{252}).
-- **Sharpe, zero cash rate:** (\bar r/s(r)\times\sqrt{K}), where (K) is periods per year. A zero cash rate understates the value of cash when rates are positive.
-- **Sortino, zero target:** (\bar r/s(r_t\mid r_t<0)\times\sqrt{K}).
+- **Total return:** $$(W_N-1)$$.
+- **CAGR:** $$(W_N^{12/N}-1)$$.
+- **Annualized volatility:** $$sample standard deviation of monthly returns × (\sqrt{12})$$; daily tests use $$(\sqrt{252})$$.
+- **Sharpe, zero cash rate:** $$(\bar r/s(r)\times\sqrt{K})$$, where (K) is periods per year. A zero cash rate understates the value of cash when rates are positive.
+- **Sortino, zero target:** $$(\bar r/s(r_t\mid r_t<0)\times\sqrt{K})$$.
 - **Hit rate:** fraction of active periods or closed trades with positive net return. It ignores payoff size.
-- **Drawdown:** (DD_t=W_t/\max_{j\le t}W_j-1).
-- **Maximum drawdown:** (min_t DD_t).
+- **Drawdown:** $$(DD_t=W_t/\max_{j\le t}W_j-1)$$.
+- **Maximum drawdown:** $$(min_t DD_t)$$.
 - **Drawdown duration:** count of periods from the prior peak until wealth recovers that peak, or until sample end.
 - **Calmar:** CAGR divided by absolute maximum drawdown.
 - **Empirical 95% VaR:** positive magnitude of the 5th percentile periodic return. It says little about losses beyond that cutoff.
@@ -696,33 +696,33 @@ For net periodic return (r_t), (N) monthly observations and wealth (W_t=\prod_{j
 - **Worst three-month return:** minimum compounded return across adjacent three-month windows.
 - **Up/down capture:** mean portfolio return divided by mean benchmark return in benchmark-positive/benchmark-negative periods.
 - **Portfolio beta:** covariance of portfolio and benchmark returns divided by benchmark variance.
-- **Turnover:** (\sum_i|w_{i,t}-w_{i,t-1}|), including hedge changes where stated.
+- **Turnover:** $$(\sum_i|w_{i,t}-w_{i,t-1}|)$$, including hedge changes where stated.
 - **Net portfolio return:**
 
   $$r^{net}_{p,t}=\sum_iw_{i,t}r_{i,t}-h_t r_{bench,t}-c\times Turnover_t.$$
 
-- **CAGR retention:** (CAGR_{policy}/CAGR_{basic}).
-- **Drawdown reduction:** (1-|MDD_{policy}|/|MDD_{basic}|).
+- **CAGR retention:** $$(CAGR_{policy}/CAGR_{basic})$$.
+- **Drawdown reduction:** $$(1-|MDD_{policy}|/|MDD_{basic}|)$$.
 
 ### 11.4 Event, technical and option metrics
 
 - **Event-window return:** compounded or summed log return from the fixed event entry to exit.
 - **Market-relative event return:** event log return minus benchmark log return over the same dates.
-- **20-day spike z-score:** ((r_t-\bar r_{20})/s(r_{20})); flags an unusual return relative to the preceding window.
-- **True range:** (TR_t=\max(H_t-L_t,|H_t-C_{t-1}|,|L_t-C_{t-1}|)).
-- **Wilder ATR:** (ATR_t=((n-1)ATR_{t-1}+TR_t)/n); the insurer strategy used (n=10) trading sessions.
-- **ATR stop:** for a long, trail below the running high by (k\times ATR); reverse the sign for a short. The test used (k=2.5).
+- **20-day spike z-score:** $$((r_t-\bar r_{20})/s(r_{20}))$$; flags an unusual return relative to the preceding window.
+- **True range:** $$(TR_t=\max(H_t-L_t,|H_t-C_{t-1}|,|L_t-C_{t-1}|))$$.
+- **Wilder ATR:** $$(ATR_t=((n-1)ATR_{t-1}+TR_t)/n)$$; the insurer strategy used (n=10) trading sessions.
+- **ATR stop:** for a long, trail below the running high by $$(k\times ATR)$$; reverse the sign for a short. The test used (k=2.5).
 - **NBBO imbalance:** a signed function of quoted bid/ask size at the sampled quote; it is a quote-state proxy, not executed order flow.
 - **Short-volume ratio:** short-marked reported volume divided by total reported volume; it is not short interest.
 - **Long-straddle debit:** call entry premium + put entry premium, times contract multiplier and contracts.
 - **Option P&L:** exit proceeds − entry debit − modeled haircuts − per-contract fees.
 - **Return on deployed debit:** net option P&L divided by premium capital actually deployed. It can be much larger than return on total account capital.
-- **Positive-gain tax convention:** (r_{after}=r_{pre}\times(1-\tau)) when realized gain is positive; losses receive no assumed tax credit. This is a simplification, not personal tax advice.
+- **Positive-gain tax convention:** $$(r_{after}=r_{pre}\times(1-\tau))$$ when realized gain is positive; losses receive no assumed tax credit. This is a simplification, not personal tax advice.
 
 ### 11.5 Physical cooling metrics
 
 - **PUE:** total facility energy divided by IT equipment energy. The model isolates a cooling-related PUE component.
-- **Cooling-degree proxy:** (CDD=\max(T-T_{base},0)), aggregated with state capacity weights.
+- **Cooling-degree proxy:** $$(CDD=\max(T-T_{base},0))$$, aggregated with state capacity weights.
 - **Incremental cooling energy:** facility capacity × hours × utilization × incremental PUE.
 - **Incremental electricity spend:** incremental MWh × state commercial USD/MWh.
 - **Contingency capex screen:** capacity × assumed audit/retrofit dollars per 100 MW. It is a planning sensitivity, not observed capex.
